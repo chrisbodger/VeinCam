@@ -10,6 +10,8 @@
 * [Deliverables](#deliverables)
 * [Stakeholders](#stakeholders)
 * [Resources](#resources)
+* [Risks](#risks)
+* [References](#references)
 
 # Project Vision
 The Project is based on the Venenfinder project submitted during the 2017 HackADay event. The goal was to create an affordable device for superficial venous puncture, a procedure that is a requirement for patient blood testing and the delivery of external drug administration.
@@ -63,6 +65,9 @@ The following groups have been identified as stakeholders for this project:
 
 # Resources
 Source code from the Venenfinder HackAThon project has been utilised, as it achieves close to the client's desired deliverable.
+
+# Risks
+For the project and prototype to be successful it needs to be inexpensive and competitive in terms of results efficacy, these are more easily measured and validated requirements. A potential risk of the project is that the prototype is not simple enough to assemble and use and therefore would not find acceptance with the target users.
 
 # References
 Venenfinder Github - https://github.com/Myrijam/Venenfinder
