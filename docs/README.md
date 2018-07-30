@@ -20,6 +20,7 @@ The project will hope to achieve a finalised prototype that meets a cost effecti
 ## Resources
 
 ## Risks
+For the project and prototype to be successful it needs to be inexpensive and competitive in terms of results efficacy, these are more easily measured and validated requirements. A potential risk of the project is that the prototype is not simple enough to assemble and use and therefore would not find acceptance with the target users.
 
 ## Project Costs
 
