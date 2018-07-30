@@ -1,31 +1,31 @@
-#VeinCam
-##Project Vision
+# VeinCam
+## Project Vision
 The Project is based on the Venenfinder HackAThon project from 2017, to create an affordable and accessible device for superficial venous puncture, a requirement for patient blood testing or the delivery of external drug administration.
 
 The device aims to assist medical professionals to successfully locate a viable vein for testing/delivery as they can be difficult to locate on some patients, as well as being cost effective that it can be built and used by patients with chronic diseases that regularly require drug administration at home.
 
 The device should be portable, hands-free and wireless. Veins will be illuminated using near-Infrared light, and the scattering from this light detected by a Raspberry Pi device equipped with a PiCam module. Due to the variation in human skin in its absorption of different wavelengths of light, an unclear image can be produced, a proper candidate may be undetected. Having an auto-switch feature to automatically adjust the wavelength emitted is a priority. This adjusts the contrast of the image to allow for the easier detection of veins, with minimal input from the user.
 
-##Deliverables
+## Deliverables
 The project will hope to achieve a finalised prototype that meets a cost effective target of [AMOUNT] and can be easily assembled, and produce results equivalent to devices currently in use in hospitals that cost several magnitudes more than the VeinCam.
 
-##Stakeholders
-|Stakeholder|Effect On the Project|
-|:---:|:---|
-|Project Team|Produces the Project Output and actions constructive feedback from other stakeholders|
-|Shadow Team|Observes the Project and provides constructive feedback|
-|Tutor|Provides feedback on project progress|
-|Project Client|Provides feedback on project progress|
-|Course Convener|Provides feedback on project progress|
-##Resources
+## Stakeholders
+| Stakeholder | Effect On the Project |
+| :---: | :--- |
+| Project Team | Produces the Project Output and actions constructive feedback from other stakeholders |
+| Shadow Team | Observes the Project and provides constructive feedback |
+| Tutor | Provides feedback on project progress |
+| Project Client | Provides feedback on project progress |
+| Course Convener | Provides feedback on project progress |
+## Resources
 
-##Risks
+## Risks
 
-##Project Costs
+## Project Costs
 
-##Project Timeline and Milestones
+## Project Timeline and Milestones
 
-##Project Audits
+## Project Audits
 
 
 
@@ -41,9 +41,10 @@ The project will hope to achieve a finalised prototype that meets a cost effecti
 – a timeline for the project to reach the milestone (weekly table)
 – a work breakdown structure for the milestone (as designed)
 
-##References
+## References
 Venenfinder Github - https://github.com/Myrijam/Venenfinder
 Venenfinder HackAThon Page - https://hackaday.io/project/26158-assistance-system-for-vein-detection
+
 
 # Venenfinder
 Assistive medical device to help localizing veins for intravenous access...
