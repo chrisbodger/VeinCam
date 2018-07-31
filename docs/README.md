@@ -1,4 +1,4 @@
-#Concept of Operations
+# Concept of Operations
 
 ## Table of Contents
 * [Project Vision](#project-vision)
