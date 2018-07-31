@@ -55,6 +55,13 @@ Several Tools will be used for this project, and they are listed below
 # Deliverables
 The project will hope to achieve a finalised prototype that meets a cost effective target of AU$300, can be easily assembled, and produce results equivalent to devices currently in use in hospitals that cost several magnitudes more than the VeinCam.
 
+The aim of this project will be to achieve goals for each phase.
+
+An example of the first phase may include:
+- Construct Hackaday prototype with our materials.
+- Create document outlining potential improvements to system.
+
+
 # Stakeholders
 The following groups have been identified as stakeholders for this project:
 * Project Team - Produces the Project Output and actions constructive feedback from other stakeholders
