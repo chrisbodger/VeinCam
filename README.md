@@ -42,9 +42,9 @@ Team meetings are scheduled twice a week, to ensure the team is aware of the ove
 These times may vary, depending on the availability of the team, and client.
 
 #### Last Meeting Minutes
-[August 1st](Meeting%20Minutes/Meeting%20Minutes%201-8-2018.md)
+[August 1st](Meeting-Minutes/Meeting-Minutes-1-8-2018.md)
 #### Previous Meeting Minutes
-[July 31st](Meeting%20Minutes/Meeting%20Minutes%2031-7-2018.md)
+[July 31st](Meeting-Minutes/Meeting-Minutes-31-7-2018.md)
 
 Meeting Minutes can also be found in our repository.
 
