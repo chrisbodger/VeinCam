@@ -1,4 +1,4 @@
-# Meeting Minutes 31/7/2018
+# Meeting Minutes - 31/7/2018
 
 Attending:
 * Joey McPhail
@@ -23,7 +23,7 @@ Questions we would like to ask:
   * Possibly each minor milestone
 
 ## ANU Microgrant
-* To be organised – may be worth leaving until next week after meeting with Ben
+* To be organised ï¿½ may be worth leaving until next week after meeting with Ben
 * Details at end of course guide, fill out a form and email to Chris
 * Need to know what parts we need to get, makes it easier to gain access to it
 
@@ -46,7 +46,7 @@ Content we still need according to assessment guide:
 Tentatively organised for Wednesday 12pm and Saturday 2pm.
 
 ## Value Proposition
-Our VeinCam device will help medical professionals who want to perform intravenous procedures by externally visualising a patient’s veins and increasing the likelihood of successfully accessing those veins to reduce patient discomfort, and increase medical staff efficiency with the procedure.
+Our VeinCam device will help medical professionals who want to perform intravenous procedures by externally visualising a patientï¿½s veins and increasing the likelihood of successfully accessing those veins to reduce patient discomfort, and increase medical staff efficiency with the procedure.
 
 (Our [PRODUCT/SERVICE] will help [CUSTOMER/SEGMENT] who want to [THE JOB] by [WHAT YOU ARE FIXING] and [WHAT BENEFIT YOU BRING])
 
@@ -58,7 +58,7 @@ Our VeinCam device will help medical professionals who want to perform intraveno
 
 ## Shadow Teams
 * 3 teams all will contribute to each other.
-* Shadows to provide feedback on the decisions of other teams – validates their decision making process.
+* Shadows to provide feedback on the decisions of other teams ï¿½ validates their decision making process.
 * Each team presents within a 40 minute session. Use landing page
 * Steph & Chris Pixelbot
 * Alex & Joey Sensor Payload

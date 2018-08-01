@@ -78,6 +78,16 @@ The following groups have been identified as stakeholders for this project:
 * Project Client - Provides feedback on project progress
 * Course Convener - Provides feedback on project progress
 
+### Role assignment:
+  * Convenor Liaison (Steph Pratt)
+  * Client Liaison (Steph Pratt)
+  * Lead Programmer (Alexander Ollman)
+  * Lead Hardware Engineer (Chris Bodger)
+  * Secretary (Joey McPhail)
+    * Updating Landing Page
+    * Keeping Meeting Minutes
+    * Maintaining the Repository
+
 ## Resources
 Source code from the Venenfinder HackADay project has been utilised, as it achieves close to the client's desired deliverable.
 
