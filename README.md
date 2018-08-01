@@ -32,7 +32,7 @@ Should our stakeholders wish to provide us with feedback, they can fill out a go
 ## 3. Concept of Operations
 Our Concept of Operations is still being drafted, and yet to be signed off. we hope to have this completed by the end of the audit period, in which we can continue with the project.
 
-The [Concept of Operations](CONOPS.md) document can be found in our repository.
+The [Concept of Operations](docs/CONOPS.md) document can be found in our repository.
 
 ## 4. Meeting Minutes
 Team meetings are scheduled twice a week, to ensure the team is aware of the overall progress made, as well to provide the client an opportunity to see what we have achieved, should they choose to join the meetings. They are currently scheduled for the following times:
@@ -41,7 +41,12 @@ Team meetings are scheduled twice a week, to ensure the team is aware of the ove
 
 These times may vary, depending on the availability of the team, and client.
 
-Meeting Minutes can be found in our repository.
+#### Last Meeting Minutes
+[August 1st](Meeting%20Minutes/Meeting%20Minutes%201-8-2018.md)
+#### Previous Meeting Minutes
+[July 31st](Meeting%20Minutes/Meeting%20Minutes%2031-7-2018.md)
+
+Meeting Minutes can also be found in our repository.
 
 ## 5. Design Documents
 The design of the VeinCam will be presented here, once the ConOps has been approved, and progress/final designs are made available. the construction method of the device will also be presented here.
