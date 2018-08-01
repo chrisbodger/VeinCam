@@ -10,9 +10,9 @@
 ## 1. Progress Update
 Currently, we are preparing for Audit 1 by creating the project documentation. This includes:
 * Project requirements
-* Concept of Operations
+* [Concept of Operations](docs/CONOPS.md)
 * Stakeholder Landing Page
-* Work Breakdown Structure and Indicative Schedule
+* [Work Breakdown Structure](docs/WBS.md) and [Indicative Schedule](https://docs.google.com/spreadsheets/d/1nfNqFCF2ieP5CyVmqDSeZ3oXegxcCG4hojdd6fMcq9Y/edit?usp=sharing) 
 * Basic Structure of the Repository (this will evolve as the project proceeds)
 
 We hope to have this all ready to present to our stakeholders during our tutorial, otherwise have it completed by the end of the audit period.
@@ -41,12 +41,12 @@ Team meetings are scheduled twice a week, to ensure the team is aware of the ove
 
 These times may vary, depending on the availability of the team, and client.
 
+[Meeting Minutes](docs/Meeting-Minutes) can also be found in our repository.
+
 #### Last Meeting Minutes
 [August 1st](Meeting-Minutes/Meeting-Minutes-1-8-2018.md)
 #### Previous Meeting Minutes
 [July 31st](Meeting-Minutes/Meeting-Minutes-31-7-2018.md)
-
-Meeting Minutes can also be found in our repository.
 
 ## 5. Design Documents
 The design of the VeinCam will be presented here, once the ConOps has been approved, and progress/final designs are made available. the construction method of the device will also be presented here.
