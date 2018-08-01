@@ -1,104 +1,47 @@
-# Concept of Operations
+# VeinCam Landing Page
 
-## Table of Contents
-* [Project Vision](#project-vision)
-  * [Value Proposition](#value-proposition)
-  * [Project Scope](#project-scope)
-  * [Project Team](#project-team)
-* [Project Management](#project-management)
-  * [Funding](#funding)
-  * [Milestones](#milestones)
-  * [Timelines](#timelines)
-  * [Tools](#tools)
-* [Deliverables](#deliverables)
-* [Stakeholders](#stakeholders)
-* [Resources](#resources)
-* [Risks](#risks)
-* [References](#references)
+## Table Of Contents
+1. [Progress Update](#1.-progress-update)
+2. [Audit Log](2.-audit-log)
+3. [Concept of Operations](3.-concept-of-operations)
+4. [Meeting Minutes](4.-meeting-minutes)
+5. [Design Documents](5.-design-documents)
 
-## Project Vision
-The Project is based on the Venenfinder project submitted during the 2017 HackADay event. The goal was to create an affordable device for visualising a suitable vein for superficial venous puncture, a procedure that is a requirement for patient blood testing and the delivery of external drug administration.
+## 1. Progress Update
+Currently, we are preparing for Audit 1 by creating the project documentation. This includes:
+* Project requirements
+* Concept of Operations
+* Stakeholder Landing Page
+* Work Breakdown Structure and Gantt Chart
+* Basic Structure of the Repository (this will evolve as the project proceeds)
 
-### Value Proposition
-Our VeinCam device will help medical professionals who want to perform intravenous procedures by externally visualising a patient’s veins and increasing the likelihood of successfully accessing those veins to reduce patient discomfort, and increase medical staff efficiency with the procedure.
+We hope to have this all ready to present to our stakeholders during our tutorial, otherwise have it completed by the end of the audit period.
 
-### Project Scope
-The project aims to build on what was achieved in the Venenfinder project in assisting medical professionals to successfully locate a viable vein for testing/delivery, automating some functions while remaining cost effective so that the device can be built and used by patients with chronic diseases that regularly require drug administration at home.
+#### Previous Progress Updates
+* Not applicable yet
 
-The device should be portable, hands-free and wireless. Veins will be illuminated using near-Infrared light, and the scattering from this light detected by a Raspberry Pi device equipped with a PiCam module.
+## 2. Audit Log
+Here we will have the information, results, and feedback to our audits, and will be presented in the following links (as they are created):
 
-Due to the variation in human skin in its absorption of different wavelengths of light, an unclear image can be produced, a proper candidate may be undetected. Having an auto-switch feature to automatically adjust the wavelength emitted will build on what has already been achieved. This adjusts the contrast of the image to allow for the easier detection of veins, with minimal to no input from the user.
+* Audit 1
+* Audit 2
+* Audit 3
 
-### Project Team
-The project team consists of four undergraduate engineers:
- * Christopher Bodger
- * Alexander Ollman
- * Stephanie Pratt
- * Joey McPhail
+Should our stakeholders wish to provide us with feedback, they can fill out a google survey in which we will action them appropriately as responses are presented to us.
 
-Ben Healey is our client for this project, currently an ANU Medical Student, and employee of ACT Health.
+## 3. Concept of Operations
+Our Concept of Operations is still being drafted, and yet to be signed off. we hope to have this completed by the end of the audit period, in which we can continue with the project.
 
-## Project Management
-### Funding
-The project brief informs us that we will need to take out a microgrant of around $100, with the client willing to fund us a further $300 should it be required. at most, the project should cost no more than the $400 proposed, but ideally, the project should cost less than this.
+The [Concept of Operations](CONOPS.md) document can be found in our repository.
 
-### Milestones
-Milestones are yet to be determined. clear goals will be made after our meeting with our client.
-The aim of this project will be to achieve goals for each phase.
+## 4. Meeting Minutes
+Team meetings are scheduled twice a week, to ensure the team is aware of the overall progress made, as well to provide the client an opportunity to see what we have achieved, should they choose to join the meetings. They are currently scheduled for the following times:
+* Wednesday 12pm
+* Saturday 2pm
 
-An example of the first phase may include:
-- Construct HackADay prototype with our materials.
-- Create document outlining potential improvements to system.
+These times may vary, depending on the availability of the team, and client.
 
-### Timelines
-Project timelines are yet to be determined, as with the milestones
+Meeting Minutes can be found in our repository.
 
-### Tools
-Several Tools will be used for this project, and they are listed below
-
-#### Project Administration
-* GitHub
-* GitHub Pages
-* Facebook Messenger Platform
-
-#### Manufacturing and Testing
-* ANU Makerspace
-
-## Deliverables
-The project will hope to achieve a finalised prototype that meets a cost effective target of AU$300, can be easily assembled, and produce results equivalent to devices currently in use in hospitals that cost several magnitudes more than the VeinCam.
-
-The device should conform to hospital hygiene practices, as well as their Information Communication Technology Services Policy.
-
-
-## Stakeholders
-The following groups have been identified as stakeholders for this project:
-* Project Team - Produces the Project Output and actions constructive feedback from other stakeholders
-* Shadow Team - Observes the Project and provides constructive feedback
-* Course Tutor - Provides feedback on project progress
-* Project Client - Provides feedback on project progress
-* Course Convener - Provides feedback on project progress
-
-### Role assignment:
-  * Convenor Liaison (Steph Pratt)
-  * Client Liaison (Steph Pratt)
-  * Lead Programmer (Alexander Ollman)
-  * Lead Hardware Engineer (Chris Bodger)
-  * Secretary (Joey McPhail)
-    * Updating Landing Page
-    * Keeping Meeting Minutes
-    * Maintaining the Repository
-
-## Resources
-Source code from the Venenfinder HackADay project has been utilised, as it achieves close to the client's desired deliverable.
-
-## Risks
-For the project and prototype to be successful it needs to be inexpensive and competitive in terms of results efficacy, these are more easily measured and validated requirements. A potential risk of the project is that the prototype is not simple enough to assemble and use and therefore would not find acceptance with the target users.
-
-## References
-[Venenfinder Github](https://github.com/Myrijam/Venenfinder)
-
-[Venenfinder HackAThon Page](https://hackaday.io/project/26158-assistance-system-for-vein-detection)
-
-
-
-This Project is licensed under the Creative Commons license.
+## 5. Design Documents
+The design of the VeinCam will be presented here, once the ConOps has been approved, and progress/final designs are made available. the construction method of the device will also be presented here.
