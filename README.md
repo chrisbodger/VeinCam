@@ -12,7 +12,7 @@ Currently, we are preparing for Audit 1 by creating the project documentation. T
 * Project requirements
 * Concept of Operations
 * Stakeholder Landing Page
-* Work Breakdown Structure and Gantt Chart
+* Work Breakdown Structure and Indicative Schedule
 * Basic Structure of the Repository (this will evolve as the project proceeds)
 
 We hope to have this all ready to present to our stakeholders during our tutorial, otherwise have it completed by the end of the audit period.
