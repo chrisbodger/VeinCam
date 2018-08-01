@@ -1,10 +1,11 @@
 # Meeting Minutes - 31/7/2018
 
-Attending:
-* Joey McPhail
-* Steph Pratt
-* Chris Bodger
-* Alex Ollman (left early)
+| Attending: | Absent: |
+| :---: | :---: |
+| Joey McPhail | |
+| Steph Pratt | |
+| Chris Bodger | |
+| Alex Ollman (left early) | |
 
 ---
 
@@ -23,7 +24,7 @@ Questions we would like to ask:
   * Possibly each minor milestone
 
 ## ANU Microgrant
-* To be organised � may be worth leaving until next week after meeting with Ben
+* To be organised - may be worth leaving until next week after meeting with Ben
 * Details at end of course guide, fill out a form and email to Chris
 * Need to know what parts we need to get, makes it easier to gain access to it
 
