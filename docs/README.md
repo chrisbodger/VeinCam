@@ -1,11 +1,11 @@
 # VeinCam Landing Page
 
 ## Table Of Contents
-1. [Progress Update](#1.-progress-update)
-2. [Audit Log](2.-audit-log)
-3. [Concept of Operations](3.-concept-of-operations)
-4. [Meeting Minutes](4.-meeting-minutes)
-5. [Design Documents](5.-design-documents)
+1. [Progress Update](#1-progress-update)
+2. [Audit Log](#2-audit-log)
+3. [Concept of Operations](#3-concept-of-operations)
+4. [Meeting Minutes](#4-meeting-minutes)
+5. [Design Documents](#5-design-documents)
 
 ## 1. Progress Update
 Currently, we are preparing for Audit 1 by creating the project documentation. This includes:
