@@ -31,6 +31,7 @@ Due to the variation in human skin in its absorption of different wavelengths of
 
 ### Project Team
 The project team consists of four undergraduate engineers:
+
 | Name | Role |
 | --- | --- |
 | Christopher Bodger | Lead Mechanical Engineer |
@@ -71,7 +72,6 @@ The project will hope to achieve a finalised prototype that meets a cost effecti
 
 The device should conform to hospital hygiene practices, as well as their Information Communication Technology Services Policy.
 
-
 ## Stakeholders
 The following groups have been identified as stakeholders for this project:
 * Project Team - Produces the Project Output and actions constructive feedback from other stakeholders
@@ -79,16 +79,6 @@ The following groups have been identified as stakeholders for this project:
 * Course Tutor - Provides feedback on project progress
 * Project Client - Provides feedback on project progress
 * Course Convener - Provides feedback on project progress
-
-### Role assignment:
-  * Convenor Liaison (Steph Pratt)
-  * Client Liaison (Steph Pratt)
-  * Lead Programmer (Alexander Ollman)
-  * Lead Hardware Engineer (Chris Bodger)
-  * Secretary (Joey McPhail)
-    * Updating Landing Page
-    * Keeping Meeting Minutes
-    * Maintaining the Repository
 
 ## Resources
 Source code from the Venenfinder HackADay project has been utilised, as it achieves close to the client's desired deliverable.
