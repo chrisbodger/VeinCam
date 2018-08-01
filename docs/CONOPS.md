@@ -31,10 +31,12 @@ Due to the variation in human skin in its absorption of different wavelengths of
 
 ### Project Team
 The project team consists of four undergraduate engineers:
- * Christopher Bodger
- * Alexander Ollman
- * Stephanie Pratt
- * Joey McPhail
+| Name | Role |
+| --- | --- |
+| Christopher Bodger | Lead Mechanical Engineer |
+| Alexander Ollman | Lead Programmer |
+| Stephanie Pratt | Stakeholder Liaison |
+| Jonathan McPhail | Secretary |
 
 Ben Healey is our client for this project, currently an ANU Medical Student, and employee of ACT Health.
 
