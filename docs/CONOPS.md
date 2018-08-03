@@ -20,17 +20,17 @@
   * [Timelines](#timelines)
   * [Work Breakdown Structure](#work-breakdown-structure)
 * [Deliverables](#deliverables)
-* [Risks](#risks)
+* [Risk Analysis](#risks-analysis)
 * [References](#references)
 
 ## Project Vision
-The VeinCam is based on the [Venenfinder project](https://hackaday.io/project/26158-assistance-system-for-vein-detection) submitted during the 2017 HackADay event. The goal remains to create an affordable device for visualising suitable veins for superficial venous puncture, a procedure that is a requirement for patient blood testing and external drug administration.
+The VeinCam is based on the [Venenfinder project](https://hackaday.io/project/26158-assistance-system-for-vein-detection) submitted during the 2017 HackADay event. The goal was to create an affordable device that produces a clear image of a suitable vein for superficial venous puncture, a procedure that is a requirement for patient blood testing and the delivery of external drug administration. 
 
 ### Value Proposition
-Our VeinCam device will help medical professionals who want to perform intravenous procedures by externally visualising a patient’s veins. It will increase the likelihood of successfully accessing those veins to reduce patient discomfort and increase medical staff efficiency.
+Our VeinCam device will help medical professionals who want to perform intravenous procedures by externally visualising a patient’s veins. It will increase the likelihood of successfully accessing those veins to reduce patient discomfort and increase medical staff efficiency and proficiency with the procedure.
 
 ### Project Scope
-The project aims to build on what was achieved in the Venenfinder project; automating some of the functions while remaining a cost effective solution. Ideally the device will be able to be built and used by patients with chronic diseases that regularly require drug administration at home.
+The project aims to build on what was achieved in the Venenfinder project; automating and adding to some of the functions while remaining a cost effective solution. Ideally, the device will be able to be built and used by patients with chronic diseases that regularly require personal drug administration.
 
 The device should be portable, hands-free and wireless. Veins will be illuminated using near-infrared light, and the scattering from this light detected by a Raspberry Pi device equipped with a PiCam module.
 
@@ -70,22 +70,24 @@ Several Tools will be used for this project, and they are listed below
 * Facebook Messenger Platform
 
 #### Manufacturing and Testing
-* Raspberry Pi 3
-* PiCam
+**TABLE OF MATERIALS GOES HERE**
+* Ian Ross Design Studio
 * ANU Makerspace
 
 #### Programming
-* Source code from the Venenfinder HackADay project has been utilised, as it achieves close to the client's desired deliverable.
+* Source code from the Venenfinder HackADay project has been utilised, as it achieves close to the client's desired deliverable. This code will then be modified to achieve the client's desired features, including auto-vein focus. 
 
 ## Project Management
-### Milestones and Deliverables
+### Milestones 
 Milestones are yet to be determined. clear goals will be made after our meeting with our client.
-The aim of this project will be to achieve goals for each phase.
 
-An example of the first phase may include:
-- Construct HackADay prototype with our materials.
-- Create document outlining potential improvements to system.
+An initial milestone layout:
+**Milestone 1:** Construct Functional prototype based off of Venenfinder design.  
+**Milestone 2:** Configure software to auto-focus and design hardware to reduce product's form factor.
+**Milestone 3:** Initial AutoCAD design of 3D-printable chassis, maximize auto-focus function for clear image definition.
+**Milestone 4:** Final AutoCAD design and phyiscal print-out of chassis, accompanying web/smartphone appication to display camera image, contain adjustable settings.
 
+### Deliverables
 #### Audit 1
 
 #### Audit 2
@@ -95,8 +97,10 @@ The project will hope to achieve a finalised prototype that meets a cost effecti
 
 The device should conform to hospital hygiene practices, as well as their Information Communication Technology Services Policy.
 
+#### Poster and Presentation 
+
 ### Timelines
-Project timelines are yet to be determined, as with the milestones
+Project timelines are yet to be determined.
 
 ### Work Breakdown Structure
 1. Requirements Analysis  
@@ -123,8 +127,19 @@ Project timelines are yet to be determined, as with the milestones
    4.5. Prototype design  
    4.6. Validation and verification
 
-## Risks
-For the project and prototype to be successful it needs to be inexpensive and competitive in terms of results efficacy, these are more easily measured and validated requirements. A potential risk of the project is that the prototype is not simple enough to assemble and use and therefore would not find acceptance with the target users.
+## Risk Analysis
+At this initial project stage, the risks involved with this project lie within the governance of the project itself. Risks associated with the product and its physical development will be stated in ConOps prior to Audit 2.
+
+Risk:
+Not clearly understanding or defining client's requirements for the project.
+Consequence(s):
+Product does not meet client requirements, client disatisfied, requires redoing work, going over budget and schedule to redesign
+
+Risk:
+Not defining scope of project and setting clear and achieveable milestones.
+Consequence(s):
+no clear definition of project progress, feature creep over time results in lack of physical product, no clear "stopping point" for project or completed product, client disatisifed, product does not meet customer requirements, likely to be overbudget.
+                                               
 
 ## References
 [Venenfinder Github](https://github.com/Myrijam/Venenfinder)
