@@ -4,15 +4,22 @@
 * [Project Vision](#project-vision)
   * [Value Proposition](#value-proposition)
   * [Project Scope](#project-scope)
-  * [Project Team](#project-team)
-* [Project Management](#project-management)
-  * [Funding](#funding)
-  * [Milestones](#milestones)
-  * [Timelines](#timelines)
-  * [Tools](#tools)
-* [Deliverables](#deliverables)
 * [Stakeholders](#stakeholders)
+  * [Project Team](#project-team)
 * [Resources](#resources)
+  * [Funding](#funding)
+  * [Tools](#tools)
+  * [Project Administration](#project-administration)
+  * [Manufacturing and Testing](#manufacturing-and-testing)
+  * [Programming](#programming)
+* [Project Management](#project-management)
+  * [Milestones and Deliverables](#milestones-and-deliverables)
+    * [Audit 1](#audit-1)
+    * [Audit 2](#audit-2)
+    * [Audit 3](#audit-2)
+  * [Timelines](#timelines)
+  * [Work Breakdown Structure](#work-breakdown-structure)
+* [Deliverables](#deliverables)
 * [Risks](#risks)
 * [References](#references)
 
@@ -69,7 +76,6 @@ Several Tools will be used for this project, and they are listed below
 
 #### Programming
 * Source code from the Venenfinder HackADay project has been utilised, as it achieves close to the client's desired deliverable.
-* ?
 
 ## Project Management
 ### Milestones and Deliverables
