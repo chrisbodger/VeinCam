@@ -47,7 +47,7 @@ Meeting Minutes can also be found in our repository:
 [August 4th](Meeting-Minutes/Meeting-Minutes-2018-08-04.md)
 
 #### Previous Meeting Minutes
-[July 31st](Meeting-Minutes/Meeting-Minutes-2018-07-31.md)
+[July 31st](Meeting-Minutes/Meeting-Minutes-2018-07-31.md)  
 [August 1st](Meeting-Minutes/Meeting-Minutes-2018-08-01.md)
 
 ## 5. Design Documents
