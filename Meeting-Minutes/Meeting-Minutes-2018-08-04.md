@@ -66,6 +66,7 @@
   * PiJuice Battery
   * NoIR camera
   * LED (850nm)
+  * 30 mm near-IR filter
   * PiZero
   * Charger and MicroUSB cable
   * Example stand
