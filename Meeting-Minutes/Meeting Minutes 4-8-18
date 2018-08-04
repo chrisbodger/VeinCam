@@ -1,0 +1,35 @@
+
+# Agenda - Things to discuss with Client
+* Organisation and Communication
+  ** When and how would you like to be updated? Only when there are Major goals/setbacks or weekly? 
+  By email or in person? Regular meeting on Saturdays or over email?
+  ** Any issues with accessing/understanding the github repository/landing page?
+  ** Steph will be your main point of communication
+  ** Role assignment for the rest of the team
+      *** Convenor Liaison (Steph Pratt)
+      *** Client Liaison (Steph Pratt)
+      *** Lead Programmer (Alexander Ollman)
+      *** Lead Hardware Engineer (Chris Bodger)
+      *** Secretary (Joey McPhail)
+  ** Concept of operations (ConOps) - Basically a detailed plan for how we are going to tackle and break down this project. 
+      Need a sign off from all stakeholders everytime there is a change to the ConOps - we think this can jsut be digital. 
+
+* Project goals
+  ** Are you happy with our project vision? 
+    *** Our VeinCam device will help medical professionals who want to perform intravenous procedures by externally visualising a patient�s veins and increasing the likelihood of successfully accessing those veins to reduce patient discomfort, and increase medical staff efficiency with the procedure.
+  ** What are the minimum aims (base goaks) of the advice? (primary deliverables)
+  ** What the aspects of the device that are optional reach goals?
+ 
+* Requirements
+  ** Aspects of the user interface?
+    *** Simple operation, minimal steps required for setup... etc?
+  ** What are the privacy (patient confidentiality) and safety standards that need to be met? (hospital policy) Where could we find this information?
+  ** Hardware and software features
+    *** potential embedded screen?
+    *** bluetooth connection or WiFi hotspot?
+    ** What hardware do you have already exactly?
+    
+  ** Costing limitations
+    *** Cost of hardware and additional parts? How much are you happy for us to spend? Can get about $100 microgrant
+    *** Range of final cost of manufacturing the device?
+  ** Testing requirements? Any ideas if/how we could do this?
