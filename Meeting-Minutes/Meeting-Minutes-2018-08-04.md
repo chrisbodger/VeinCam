@@ -2,10 +2,9 @@
 
 | Attending: | Absent: |
 | :---: | :---: |
-| Joey McPhail | |
+| Joey McPhail | Alex Ollman |
 | Steph Pratt | |
 | Chris Bodger | |
-| | Alex Ollman |
 | Ben Healey | |
 
 ---
@@ -16,13 +15,13 @@
   * Any issues with accessing/understanding the github repository/landing page?
   * Steph will be your main point of communication
   * Role assignment for the rest of the team
-  * Concept of operations (ConOps) - Basically a detailed plan for how we are going to tackle and break down this project. Need a sign off from all stakeholders everytime there is a change to the ConOps - we think this can just be digital. 
+  * Concept of operations (ConOps) - Basically a detailed plan for how we are going to tackle and break down this project. Need a sign off from all stakeholders everytime there is a change to the ConOps - we think this can just be digital.
 
 * Project goals
-  * Are you happy with our project vision? 
+  * Are you happy with our project vision?
   * What are the minimum aims (base goals) of the advice? (primary deliverables)
   * What the aspects of the device that are optional reach goals?
- 
+
 * Requirements
   * Aspects of the user interface?
     * Simple operation, minimal steps required for setup... etc?
@@ -31,7 +30,7 @@
     * potential embedded screen?
     * bluetooth connection or WiFi hotspot?
   * What hardware do you have already exactly?
-    
+
   * Costing limitations
     * Cost of hardware and additional parts? How much are you happy for us to spend? Can get about $100 microgrant
     * Range of final cost of manufacturing the device?
