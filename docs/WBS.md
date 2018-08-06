@@ -1,11 +1,12 @@
 ﻿# Work Breakdown Structure
 
+
 1. Requirements Analysis  
    1.1. Review PoC  
    1.2. Perform risk analysis  
    1.3. Brainstorm requirements (in-house)  
    1.4. Develop requirements with client  
-   1.6. Finalise requirements  
+   1.5. Finalise requirements  
 2. Prototyping  
    2.1. Design hardware  
    2.2. Manufacture and construct hardware  
@@ -17,5 +18,7 @@
    3.2. Test prototype with users  
    3.3. Conduct performance review  
 4. Documentation  
-   4.1. ConOps  
-   4.2. Create poster
+   4.1. Write ConOps v1  
+   4.2. Update ConOps v2  
+   4.3. Create poster  
+   4.4. Organise repository  
