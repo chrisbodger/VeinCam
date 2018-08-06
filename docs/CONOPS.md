@@ -14,17 +14,13 @@
     * [Bill of Materials](#bill-of-materials)
   * [Programming](#programming)
 * [Project Management](#project-management)
-  * [Milestones](#milestones)
   * [Deliverables](#deliverables)
-    * [Audit 1](#audit-1)
-    * [Audit 2](#audit-2)
-    * [Audit 3](#audit-2)
-  * [Poster and Presentation](#poster-andpresentation)
+  * [Milestones](#milestones)
+  * [Audit Goals](#audit-goals)
   * [Timelines](#timelines)
   * [Work Breakdown Structure](#work-breakdown-structure)
-* [Deliverables](#deliverables)
 * [Risk Analysis](#risks-analysis)
-* [Safety Risk Analysis](#safety-risk-analysis)
+  * [Safety Risk Analysis](#safety-risk-analysis)
 * [References](#references)
 
 ---
@@ -148,7 +144,7 @@ Final AutoCAD design and phyiscal print-out of chassis, accompanying web/smartph
 Milestones are subject to change as the project evolves.
 
 ### Timelines
-An indicative schedule has been drafted for the project.
+An [indicative schedule](https://docs.google.com/spreadsheets/d/1nfNqFCF2ieP5CyVmqDSeZ3oXegxcCG4hojdd6fMcq9Y/edit?usp=sharing) has been drafted for the project.
 
 ### Work Breakdown Structure
 1. Requirements Analysis  
