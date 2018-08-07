@@ -53,7 +53,7 @@ The project team consists of four undergraduate engineers:
 
 | Name | Role |
 | --- | --- |
-| Christopher Bodger | Lead Mechanical Engineer |
+| Christopher Bodger | Lead Hardware Engineer |
 | Alexander Ollman | Lead Programmer |
 | Stephanie Pratt | Stakeholder Liaison |
 | Jonathan McPhail | Secretary |
