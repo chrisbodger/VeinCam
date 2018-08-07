@@ -9,8 +9,7 @@
 6. [Design Documents](#5-design-documents)
 
 ## 1. Feedback
-A feedback form has been created for the interest of our stakeholders, should they wish to pass on any changes or improvements they believe to be prudent. The link can be found below:
-https://goo.gl/forms/8cw5eWdaOY5C1jBo1
+A feedback form has been created for the interest of our stakeholders, should they wish to pass on any changes or improvements they believe to be prudent. The form can be found [here](https://goo.gl/forms/8cw5eWdaOY5C1jBo1).
 
 Once we receive the feedback, we will create an issue within the GitHub repository for public viewing and tracking. Any feedback is welcome.
 
