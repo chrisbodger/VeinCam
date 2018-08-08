@@ -2,10 +2,9 @@
 
 | Attending: | Absent: |
 | :---: | :---: |
-| Joey McPhail | |
+| Joey McPhail | Alex Ollman |
 | Steph Pratt | |
 | Chris Bodger | |
-| Alex Ollman | |
 
 ---
 
@@ -30,3 +29,36 @@
   * Progress Update - already got, I think we should make someone in charge of updating this every few days
 * Any feedback yet? (Google Form)
 
+---
+
+## WBS Review
+* Added research work package
+  * Steph to lead and divi up sections.
+* Chris and Alex to break down hardware/software if they need to.
+
+---
+
+## New Goals (to discuss with Ben)
+* Embedded screen vs external (having the option for both would be ideal).
+* Chassis added to baseline (adjustable stand to remain stretch goal).
+* Add decision making document to discuss tradeoffs.
+* Make clear what was achieved by Venenfinder and how our goals add to that.
+
+---
+
+## Formal Requirements
+* Can use as a decision making document for design tradeoffs
+* Steph to draft formal table of requirements
+* Once we reach baseline we can use decision making process on what "stretch" goals we start working on.
+
+---
+
+## Stakeholders
+* Add patients and users.
+* Could help to address them by making the project page more public (similar to a kickstarter), add pictures, make goal/purpose more clear.
+
+---
+
+## Feedback
+* Alex to share access to the google forms: add it to supplementary repository.
+* Audit feedback from Wattle: Chris will create issues based on content.
