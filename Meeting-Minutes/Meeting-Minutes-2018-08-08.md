@@ -62,3 +62,25 @@
 ## Feedback
 * Alex to share access to the google forms: add it to supplementary repository.
 * Audit feedback from Wattle: Chris will create issues based on content.
+
+---
+
+## Actionables
+* Chris to:
+  * Finish off ConOps
+  * Milestone 1
+  * Process feedback
+  * Document what Venenfinder achieved, put before deliverables in ConOps
+* Steph to:
+  * Draft formal requirement table
+  * Start research and delegate sections
+  * Update stakeholders in ConOps
+* Alex to:
+  * Share google forms feedback
+  * Complete risk analysis for ConOps
+* Joey to:
+  * Update landing page so public face is more user-friendly
+  * Research what Steph delegates
+    * Look at market competition
+* All:
+  * Change wednesday meetings to 11am pending confirmation with Alex (could do 1 pm also)
