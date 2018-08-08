@@ -108,11 +108,12 @@ An initial Bill of Materials has been drafted below of what we expect the projec
 The initial deliverables are as follows:  
 
 #### Baseline Deliverable
-* Configure device based on Venenfinder to be able to adjust contrast.
+* Configure device based on Venenfinder to be able to automatically adjust contrast.
+* Design and manufacture a prototype chassis to house Pi modules to allow for handsfree real time visualization
 
 #### Stretch Deliverables
-* Design and manufacture a prototype chassis to house Pi modules to allow for handsfree real time visualization
 * Configure device to run off of Pi Zero module
+  - Offload image processing to secondary device
 * Optimise for different use-case scenarios (e.g. tattooed skin, dark skin)
 * Optimise device to visualise blood flow to identify best candidate vein
 
@@ -160,7 +161,7 @@ An [indicative schedule](https://docs.google.com/spreadsheets/d/1nfNqFCF2ieP5CyV
    2.4. Integrate software  
    2.5. Update software with stretch deliverables
 3. Validation & Verification  
-   3.1. Test prototyype in-house  
+   3.1. Test prototype in-house  
    3.2. Test prototype with users  
    3.3. Conduct performance review  
 4. Documentation  
@@ -184,6 +185,7 @@ An initial Project Risk Assessment can be seen below.
 ### Safety Risk Analysis
 To be completed prior to the commencement of the project construction, as well as Audit 2.
 
+Medical Classification
 ---
 
 ## References

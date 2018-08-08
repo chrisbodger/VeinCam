@@ -49,11 +49,11 @@ These times may vary, depending on the availability of the team, and client.
 Meeting Minutes can also be found in our repository:
 
 #### Last Meeting Minutes
-[August 4th](Meeting-Minutes/Meeting-Minutes-2018-08-04.md)
+[August 8th](Meeting-Minutes/Meeting-Minutes-2018-08-08.md)
 
 #### Previous Meeting Minutes
 [July 31st](Meeting-Minutes/Meeting-Minutes-2018-07-31.md)  
 [August 1st](Meeting-Minutes/Meeting-Minutes-2018-08-01.md)
-
+[August 4th](Meeting-Minutes/Meeting-Minutes-2018-08-04.md)
 ## 6. Design Documents
 The design of the VeinCam will be presented here, once the ConOps has been approved, and progress/final designs are made available. the construction method of the device will also be presented here.
