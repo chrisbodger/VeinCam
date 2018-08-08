@@ -29,14 +29,16 @@
 The VeinCam is based on the [Venenfinder project](https://hackaday.io/project/26158-assistance-system-for-vein-detection) submitted during the 2017 HackADay event. The goal was to create an affordable device that produces a clear image of a suitable vein for superficial venous puncture, a procedure that is a requirement for patient blood testing and the delivery of external drug administration.
 
 ### Value Proposition
-Our VeinCam device will help medical professionals who want to perform intravenous procedures by externally visualising a patient’s veins. It will increase the likelihood of successfully accessing those veins to reduce patient discomfort and increase medical staff efficiency.
+Our VeinCam device will help both medical professionals and patients who want to perform intravenous procedures by externally visualising forearm veins. It will increase the likelihood of successfully accessing those veins to reduce patient discomfort and increase medical staff efficiency and introvenous compentency. 
 
 ### Project Scope
-The project aims to build on what was achieved in the Venenfinder project; automating and adding to some of the functions while remaining a cost effective solution. Ideally, the device will be able to be built and used by patients with chronic diseases that regularly require personal drug administration.
+The project aims to greatly extend and refine what was achieved in the Venenfinder HackADay project; automating and adding to some of the functionality while remaining a cost effective solution. Ideally, the device will be able to be built and used by patients with chronic diseases that regularly require personal drug administration.
 
 The device should be portable, hands-free and wireless. Veins will be illuminated using near-infrared light, and the scattering from this light detected by a Raspberry Pi device equipped with a PiCam module.
 
-Due to the variation in human skin in its absorption of different wavelengths of light, an unclear image can be produced, a proper candidate may be undetected. Having an auto-switch feature to automatically adjust the wavelength emitted will build on what has already been achieved. This adjusts the contrast of the image to allow for the easier detection of veins, with minimal to no input from the user.
+Due to the variation in human skin in its absorption of different wavelengths of light, an unclear image can be produced, a proper candidate may be undetected. The software from the Venenfinder project will be heavily modified, incorperating intelligent OpenCV scripts to perform automatic adjustments to the lighting and contrast settings.  This adjusts the contrast of the image to allow for the easier detection of veins, with minimal to no input from the user.
+
+A physical potentiometer and/or smartphone app interface will act as the manual control for adjusting light settings to get the clearest image possible.
 
 ---
 
@@ -69,7 +71,15 @@ At most, the project should cost no more than the $400 proposed in the design br
 Ideally, the project should cost less than this. A [Bill of Materials](#bill-of-materials) with associated can be seen below.
 
 ### Tools
-Several Tools will be used for this project, and they are listed below
+
+Tools likely to be used throughout this project include:
+- Soldering Iron
+- 3D Printer
+- Laser Cutter
+- Dremmel 
+- Screwdriver, screws, nuts and bolts.
+
+All safety precautions outlined by the ANU Makerspace's Terms and Conditions will be followed during the use of instrument or tool, regardless of where and how it is used. A safety risk analysis has been performed at the bottom of this document. 
 
 #### Project Administration
 * GitHub
@@ -84,18 +94,20 @@ Several Tools will be used for this project, and they are listed below
 ##### Bill of Materials
 An initial Bill of Materials has been drafted below of what we expect the project to cost.
 
-| Component | Cost | Supplied By Client |
+| Component | Cost (AUD) | Supplied By Client |
 | --- | :---: | :---: |
-| Raspberry Pi 3 |   | Y |
-| Raspberry PiCam |   | Y |
-| Raspberry Pi Battery Module |   | Y |
-| 940nm near-Infrared LEDs |   | N |
-| 220 Ohm Resistors |   | N |
-| Rotary Encoders |   | N |
-| 40 Pin Female Header |   | N |
-| Neodymium Magnets |   | N |
-| IR Filter |   | N |
-| Total |   |   |
+| Raspberry Pi 3 | $65 | Y |
+| Raspberry Pi Zero | $20 | Y |
+| Raspberry PiCam | $50 | Y |
+| Raspberry Pi Battery Module | $90 | Y |
+| 940nm near-Infrared LEDs | $15 | N |
+| 220 Ohm Resistors | $5 | N |
+| Rotary Encoder | $10 | N |
+| 40 Pin Female Header | $2 | N |
+| Neodymium Magnets | $5 | N |
+| IR Filter | $10 | N |
+| Sub-Total (Minus Client Provided Materials) | $47 |  |
+| Total | $272 |   |
 
 
 #### Programming
@@ -140,7 +152,7 @@ Final AutoCAD design and phyiscal print-out of chassis, accompanying web/smartph
 * Reach Milestone 2
 
 #### Audit 3
-* Reach Milestone 4 with accompanying verification and validation
+* Achieve Milestone 3/4 with accompanying verification and validation
 
 Milestones are subject to change as the project evolves.
 
