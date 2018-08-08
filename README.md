@@ -41,7 +41,7 @@ The [Concept of Operations](docs/CONOPS.md) document can be found in our reposit
 
 ## 5. Meeting Minutes
 Team meetings are scheduled twice a week, to ensure the team is aware of the overall progress made, as well to provide the client an opportunity to see what we have achieved, should they choose to join the meetings. They are currently scheduled for the following times:
-* Wednesday 12pm
+* Wednesday 11pm
 * Saturday 2pm
 
 These times may vary, depending on the availability of the team, and client.
