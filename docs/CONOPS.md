@@ -185,19 +185,20 @@ An [indicative schedule](https://docs.google.com/spreadsheets/d/1nfNqFCF2ieP5CyV
 ---
 
 ## Risk Analysis
-At this initial project stage, the risks involved with this project lie within the governance of the project itself. Risks associated with the product and its physical development will be stated in ConOps prior to Audit 2.
+All risk analysis performed throughout this project will be in accordance to the Australian and New Zealand Industry Standard AS/NZS 4360:2004. 
 
-An initial Project Risk Assessment can be seen below.
-
-| Risk | Consequences | Likelihood | Severity |
-| :---: | :---: | :---: | :---: |
-| Not clearly understanding or defining client's requirements for the project. | Product does not meet client requirements, client disatisfied, requires redoing work, going over budget and schedule to redesign |  |  |
-| Not defining scope of project and setting clear and achieveable milestones. | No clear definition of project progress, feature creep over time results in lack of physical product, no clear "stopping point" for project or completed product, client disatisifed, product does not meet customer requirements, likely to be overbudget. |  |  |
+| Risk | Consequences | Likelihood | Severity | Mitigation |
+| :---: | :---: | :---: | :---: | :---: |
+| Not clearly understanding or defining client's requirements for the project. | Product does not meet client requirements, client disatisfied, requires redoing work, going over budget and schedule to redesign | D | 3 | Maintain regular contact with client regarding progress and milestone completion. |
+| Not defining scope of project and setting clear and achieveable milestones. | No clear definition of project progress, feature creep over time results in lack of physical product, no clear "stopping point" for project or completed product, client disatisifed, product does not meet customer requirements, likely to be overbudget. | C | 3 | Defining scope early and ensuring we stick to milestones and their respective outputs to ensure we do not deviate on a project tangent. |
+| Device cannot be utilized as a medical device due to not meeting medical certification criteria. | Unable to deliver product to medical professionals, which is client's ultimate goal for the project. | C | 2 | Ensure client is aware of potential certification issues, and that they verify during devlopment whether the device can be used with and/or without the medical classification. |
 
 ### Safety Risk Analysis
-To be completed prior to the commencement of the project construction, as well as Audit 2.
+| Risk | Consequences | Likelihood | Severity | Mitigation |
+| :---: | :---: | :---: | :---: | :---: |
+| Personal harm whilst using listed tools (incl. burns, shocks, cuts) | Pain, discomfort and possible medical attention. | D | 3 | Ensuring all team members are familiar with the safety training of the ANU Makerspace/Engineering workshop, supervision by one other team member when using potentially dangerous tools. |
+| Damage to Hardware due to physical impact or electrostatic discharge (ESD) | Loss of data, hardware faliure, schedule delays to order and replace damaged hardware. | E | 4 | Ensuring hardware is never placed in an area where it is likely to be damaged, always in full visible sight. Observing proper ESD safety techniques, such as regularly grounding ourselves and only contacting circuitry by edges. | 
 
-Medical Classification
 ---
 
 ## References
