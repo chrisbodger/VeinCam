@@ -19,7 +19,7 @@
   * [Audit Goals](#audit-goals)
   * [Timelines](#timelines)
   * [Work Breakdown Structure](#work-breakdown-structure)
-* [Risk Analysis](#risks-analysis)
+* [Risk Analysis](#risk-analysis)
   * [Safety Risk Analysis](#safety-risk-analysis)
 * [References](#references)
 
@@ -187,6 +187,10 @@ An [indicative schedule](https://docs.google.com/spreadsheets/d/1nfNqFCF2ieP5CyV
 ## Risk Analysis
 All risk analysis performed throughout this project will be in accordance to the Australian and New Zealand Industry Standard AS/NZS 4360:2004. 
 
+![Risk Matrix](https://github.com/chrisbodger/VeinCam/blob/master/images/ConOps/risk-matrix.png)
+
+Potential risks to the success of the project have been brainstormed in order to understand them and mitigate either there severity or likelihood.
+
 | Risk | Consequences | Likelihood | Severity | Mitigation |
 | :---: | :---: | :---: | :---: | :---: |
 | Not clearly understanding or defining client's requirements for the project. | Product does not meet client requirements, client disatisfied, requires redoing work, going over budget and schedule to redesign | D | 3 | Maintain regular contact with client regarding progress and milestone completion. |
@@ -194,6 +198,8 @@ All risk analysis performed throughout this project will be in accordance to the
 | Device cannot be utilized as a medical device due to not meeting medical certification criteria. | Unable to deliver product to medical professionals, which is client's ultimate goal for the project. | C | 2 | Ensure client is aware of potential certification issues, and that they verify during devlopment whether the device can be used with and/or without the medical classification. |
 
 ### Safety Risk Analysis
+In developing the prototype there is a chance of injury, similar to above these risks have been listed and steps taken to mitigate their severity or likelihood.
+
 | Risk | Consequences | Likelihood | Severity | Mitigation |
 | :---: | :---: | :---: | :---: | :---: |
 | Personal harm whilst using listed tools (incl. burns, shocks, cuts) | Pain, discomfort and possible medical attention. | D | 3 | Ensuring all team members are familiar with the safety training of the ANU Makerspace/Engineering workshop, supervision by one other team member when using potentially dangerous tools. |
