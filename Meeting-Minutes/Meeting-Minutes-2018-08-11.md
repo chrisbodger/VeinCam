@@ -10,7 +10,9 @@
 ---
 
 ## Agenda
-* Project progress update
+* Project progress update.
+* Ranking of deliverables to prioritise their completion (refer to [ConOps](docs/CONOPS.md) for list)
+* 
 
 ---
 
