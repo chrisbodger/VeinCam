@@ -12,7 +12,7 @@
 ## Agenda
 * Project progress update.
 * Ranking of deliverables to prioritise their completion (refer to [ConOps](docs/CONOPS.md) for list)
-* 
+* Embedded screen vs not.
 
 ---
 
