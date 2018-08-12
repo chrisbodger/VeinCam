@@ -35,7 +35,9 @@ Several attempts were made to get the HackADay software to run on the Raspberry 
 
 The decision was made to continue forward with the project and consider Milestone 1 complete. Enough information was learned during testing, and enough resources were collected to start developing more robust software for VeinCam. Already, a network stream has been established using new code. We can see in a sample image from this test code, we can visualise the veins in the arms of one of the team members:
 
-![First Test Image](images/progress-images/test-stream-result.png)
+![First Test](images/progress-images/test-stream-result.png)
+
+Through the blurriness of a cropped image, and low output resolution, we can see what looks like the veins in their arms.
 
 
 ### Previous Progress Updates
