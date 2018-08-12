@@ -1,3 +1,4 @@
 theme: jekyll-theme-slate
 markdown: kramdown
-title: ENGN4221 VeinCam Project
+title: VeinCam
+description: Helping medical professionals and patients alike. Creating an accessible and affordable option to visualise veins for intravenous procedures.
