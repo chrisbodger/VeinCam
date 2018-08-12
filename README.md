@@ -33,15 +33,14 @@ We will endeavour to keep this section updated once a week at the least, if nece
 ### Hardware/Software
 Several attempts were made to get the HackADay software to run on the Raspberry Pi. Unfortunately, despite being configured appropriately, a connection to an external device could not be made. This meant that the first milestone could not be truly completed, as the HackADay concept could not be fully realised. The team put this down to changes in hardware and software versions in the last ~12 months, as well as the rushed nature of the Venenfinder code development. 
 
-The decision was made to continue forward with the project and consider Milestone 1 complete. Enough information was learned during testing, and enough resources were collected to start developing more robust software for VeinCam. Already, a network stream has been established using new code.
+The decision was made to continue forward with the project and consider Milestone 1 complete. Enough information was learned during testing, and enough resources were collected to start developing more robust software for VeinCam. Already, a network stream has been established using new code. We can see in a sample image from this test code, we can visualise the veins in the arms of one of the team members:
 
-**Image here please**
+![First Test Image](images/progress-images/test-stream-result.png)
 
 
 ### Previous Progress Updates
 * [August 1st](#progress-updates/progress-update-2018-8-01.md)
 * [August 7th](#progress-updates/progress-update-2018-8-07.md)
-
 
 # 3. Audit Log
 Here we will have the information, results, and feedback to our audits, and will be presented in the following links (as they are created):
@@ -52,14 +51,12 @@ Here we will have the information, results, and feedback to our audits, and will
 
 Should our stakeholders wish to provide us with feedback, they can fill out a google survey in which we will action them appropriately as responses are presented to us.
 
-
 # 4. Concept of Operations
 Our Concept of Operations is nearly complete. after we have completed the feedback from Audit 1, we feel that this document will be ready for sign off.
 
 The [Concept of Operations](docs/CONOPS.md) document can be found in our repository.
 
 # 5. Meeting Minutes
-
 Team meetings are scheduled twice a week, to ensure the team is aware of the overall progress made, as well to provide the client an opportunity to see what we have achieved, should they choose to join the meetings. They are currently scheduled for the following times:
 * Wednesday 11pm
 * Saturday 2pm
@@ -67,7 +64,6 @@ Team meetings are scheduled twice a week, to ensure the team is aware of the ove
 The Saturday Meeting is primarily made available for meeting with the client, and to provide a weekly update, where Wednesday is an internal midweek meeting to ensure our actionables are on track for completion. These times may vary, depending on the availability of the team, and client. 
 
 Meeting Minutes can also be found in our repository:
-
 
 ## Last Meeting Minutes
 * [August 11th](Meeting-Minutes/Meeting-Minutes-2018-08-11.md)
