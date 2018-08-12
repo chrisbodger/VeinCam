@@ -24,6 +24,7 @@ The feedback received from the first project audit has been reviewed and a numbe
 
 For additional actionables, please view the current outstanding issues. New issues have been created to action major points raised by feedback during the first audit period. The documents requested in the feedback are in the process of being drafted.
 
+
 We would like to thank everyone who provided feedback, each little bit will prove to be useful and valuable to the success of this project.
 
 ## Project Update
@@ -36,7 +37,6 @@ The decision was made to continue forward with the project and consider Mileston
 
 **Image here please**
 
-**Steph and Joey please add to the update**
 
 ### Previous Progress Updates
 * [August 1st](#progress-updates/progress-update-2018-8-01.md)
@@ -52,12 +52,14 @@ Here we will have the information, results, and feedback to our audits, and will
 
 Should our stakeholders wish to provide us with feedback, they can fill out a google survey in which we will action them appropriately as responses are presented to us.
 
+
 # 4. Concept of Operations
-Our Concept of Operations is still being drafted, and yet to be signed off. we hope to have this completed by the end of the audit period, in which we can continue with the project.
+Our Concept of Operations is nearly complete. after we have completed the feedback from Audit 1, we feel that this document will be ready for sign off.
 
 The [Concept of Operations](docs/CONOPS.md) document can be found in our repository.
 
 # 5. Meeting Minutes
+
 Team meetings are scheduled twice a week, to ensure the team is aware of the overall progress made, as well to provide the client an opportunity to see what we have achieved, should they choose to join the meetings. They are currently scheduled for the following times:
 * Wednesday 11pm
 * Saturday 2pm
@@ -65,6 +67,7 @@ Team meetings are scheduled twice a week, to ensure the team is aware of the ove
 The Saturday Meeting is primarily made available for meeting with the client, and to provide a weekly update, where Wednesday is an internal midweek meeting to ensure our actionables are on track for completion. These times may vary, depending on the availability of the team, and client. 
 
 Meeting Minutes can also be found in our repository:
+
 
 ## Last Meeting Minutes
 * [August 11th](Meeting-Minutes/Meeting-Minutes-2018-08-11.md)
