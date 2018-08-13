@@ -1,5 +1,5 @@
 # Table Of Contents
-1. [Feedback](#1.feedback)
+1. [Feedback](#1.-feedback)
 2. [Progress Update](#2.-progress-update)
 3. [Audit Log](#3.-audit-log)
 4. [Concept of Operations](#4.-concept-of-operations)
