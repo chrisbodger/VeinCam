@@ -4,15 +4,17 @@
 * [Project Vision](#project-vision)
   * [Value Proposition](#value-proposition)
   * [Project Scope](#project-scope)
+  * [Project Comparison](#project-comparison)
 * [Stakeholders](#stakeholders)
   * [Project Team](#project-team)
+  * [Project Client](#project-client)
+  * [Shadow Team](#shadow-team)
+  * [Course Tutor](#course-tutor)
+  * [Course Convenor](#course-convenor)
+  * [Users](#users)
 * [Resources](#resources)
   * [Funding](#funding)
   * [Tools](#tools)
-  * [Project Administration](#project-administration)
-  * [Manufacturing and Testing](#manufacturing-and-testing)
-    * [Bill of Materials](#bill-of-materials)
-  * [Programming](#programming)
 * [Project Management](#project-management)
   * [Deliverables](#deliverables)
   * [Milestones](#milestones)
@@ -34,27 +36,14 @@ Our VeinCam device will help both medical professionals and patients who want to
 ### Project Scope
 The project aims to greatly extend and refine what was achieved in the Venenfinder HackADay project; automating and adding to some of the functionality while remaining a cost effective solution. Ideally, the device will be able to be built and used by patients with chronic diseases that regularly require personal drug administration.
 
-The device should be portable, hands-free and wireless. Veins will be illuminated using near-infrared light, and the scattering from this light detected by a Raspberry Pi device equipped with a PiCam module.
+The device should be portable, hands-free and wireless. Veins will be illuminated using near-infrared light and the scattering from this light detected by a Raspberry Pi device equipped with a PiCam module. The project will be looking exclusively looking at using a Raspberry Pi as the basis for the device as this has been provided by the client.
 
-Due to the variation in human skin in its absorption of different wavelengths of light, an unclear image can be produced, a proper candidate may be undetected. The software from the Venenfinder project will be heavily modified, incorporating intelligent OpenCV scripts to perform automatic adjustments to the lighting and contrast settings.  This adjusts the contrast of the image to allow for the easier detection of veins, with minimal to no input from the user.
+Due to the variation in human skin in its absorption of different wavelengths of light an unclear image can be produced and a proper candidate may be undetected. The software from the Venenfinder project will be heavily modified, incorporating intelligent OpenCV scripts to perform automatic adjustments to the lighting and contrast settings.  This adjusts the contrast of the image to allow for the easier detection of veins, with minimal to no input from the user.
 
-A physical potentiometer and/or smartphone app interface will act as the manual control for adjusting light settings to get the clearest image possible.
+A physical potentiometer and/or web-app interface will act as the manual control for adjusting light settings to get the clearest image possible.
 
 ### Project Comparison
-Given that this project is continuing on from the Veinfinder project, it is worth noting what we are building upon.
-
-#### Venenfinder Features
-The Venenfinder team were able to produce a device that was able to use a near-Infrared light to illuminate a patient's veins. The device uses a Raspberry Pi, a noIR camera module, and a 3x3 array of IR LEDs. Brightness of the LEDs and contrast ratios were manually adjusted using potentiometers to adjust intercepted voltages between the array and the RPi. The camera image is then streamed to a secondary web enabled device through a web browser. This method works for devices ranging from mobile phones to desktop PCs.  Unfortunately, the device was quite large and bulky, and required an external power source to power the device.
-
-#### VeinCam Core Features
-The VeinCam project hopes to utilise similar hardware to the Venenfinder project (Raspberry Pi, PiCam, IR LEDs) and extend the software's capabilities to automatically adjusts the infrared light filtration, brightness and contrast to produce the clearest image possible without manual adjustment.
-
-In further adding to the Venenfinder project, our aim is to produce a device that is battery powered, completely wireless and reduce the size of the device to be comfortably held in one hand. Being a wireless device, we need to ensure the device is as power efficient as possible and does not require recharging more than what it is used. As part of the new housing for the device, a mounting system will be integrated, and a mount be devised for hands-free use.
-
-#### VeinCam Testing and Future Development Plans
-Once our core device has reached the prototype stage, extensive testing will be completed on varying skin conditions and appearances - ranging from light skin to dark skin, clean, tattooed areas and other skin irritations, all in effort to enhance the effectiveness of the device. Further this, we plan to incorporate subject detection algorithms to help nominate suitable veins, should time allow.
-
-Requiring further investigation and implementation, the device may be able to be shrunk to a smaller platform, such as the Raspberry Pi Zero. This would allow for the device to become a lot cheaper to build, reducing the size to something that fits into the palm of your hand, and be able to conserve more power. Implementations and performance would need to be investigated, as the Pi Zero may not be able to process the video stream as effectively as the it's larger cousin.
+As this project is building on what was achieved by the Venenfinder project, it is worth noting what is being added.
 
 #### Feature Summary
 | Venenfinder | VeinCam | Future Development |
@@ -69,27 +58,134 @@ Requiring further investigation and implementation, the device may be able to be
 |   | Smaller Footprint |   |
 |   | AI Image Processing |   |
 
+#### Venenfinder Features
+The Venenfinder team were able to produce a device that was able to use a near-Infrared light to illuminate a patient's veins. The device uses a Raspberry Pi, a noIR camera module, and a 3x3 array of IR LEDs. Brightness of the LEDs and contrast ratios were manually adjusted using potentiometers to adjust intercepted voltages between the array and the RPi. The camera image is then streamed to a secondary web enabled device through a web browser. This method works for devices ranging from mobile phones to desktop PCs.  Unfortunately the device was quite large and bulky, resulting in the need for an external power source.
+
+#### VeinCam Core Features
+The VeinCam project hopes to utilise similar hardware to the Venenfinder project (Raspberry Pi, PiCam, IR LEDs) and extend the software's capabilities to automatically adjust the infrared light filtration, brightness and contrast to produce the clearest image possible with limited manual adjustment.
+
+In further adding to the Venenfinder project, the aim is to produce a device that is battery powered, completely wireless and reduce the size of the device to be comfortably held in one hand. Being a wireless device, we need to ensure the device is as power efficient as possible and does not require recharging more than absolutely necessary. As part of the new housing for the device, a mounting system will be integrated, and a mount be devised for hands-free use.
+
+#### VeinCam Testing and Future Development Plans
+Once the core device has reached the prototype stage, extensive testing will be completed on varying skin conditions and appearances. These range from light skin to dark skin, clean, tattooed areas and other skin irritations, all in effort to enhance the effectiveness of the device. Furthering this, there is a plan to incorporate subject detection algorithms to help nominate suitable veins, should time allow.
+
+Requiring further investigation and implementation; the device may be able to be shrunk to a smaller platform, such as the Raspberry Pi Zero. This would allow for the device to become a lot cheaper to build, reducing the size to something that fits into the palm of your hand, and be able to conserve more power. Implementations and performance would need to be investigated, as the Pi Zero may not be able to process the video stream as effectively as its larger counterpart.
+
 ---
 
 ## Stakeholders
 The following groups have been identified as stakeholders for this project:
-* Project Client - Provides feedback on project progress
-* Project Team - Produces the Project Output and actions constructive feedback from other stakeholders
-* Shadow Team - Observes the Project and provides constructive feedback
-* Course Tutor - Provides feedback on project progress
-* Course Convener - Provides feedback on project progress
+
+| Stakeholder | Project Interaction |
+| --- | --- |
+| Project Team | Produces the Project Output and actions constructive feedback from other stakeholders |
+| Project Client | Provides feedback on project progress |
+| Shadow Team | Observes the Project and provides constructive feedback |
+| Course Tutor | Provides feedback on project progress |
+| Course Convenor | Provides feedback on project progress |
 
 ### Project Team
-The project team consists of four undergraduate engineers:
+The project team consists of four undergraduate engineers who each have roles as point people in the project. All members of the team should be present to support each other in whatever way is necessary to complete tasks and better the project. The designated roles give each member a lead position, they are responsible for their sections and as such if any questions from external stakeholders specifically address a section of the project they are the member to contact.
 
-| Name | Role |
-| --- | --- |
-| Christopher Bodger | Lead Hardware Engineer |
-| Alexander Ollman | Lead Programmer |
-| Stephanie Pratt | Stakeholder Liaison |
-| Jonathan McPhail | Secretary |
+| Name | Role | Email |
+| --- | --- | --- |
+| Christopher Bodger | Lead Hardware Engineer | u5395595@anu.edu.au |
+| Alexander Ollman | Lead Programmer | u5826805@anu.edu.au |
+| Stephanie Pratt | Stakeholder Liaison, Lead Researcher | u5822871@anu.edu.au |
+| Jonathan McPhail | Secretary | u5351489@anu.edu.au |
 
-Ben Healey is our client for this project, currently an ANU Medical Student, and employee of ACT Health.
+#### Responisbilities of the project team to the project
+* Fulfil the tasks assigned by the team within the desired time frame to the best of their ability.
+* Communicate the progress and setbacks of their tasks regularly with the team.
+* Commit to regularly attending scheduled meetings, or otherwise remain up to date with meeting minutes and contributing to meeting agendas.
+
+##### Responsibilities of the Lead Hardware Engineer
+* Manage and design the hardware of the device.
+* Design and test the layout and chassis of the device.
+* Manufacture the prototype device.
+
+##### Responsibilities of the Lead Programmer
+* Design the code for the device to meet deliverables and requirements.
+
+##### Responsibilities of the Stakeholder Liaison
+* Be the point of contact for general communication between stakeholders.
+* Organise meetings with the client and other stakeholders when necessary.
+
+##### Responsibilities of the Lead Researcher
+* Perform research required to strengthen the project.
+* Delegate research when necessary to other team members.
+
+##### Responsibilities of the Secretary
+* Maintain the repository and landing page.
+  * Including all documentation and meeting agendas/minutes.
+
+**To reiterate these roles show who questions should be directed to and are not indicative of workload.**
+
+### Project Client
+Ben Healey (message2ben@gmail.com)
+
+Ben is medical student at the ANU and an employee of ACT Health. He personally started the project off open source information from the HackADay Venenfinder project to develop an affordable vein imaging device.
+
+#### Responsibilities of the project team to the client
+* Design a device to meet the established baseline requirements that the client has presented.
+* Keep the client regularly updated with milestones and setbacks.
+
+#### Responisbilities of the client to the project
+* Provide information and requirements about the project to the team.
+* Respond to communications on a regular basis.
+* Be present and prepared at scheduled meetings.
+
+### Shadow Team
+ANU undergraduate engineering students, tasked with reviewing this project to provide an external viewpoint on the outputs and governance of the project.
+
+#### Responsibilities of the project team to the shadow team
+* Provide shadows access to all information surrounding the project, including repositories, documentation and relevant communications.  This information should be up-to-date and presented appropriately.
+* Be open to feedback from all channels from shadows, and act on feedback appropriately.
+
+#### Responsibilities of the shadow team to the project
+* Remain up-to-date with the activities, outputs and governance of the project through information that is supplied to them.
+* Commit to providing constructive, accurate and actionable feedback to the project through the pathways provided to them: including formal audit feedback, as well as verbal feedback in tutorial sessions and through the feedback forms supplied.
+
+### Course Tutor
+Jenny Simmons (jenny.simmons@anu.edu.au)
+
+ANU ENGN4221 course tutor for Semester 2 2018. Tasked with formally organising and directing weekly tutorial sessions where the project is planned, presented and reflected upon. 
+
+#### Responsibilities of the project team to the course tutor
+* Provide the tutor access to all information surrounding the project, including repositories, documentation and relevant communications. This information should be up-to-date and presented appropriately.
+* Be open to feedback from the tutor, and act on feedback from all channels appropriately.
+* Be present and prepared at all weekly tutorials (Tuesday 10-12), appropriate to the activity of the tutorial that week.
+* Be informed of the structure of the course and related assessment milestones as established by the course convenor.
+* Be prepared to submit assessments, and be open to grades and discussion of grades with the course tutor.
+
+#### Responsibilities of the course tutor to the project
+* Be present and prepared to lead the tutorial each week, appropriate to the activity of the tutorial, and remain up-to-date with the progress of the project.
+* To a reasonable extent, assist the project team with the progress of the project, including answering relevant and reasonable questions, and providing constructive, actionable and accurate feedback, particularly at times of project audits and during tutorial sessions.
+* Reply to correspondence (email) in a timely fashion, and grade formal assignments fairly and appropriate to the quality of the project.
+
+### Course Convenor
+Chris Browne (chris.browne@anu.edu.au)
+
+ANU ENGN4221 course convenor for Semester 2 2018. The course convenor is the overall authority and organiser for this course, and hence the projects that run through this course.
+
+#### Responsibilities of the project team to the course convenor
+* Same as those applying to the course tutor.
+
+#### Responsibilities of the course convenor to the project
+* Same as the course tutor with the addition of:
+* Organise the course appropriate to the desired outcomes and be receptive to feedback regarding this structure. Information regarding the structure and assessment milestones of the course should be available to students within a reasonable timeframe.
+
+### Users
+Members of the public who are potential users of the device.
+
+#### Responsibilities of the project team to the users
+* Provide members of the public access to information that pertains to all aspects of the project.
+* Design a device that, at minimum, must not endanger the safety of potential users.
+* To the best of their ability, provide the public with the information to design an affordable device that can non-invasively image the veins of a person for venous puncture.
+
+#### Responsibilities of the users to the project
+* Members of the public have little steadfast responsibility to the project team. 
+* Ideally, members of the public will provide feedback on the function of the device during requirements analysis or testing. 
 
 ---
 
