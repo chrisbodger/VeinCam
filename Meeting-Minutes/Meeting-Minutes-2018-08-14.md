@@ -21,32 +21,38 @@
   * Requirements Analysis has been started
   * Decision document will be created
   * Risk analysis will be fleshed out more
+  * Tutorial Document on how to build the device
 
 ---
 
 ## Task Tracking
-* 
+*
 
 ---
 
 ## Project Updates
-* 
+*
 
 ---
 
 ## Documentation
-* 
+*
+
+
+
+* Tutorial Document on how to build the device
+(Chris) First draft has been uploaded to the repository. Currently, it only has the system installation/preparation instructions. once more fleshed out software is complete, download and implementation instructions will be added to the document.
 
 ---
 
 ## Actionables
 * Chris to:
-  * 
+  *
 * Steph to:
-  * 
+  *
 * Alex to:
-  * 
+  *
 * Joey to:
-  * 
+  *
 * All:
-  * 
+  *
