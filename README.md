@@ -1,10 +1,10 @@
 # Table Of Contents
 1. [Feedback](#1-feedback)
-2. [Progress Update](#2.-progress-update)
-3. [Audit Log](#3.-audit-log)
-4. [Concept of Operations](#4.-concept-of-operations)
-5. [Meeting Minutes](#5.-meeting-minutes)
-6. [Design Documents](#6.-design-documents)
+2. [Progress Update](#2-progress-update)
+3. [Audit Log](#3-audit-log)
+4. [Concept of Operations](#4-concept-of-operations)
+5. [Meeting Minutes](#5-meeting-minutes)
+6. [Design Documents](#6-design-documents)
 
 # 1. Feedback
 A feedback form has been created for the interest of our stakeholders, should they wish to pass on any changes or improvements they believe to be prudent. The form can be found [here](https://goo.gl/forms/8cw5eWdaOY5C1jBo1).
