@@ -1,5 +1,5 @@
 # Table Of Contents
-1. [Feedback](#1.-feedback)
+1. [Feedback](#1-feedback)
 2. [Progress Update](#2.-progress-update)
 3. [Audit Log](#3.-audit-log)
 4. [Concept of Operations](#4.-concept-of-operations)
@@ -41,8 +41,8 @@ Through the blurriness of a cropped image, and low output resolution, we can see
 
 
 ### Previous Progress Updates
-* [August 1st](#progress-updates/progress-update-2018-8-01.md)
-* [August 7th](#progress-updates/progress-update-2018-8-07.md)
+* [August 1st](#progress-updates/progress-update-2018-08-01.md)
+* [August 7th](#progress-updates/progress-update-2018-08-07.md)
 
 # 3. Audit Log
 Here we will have the information, results, and feedback to our audits, and will be presented in the following links (as they are created):
