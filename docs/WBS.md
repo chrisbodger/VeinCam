@@ -1,6 +1,5 @@
 ﻿# Work Breakdown Structure
 
-
 1. Requirements Analysis  
    1.1. Review PoC  
    1.2. Perform risk analysis  
@@ -14,11 +13,12 @@
    2.4. Integrate software  
    2.5. Update software with stretch deliverables
 3. Validation & Verification  
-   3.1. Test prototyype in-house  
+   3.1. Test prototype in-house  
    3.2. Test prototype with users  
    3.3. Conduct performance review  
 4. Documentation  
    4.1. Write ConOps v1  
    4.2. Update ConOps v2  
-   4.3. Create poster  
-   4.4. Organise repository  
+   4.3. Create "How-to" guide  
+   4.4. Create poster  
+   4.5. Organise repository  
