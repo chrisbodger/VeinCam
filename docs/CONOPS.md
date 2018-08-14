@@ -303,8 +303,9 @@ An [indicative schedule](https://docs.google.com/spreadsheets/d/1nfNqFCF2ieP5CyV
 4. Documentation  
    4.1. Write ConOps v1  
    4.2. Update ConOps v2  
-   4.3. Create poster  
-   4.4. Organise repository  
+   4.3. Create "How-to" guide  
+   4.4. Create poster  
+   4.5. Organise repository  
 
 ---
 
