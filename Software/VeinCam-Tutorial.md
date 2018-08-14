@@ -180,4 +180,24 @@ sudo mv cv2.cpython-35m-arm-linux-gnueabihf.so cv2.so
 cd ~/.virtualenvs/cv/lib/python3.5/site-packages/
 ln -s /usr/local/lib/python3.5/site-packages/cv2.so cv2.so
 ```
+# Wireless Hotspot Configuration
+This is mainly takes one command to fully configure using the [RaspAP Utility](https://github.com/billz/raspap-webgui). This utility installs the required dependencies and configures the Raspberry Pi into a self-serving Internet access point. The advantage to this is that it can allow connections from multiple devices and allow them 'Internet' access, like a modem would. Internet can also be passed through the RasPi via its on board ethernet port.
+
+Before setup, disconnect any wireless networks the device may already be connected to, and plug in an ethernet cable. Execute the command below and it will download the required files and start the install.
+
+```
+wget -q https://git.io/voEUQ -O /tmp/raspap && bash /tmp/raspap
+```
+
+It will prompt you for input, accept them by typing 'y' and hitting enter (as some prompts are defaulted to 'no' when you hit enter). The Pi will need a reboot when prompted to do so. Once it has rebooted, you should see a new WiFi called ``raspi-webgui``. This is the newly configured access point. The default parameters are as below:
+* SSID: raspi-webgui
+* Password: ChangeMe
+* IP address: 10.3.141.1
+  - Login Username: admin
+  - Login Password: secret
+  - DHCP range: 10.3.141.50 to 10.3.141.255
+
+You can log into the web interface, and change parameters by using the login details listed above. These are the default parameters, so you may wish to change them.
+
+
 **ADD MORE HERE FOR ANY CODE DEPLOYMENT**
