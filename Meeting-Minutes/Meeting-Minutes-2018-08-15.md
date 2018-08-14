@@ -7,3 +7,5 @@
 * Conflict resolution strategy
 * More meaningful repository folder names (Docs)
 * Work diary
+* change feedback form to more public/client friendly
+* Ben had trouble finding the requirements doc
