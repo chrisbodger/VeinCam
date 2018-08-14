@@ -4,8 +4,9 @@
 * Rank stretch goals by achievability, based on requirements
 * Development of risk analysis
 * Discuss decision making document, track decisions and how they are made in the group
-* Conflict resolution strategy
+* Conflict resolution strategy?
 * More meaningful repository folder names (Docs)
 * Work diary
-* change feedback form to more public/client friendly
+* Change feedback form to more public/client friendly
 * Ben had trouble finding the requirements doc
+* Ben's feedback on ConOps so far
