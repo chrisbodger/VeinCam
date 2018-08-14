@@ -56,6 +56,12 @@
 
 ---
 
+## Tutor Feedback
+* Marking harsh - but if we continue to look at feedback and respond appropriately then should improve.
+* Make sure repository is active work.
+
+---
+
 ## Actionables
 * Chris to:
   * 
