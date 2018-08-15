@@ -52,11 +52,11 @@ As this project is building on what was achieved by the Venenfinder project, it 
 | Camera | Camera | Vein Identification |
 | Manual Brightness Adjustment | Auto Brightness Adjustment | Smaller Platform |
 | Manual Contrast Adjustment | Auto Contrast Adjustment | Extended Battery Life |
-| Manual IR Adjustment | Auto IR Adjustment | - |
-| - | Wireless | - |
-| - | Portable | - |
-| - | Smaller Footprint | - |
-| - | AI Image Processing | - |
+| Manual IR Adjustment | Auto IR Adjustment | . |
+| . | Wireless | . |
+| . | Portable | . |
+| . | Smaller Footprint | . |
+| . | AI Image Processing | . |
 
 #### Venenfinder Features
 The Venenfinder team were able to produce a device that was able to use a near-Infrared light to illuminate a patient's veins. The device uses a Raspberry Pi, a noIR camera module, and a 3x3 array of IR LEDs. Brightness of the LEDs and contrast ratios were manually adjusted using potentiometers to adjust intercepted voltages between the array and the RPi. The camera image is then streamed to a secondary web enabled device through a web browser. This method works for devices ranging from mobile phones to desktop PCs.  Unfortunately the device was quite large and bulky, resulting in the need for an external power source.
