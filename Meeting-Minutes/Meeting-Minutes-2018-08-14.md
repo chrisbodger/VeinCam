@@ -10,11 +10,10 @@
 
 ---
 
-## Agenda
-* Project Update
-  * Second meeting with the client had this weekend (Saturday)
-  * Discussed recent setback - are not able to use the Venenfinder HackADay code (Alex)
-  * Initial tutorial document has been added onto the repository - First draft, currently, it only has the system installation/preparation instructions. Once more fleshed out software is complete, download and implementation instructions will be added to the document.
+## Project Update
+* Second meeting with the client had this weekend (Saturday)
+* Discussed recent setback - are not able to use the Venenfinder HackADay code (Alex)
+* Initial tutorial document has been added onto the repository - First draft, currently, it only has the system installation/preparation instructions. Once more fleshed out software is complete, download and implementation instructions will be added to the document.
 * Progressing well with improved governance practices and more documentation for clarification
 
 ---
