@@ -8,7 +8,7 @@
 3. Discuss decision making document, track decisions and how they are made in the group
 4. Conflict resolution strategy and work diary
 5. More meaningful repository folder names (Docs)
-  * Ben had trouble finding the requirements doc
+   * Ben had trouble finding the requirements doc
 6. Change feedback form to more public/client friendly
 7. Ben's feedback on ConOps so far
 
