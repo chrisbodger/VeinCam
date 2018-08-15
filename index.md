@@ -1,3 +1,5 @@
-<p style="text-align: center;"> # Title </p>
+<div style="text-align:center"><img src ="/images/progress-images/test-stream-result-crop" /></div>
 
-Why don't you work?
+![Test Stream](/images/progress-images/test-stream-result-crop)
+
+# Title
