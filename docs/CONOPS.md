@@ -47,7 +47,7 @@ As this project is building on what was achieved by the Venenfinder project, it 
 
 #### Feature Summary
 | Venenfinder | VeinCam | Future Development |
-| --- | --- | --- |
+| :---: | :---: | :---: |
 | IR Illumination | IR Illumination | Various Skin Conditions |
 | Camera | Camera | Vein Identification |
 | Manual Brightness Adjustment | Auto Brightness Adjustment | Smaller Platform |
