@@ -10,12 +10,13 @@
 ---
 
 ## Agenda
-* Project progress update.
-* We have now had our first audit
-* Ranking of deliverables to prioritise their completion (refer to [ConOps](docs/CONOPS.md) for list)
+1. Project progress update.
+   * We have now had our first audit
+2. Ranking of deliverables to prioritise their completion (refer to [ConOps](docs/CONOPS.md) for list)
+3. Embedded screen vs not
+
 * Steph needs to do a microgrant now we know exactly what we need??
 * Review gantt chart of indicative schedule with Ben
-* Embedded screen vs not
 
 ### Project team only - ConOps to work on
 * Stakeholder analysis and requirements to add (Steph done in documents, not sure how best to put up on the Git)
@@ -24,12 +25,12 @@
 
 ---
 
-## Progress Update
+## 1. Progress Update
 * Start new code as the venenfinder is outdated/messy.
 
 ---
 
-## Deliverables
+## 2. Deliverables
 * Remove manual adjustment of brightness.
   * Automate that process in hardware to get image off the bat.
     * Then use that to go through software adjustments.
@@ -43,7 +44,7 @@
 
 ---
 
-## Requirements
+## 3. Requirements
 * Integrated screen could complicate and be less useful.
   * More components for the battery.
   * Having a screen next to the arm could be more helpful for keeping an eye on both.
