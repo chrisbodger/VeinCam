@@ -10,24 +10,24 @@
 ---
 
 ## Agenda
-* Preliminary requirements analysis
-* Role assignment:
-  * Convenor Liaison (Steph Pratt)
-  * Client Liaison (Steph Pratt)
-  * Lead Programmer (Alexander Ollman)
-  * Lead Hardware Engineer (Chris Bodger)
-  * Secretary (Joey McPhail)
-    * Updating Landing Page
-    * Keeping Meeting Minutes
-    * Maintaining the Repository
-* ConOps review
-  * Landing page vs ConOps
+1. Preliminary requirements analysis
+2. Role assignment:
+   * Convenor Liaison (Steph Pratt)
+   * Client Liaison (Steph Pratt)
+   * Lead Programmer (Alexander Ollman)
+   * Lead Hardware Engineer (Chris Bodger)
+   * Secretary (Joey McPhail)
+     * Updating Landing Page
+     * Keeping Meeting Minutes
+     * Maintaining the Repository
+3. ConOps review
+   * Landing page vs ConOps
 
 ---
 
 ## Internal Communication Activity Log
 2 meetings organised:
-- Wednesday 1st August 11am (Intenal)
+- Wednesday 1st August 11am (Internal)
 - Saturday 4th August 2pm (with client)
 
 Landing Page Created using ConOps on GitHub
@@ -35,7 +35,7 @@ https://chrisbodger.github.io/VeinCam/
 
 ---
 
-## Preliminary Requirements Analysis
+## 1. Preliminary Requirements Analysis
 What we want from the meeting (potential deliverables)
 * Project Scope
 * Project Milestones
@@ -53,7 +53,7 @@ What we want from the meeting (potential deliverables)
     * Cost of parts we will need to spend
 * Prototype testing in intended environment
 
-## ConOps
+## 3. ConOps
 * ConOps needs to be signed off by stakeholders.
 * Needs to be finalised
 * Sign off requirements - electronic or written
@@ -70,7 +70,7 @@ What we want from the meeting (potential deliverables)
   * Draft documents begun
   * https://docs.google.com/spreadsheets/d/1nfNqFCF2ieP5CyVmqDSeZ3oXegxcCG4hojdd6fMcq9Y/edit?usp=sharing
 
-## Landing Page
+## 3. Landing Page
 * Landing Page to be created with links to repository documents
   * try to have done before Monday 6th (Chris and Joey)
 * Content of Landing Page:
