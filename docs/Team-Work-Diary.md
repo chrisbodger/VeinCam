@@ -29,7 +29,10 @@ Progress from start of project as at 15/8/18
 * Feedback from client for conops reviewed and ConOps updated accordingly 
 * feedback from client for requirements received
 
-16/8/18 Steph. Joey
+16/8/18 Steph, Joey
 * Issues added, Joey to address client feedback requirements
   * Feedback addressed, awaiting confirmation at client meeting.
   
+16/8/18 Joey
+* Decision Making/Conflict Resolution added to ConOps and Decision Log.
+  * Column "Stakeholders Involved" added to decision log.
