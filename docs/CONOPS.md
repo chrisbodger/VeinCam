@@ -314,7 +314,7 @@ An [indicative schedule](https://docs.google.com/spreadsheets/d/1nfNqFCF2ieP5CyV
    4.5. Organise repository  
 
 ### Decision Making and Conflict Resolution
-Decision making will be by consensus in consultation with the client. When consensus cannot be reached the project team will seek advice from other stakeholders depending on the nature of the decision. For further detail please refer to the [Decision Log](docs/decision-log.md).
+Decision making will be by consensus in consultation with the client. When consensus cannot be reached the project team will seek advice from other stakeholders depending on the nature of the decision. For further detail please refer to the [Decision Log](/docs/Decision-Log.md).
 
 ---
 
