@@ -22,12 +22,14 @@ Progress from start of project as at 15/8/18
 * Steph and Joey currently assigned research
 * Decision log created and first contribution added
 
-15/8/18 Steph, Alex, joey
+15/8/18 Steph, Alex, Joey
 * Group meeting conducted. Minutes recorded. 
 
 15/8/18 Steph
 * Feedback from client for conops reviewed and ConOps updated accordingly 
 * feedback from client for requirements received
 
-16/8/18 Steph
+16/8/18 Steph. Joey
 * Issues added, Joey to address client feedback requirements
+  * Feedback addressed, awaiting confirmation at client meeting.
+  
