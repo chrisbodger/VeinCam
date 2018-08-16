@@ -21,6 +21,7 @@
   * [Audit Goals](#audit-goals)
   * [Timelines](#timelines)
   * [Work Breakdown Structure](#work-breakdown-structure)
+  * [Decision Making and Conflict Resolution](#decision-making-and-conflict-resolution)
 * [Risk Analysis](#risk-analysis)
   * [Safety Risk Analysis](#safety-risk-analysis)
 * [References](#references)
@@ -94,7 +95,7 @@ The project team consists of four undergraduate engineers who each have roles as
 | Stephanie Pratt | Stakeholder Liaison, Lead Researcher | u5822871@anu.edu.au |
 | Jonathan McPhail | Secretary | u5351489@anu.edu.au |
 
-#### Responisbilities of the project team to the project
+#### Responsibilities of the project team to the project
 * Fulfil the tasks assigned by the team within the desired time frame to the best of their ability.
 * Communicate the progress and setbacks of their tasks regularly with the team.
 * Commit to regularly attending scheduled meetings, or otherwise remain up to date with meeting minutes and contributing to meeting agendas.
@@ -245,7 +246,7 @@ The initial deliverables are as follows:
 
 #### Baseline Deliverable
 * Configure device based on Venenfinder to be able to automatically adjust contrast.
-* Design and manufacture a prototype chassis to house Pi modules to allow for handsfree real time visualization
+* Design and manufacture a prototype chassis to house Pi modules to allow for handsfree real time visualization.
 
 #### Stretch Deliverables
 * Design or source an appropriate hands free stand to mount the device
@@ -254,8 +255,7 @@ The initial deliverables are as follows:
 
 #### Ultra-Stretch Deliverables or Future Project Aims
 * Configure device to run off of Pi Zero module
-  - Offload image processing to secondary device
-
+  * Offload image processing to secondary device
 
 ### Milestones
 Further detail on the optimisation of milestones and design aims of the prototype are detailed in the Requirements document. 
@@ -312,6 +312,9 @@ An [indicative schedule](https://docs.google.com/spreadsheets/d/1nfNqFCF2ieP5CyV
    4.3. Create "How-to" guide  
    4.4. Create poster  
    4.5. Organise repository  
+
+### Decision Making and Conflict Resolution
+Decision making will be by consensus in consultation with the client. When consensus cannot be reached the project team will seek advice from other stakeholders depending on the nature of the decision. For further detail please refer to the [Decision Log](docs/decision-log.md).
 
 ---
 
