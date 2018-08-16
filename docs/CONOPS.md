@@ -139,6 +139,15 @@ Ben is medical student at the ANU and an employee of ACT Health. He personally b
 ### Shadow Team
 ANU undergraduate engineering students, tasked with reviewing this project to provide an external viewpoint on the outputs and governance of the project.
 
+| Name | Email |
+| --- | --- |
+| Ethan Stanbury | u6048363@anu.edu.au |
+| Jiacong Zhao | u6029134@anu.edu.au |
+| Jiarui Wang | u5879960@anu.edu.au |
+| Liam Highmore | u5563628@anu.edu.au |
+| Namisha Chabbra | u5644087@anu.edu.au |
+| Yifei Ren | u6137095@anu.edu.au |
+
 #### Responsibilities of the project team to the shadow team
 * Provide shadows access to all information surrounding the project, including repositories, documentation and relevant communications.  This information should be up-to-date and presented appropriately.
 * Be open to feedback from all channels from shadows, and act on feedback appropriately.
