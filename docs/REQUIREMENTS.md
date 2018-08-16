@@ -28,13 +28,15 @@
 | 4 | Form Factor | mm | <100 x 70 x 50 |
 | 5.1 | Surface Roughness (R<sub>a</sub>) | &mu;m | <10 |
 | 5.2 | Gapless Case | mm | <1 |
-| 6 | User Acceptance | % | >90 |
+| 6.1 | User Acceptance | % | >90 |
+| 6.2 | Boot Time | s | <10 |
+| 6.3 | OS Compatibility | # | >3 |
 | 7.1 | Construction Steps | # | <5 |
 | 7.2 | Construction Time | hrs | <2 |
 | 8.1 | Automatic Contrast Adjustment (for any complexion) | % | 80 |
-| 8.2 | Automatic Contrast Adjustment (for any amount of hair) | % | 80 |
+| 8.2 | Automatic Contrast Adjustment (for high BMI/obesity) | % | 80 |
 | 8.3 | Automatic Contrast Adjustment (for tattooed area) | % | 80 |
-| 8.4 | Automatic Contrast Adjustment (for non-white background) | % | 80 |
+| 8.4 | Automatic Contrast Adjustment (for any amount of hair) | % | 80 |
 | 8.5 | Visualise Vascular Blood Flow | % | 80 |
 
 ### Description
@@ -60,7 +62,13 @@
 
 **5.2. Gapless Case -** The size of gaps in the case. Must be small to ensure protection of electronics from wiping.
 
-**6. User Acceptance -** The success rate that the device with users. Measured by user testing and feedback.
+**6.1. User Acceptance -** The success rate that the device with users. Measured by user testing and feedback.
+
+**6.2. Boot Time -** The time taken from switching the device on to an image being produced.
+
+**6.3. OS Compatibility -** The number of operating systems that the device is compatible with.
+
+*Note - More specifications may be generated for Requirement 6 after initial testing.*
 
 **7.1. Construction Steps -** The number of steps needed to construct the device from scratch.
 
