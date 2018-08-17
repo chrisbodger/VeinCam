@@ -1,5 +1,13 @@
 # Meeting Minutes - 15/8/2018
 
+| Attending: | Absent: |
+| :---: | :---: |
+| Joey McPhail | Chris Bodger |
+| Steph Pratt | |
+| Alex Ollman | |
+
+---
+
 ## Agenda
 1. Rank stretch goals by achievability, based on requirements
 2. Development of risk analysis
