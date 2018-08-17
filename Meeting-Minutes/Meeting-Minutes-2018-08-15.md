@@ -1,7 +1,5 @@
 # Meeting Minutes - 15/8/2018
 
-<span style="color:red">
-
 ## Agenda
 1. Rank stretch goals by achievability, based on requirements
 2. Development of risk analysis
@@ -11,8 +9,6 @@
    * Ben had trouble finding the requirements doc
 6. Change feedback form to more public/client friendly
 7. Ben's feedback on ConOps so far
-
-</span>
 
 ---
 
