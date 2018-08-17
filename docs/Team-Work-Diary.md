@@ -5,10 +5,14 @@ Instruction: Team members to add progress of assigned tasks, including date of u
 
 ## Hardware and Software Activities
 
-Progress from start of project as at (date)
-* (Chris and Alex can you please update this- major tasks/decisions made so far)
+Progress from start of project as at 15/08/2018
+* Assembled the hardware into the proposed configuration
+* Installed and prepared the operating system as per the VeinCam Tutorial (Install OS, OpenCV and PaspAP softwares).
+* Performed testing of the hardware with sample code provided by the Raspberry Pi documentation.
 
-
+17/08/2018
+* Alex researching into the implementation of manual software controls - intermediary step to automatic controls. Rudamentary control methods in place, yet to make them actionable.
+* Chris designing an enclosure for the device and components using CAD software. Several concepts in mind, looking for a compact, ergonomic form factor.
 
 ## Documentation, Research, Meetings and other Governance Activities
 
