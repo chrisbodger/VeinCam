@@ -232,17 +232,16 @@ An initial Bill of Materials has been drafted below of what we expect the projec
 | Component | Cost (AUD) | Supplied By Client |
 | --- | :---: | :---: |
 | Raspberry Pi 3 | $65 | Y |
-| Raspberry Pi Zero | $20 | Y |
 | Raspberry PiCam | $50 | Y |
 | Raspberry Pi Battery Module | $90 | Y |
-| 940nm near-Infrared LEDs | $15 | N |
-| 220 Ohm Resistors | $5 | N |
-| 40 Pin Female Header | $2 | N |
-| Neodymium Magnets | $5 | N |
-| IR Filter | $10 | N |
-| Sub-Total (Minus Client Provided Materials) | $37 |  |
-| Total | $262 |   |
+| 10 x 940nm near-Infrared LEDs | $15 | N |
+| 10 x 220 Ohm Resistors | $1 | N |
+| 8 x Neodymium Magnets | $5 | N |
+| IR Filter | $10 | Y |
+| Light Dependent Sensor | $4 | N |
+| Total | $240 |   |
 
+Please note these pricings are indicative and can change with the market. It is also worth noting that the client was kind enough to provide most of the hardware, as we can see in the table. This means the required costs during our development will be minimal to purchase the remaining inexpensive components.
 
 #### Programming
 * Source code from the Venenfinder HackADay project has been utilised, as it achieves close to the client's desired deliverable. This code will then be modified to achieve the client's desired features, including auto-vein focus.
