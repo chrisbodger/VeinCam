@@ -18,7 +18,16 @@
 ---
 
 ## 1. Project Update
-* 
+* Issues connecting python with HTML, Alex is looking at solutions.
+  * Also working on connecting the different open-source scripts to work together.
+* Startup time at the moment is at 20s from cold boot.
+  * Issue with using sleep mode is that scripts run on boot up.
+  * If we can add in an automatic off-mode (after 5 minutes of inactivity) then might not need to worry about sleep, especially if the boot time is low.
+* IR LEDs need to be sourced and wavelengths decided on.
+* Chassis concept design is up in the repository.
+  * Going to use magnet to connect to a stand.
+  * Have clear sections to show LEDs on RasPi indicating on/off and streaming.
+* Ben has a domain name (www.veincam.org) that we can point to the GitHub public page.
 
 ---
 
