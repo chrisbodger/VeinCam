@@ -13,36 +13,40 @@ Once the feedback has been received, an issue will be created within the GitHub 
 **Any feedback is welcome.**
 
 # 2. Progress Update
-## August 11th
-The feedback received from the first project audit has been reviewed and a number of immediate actions have been identified:
+## August 18th
+It has been a light week this week in terms of progress. We focused on finalising our documentation with the client.
 
-**Version Control and Task Tracking** - This Github repository has an issue tracking ability. This is generally used by coders to track bugs and issues raised by users and the team, where both parties can communicate on the progress and resolutions. This function is being utilised in a way that tracks actionables: it reminds the team what is outstanding so there is always clear direction. Once a task is complete, the issue is closed and can be found under the **Closed** tab.
+### Hardware/Software Update
+#### Software
+**Software** has hit a wall for the first time during this project. After the successive progress of preliminary testing of different programs in relation of what features were to be added to the project, it was the attempted merging of them that has slowed us down.
 
-**Informal Language** - Several feedback responses came back with the informal language used in formal documents such as the meeting minutes. It is understood that this may look careless in regards to the direction of the project, and the use of this language will be minimised moving forward.
+Python has a built-in HTML layer, which allows us to produce a stream from the camera and present it onto a web page for viewing on any web-enabled device. HTML natively has very little support for the execution of python scripts, which is essentially what the hardware runs on. This week has been research week, attempting to look into various programming languages as well as more complex extensions of Python to bridge the gap between HTML and Python. small progress has been made, as the creation of manual controls can be seen in the same window as the video stream. these controls are not functional at the time of writing, as the bridge between the two languages is still missing.
 
-**Team Roles** -  To provide clarity on the team's dynamic, it was agreed from the onset that the team would work with each other to compete each and every aspect of the projects development. The "Roles" shown in our ConOps are indicators of who is responsible for sections of the project and who can be contacted with specific questions regarding those sections by external stakeholders.
+It was also decided that the permanence of these manual controls is ideal, for 2 reasons:
+1. it allows the developers to absolutely understand how the adjustments to the image stream can be achieved for when the automatic controls are implemented
+2. it provides a backup in case the automatic adjust is not able to produce a clear image, and intervention is required.
 
-For additional actionables, please view the current outstanding issues. New issues have been created to action major points raised by feedback during the first audit period. The documents requested in the feedback are in the process of being drafted.
+This week will include further research onto how to overcome this obstacle, and move forward into successfully implementing these controls. We hope to have this obstacle cleared by the next audit.
 
+#### Hardware
+**Hardware** have begun a preliminary design for the outward appearance of the device, which we can see below.
 
-We would like to thank everyone who provided feedback, each little bit will prove to be useful and valuable to the success of this project.
+**EDIT IMAGES TO FIT PROPERLY**
 
-## Project Update
-We will endeavour to keep this section updated once a week at the least, if necessary then more often (e.g. after a meeting) as requested from the feedback. Unfortunately not much progress was made during the week, as team members were predisposed with other tasks.
+The client was happy with the general shape of this design, focusing on ergonomics as much as possible, as well as hygiene and ease of cleaning after each use. More work is required to accommodate ports, lights, and cooling. However once complete, a first print will be completed, to see how well it looks, prints and feels in the hand, and if any adjustments need to be made.
 
-### Hardware/Software
-Several attempts were made to get the HackADay software to run on the Raspberry Pi. Unfortunately, despite being configured appropriately, a connection to an external device could not be made. This meant that the first milestone could not be truly completed, as the HackADay concept could not be fully realised. The team put this down to changes in hardware and software versions in the last ~12 months, as well as the rushed nature of the Venenfinder code development. 
+The device will be mounted into the internal cavity, and the camera into the lid, with the IR filter sitting in the large recess on top. It is unclear how this will be achieved, but we are currently looking into acquiring a small adapter that can be fastened into the recess and the lens simply screwed on to.
 
-The decision was made to continue forward with the project and consider Milestone 1 complete. Enough information was learned during testing, and enough resources were collected to start developing more robust software for VeinCam. Already, a network stream has been established using new code. We can see in a sample image from this test code, we can visualise the veins in the arms of one of the team members:
+Small magnets will hold the lid closed while the small lip on the lid will prevent it from slipping around. the IR LEDs will also be embedded into the lid in a circular pattern around the camera filter. The type of IR LED to use has become unclear, as there are conflicting resources about what wavelength to use that best penetrate the skin to visualise the veins. IR LEDs of different wavelengths will be acquired for testing, and to empirically confirm what wavelength is best, or if a mix of different wavelengths gives the best universal result (factoring in different skin colour and conditions).
 
-![First Test](images/progress-images/test-stream-result.png)
+There is a concern however, wavelengths nearest to the limit of infrared spectrum will be hard to obtain in a regular form factor. These LEDs seem to come in the SMD (Surface Mounted Device) form factor, with becomes more difficult to work with when soldering into a circuit, and require specialised techniques.
 
-Through the blurriness of a cropped image, and low output resolution, we can see what looks like the veins in their arms.
-
+These concerns will be addressed in due time. It is likely however that we will find that something slightly 'suboptimal' will prove to be enough for this project.
 
 ### Previous Progress Updates
 * [August 1st](Progress-Updates/progress-update-2018-08-01.md)
 * [August 7th](Progress-Updates/progress-update-2018-08-07.md)
+* [August 11th](Progress-Updates/progress-update-2018-08-11.md)
 
 # 3. Audit Log
 Here we will have the information, results, and feedback to our audits, and will be presented in the following links (as they are created):
@@ -63,7 +67,7 @@ Team meetings are scheduled twice a week, to ensure the team is aware of the ove
 * Wednesday 11pm
 * Saturday 2pm
 
-The Saturday Meeting is primarily made available for meeting with the client, and to provide a weekly update, where Wednesday is an internal midweek meeting to ensure our actionables are on track for completion. These times may vary, depending on the availability of the team, and client. 
+The Saturday Meeting is primarily made available for meeting with the client, and to provide a weekly update, where Wednesday is an internal midweek meeting to ensure our actionables are on track for completion. These times may vary, depending on the availability of the team, and client.
 
 Meeting Minutes can also be found in our repository:
 
