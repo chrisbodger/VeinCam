@@ -25,18 +25,18 @@
 | 2.5 | Battery Life | hrs | >1 |
 | 3.1 | Wireless Range | m | >1 |
 | 3.2 | Stream Delay | ms | <1000 |
-| 4 | Form Factor | mm | <100 x 70 x 50 |
+| 4 | Form Factor | mm | <150 x 90 x 70 |
 | 5.1 | Surface Roughness (R<sub>a</sub>) | &mu;m | <10 |
 | 5.2 | Gapless Case | mm | <1 |
 | 6.1 | User Acceptance | % | >90 |
-| 6.2 | Boot Time | s | <10 |
-| 6.3 | OS Compatibility | # | >3 |
+| 6.2 | Boot Time | s | <15 |
+| 6.3 | OS Compatibility | # | >2 |
 | 7.1 | Construction Steps | # | <5 |
 | 7.2 | Construction Time | hrs | <2 |
 | 8.1 | Automatic Contrast Adjustment (for any complexion) | % | 80 |
 | 8.2 | Automatic Contrast Adjustment (for high BMI/obesity) | % | 80 |
-| 8.3 | Automatic Contrast Adjustment (for tattooed area) | % | 80 |
-| 8.4 | Automatic Contrast Adjustment (for any amount of hair) | % | 80 |
+| 8.3 | Automatic Contrast Adjustment (for any amount of hair) | % | 80 |
+| 8.4 | Automatic Contrast Adjustment (for tattooed area) | % | 80 |
 | 8.5 | Visualise Vascular Blood Flow | % | 80 |
 
 ### Description
