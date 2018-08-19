@@ -43,7 +43,15 @@ There is a concern however, wavelengths nearest to the limit of infrared spectru
 
 These concerns will be addressed in due time. It is likely however that we will find that something slightly 'suboptimal' will prove to be enough for this project.
 
-### Previous Progress Updates
+## Governance
+The ConOps have been finalised and the client is happy with the content. The only thing that remains is to create a contract and have it signed by the relevant stakeholders.
+
+Requirements have also been developed with the client to reach a set that was accepted by the client. While these have been accepted they are subject to revision with prototyping and further research.
+
+### Research (Steph to add?)
+
+
+## Previous Progress Updates
 * [August 1st](Progress-Updates/progress-update-2018-08-01.md)
 * [August 7th](Progress-Updates/progress-update-2018-08-07.md)
 * [August 11th](Progress-Updates/progress-update-2018-08-11.md)
