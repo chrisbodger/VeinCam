@@ -1,4 +1,4 @@
-<div style="text-align:center"><img src ="images/design-images/top-render-1-crop.png" /></div>
+<div style="text-align:center"><img src ="images/design-images/side-render-1-crop.png" /></div>
 
 # What We're Doing
 The main goal of our project is to ease patient discomfort. To do this we're using the VeinCam to make it easier for medical professionals to see veins in patients for superficial venous puncture.
