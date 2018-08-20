@@ -43,3 +43,8 @@ Progress from start of project as at 15/8/18
 16/8/18 Joey
 * Decision Making/Conflict Resolution added to ConOps and Decision Log.
   * Column "Stakeholders Involved" added to decision log.
+
+21/8/18 Steph
+* Reviewed email from Client regarding sourcing LEDs - pass this on to the team
+* Received confirmation from Convenor regarding Open Day presenting 
+* Requested Client permission for Open Day presenting
