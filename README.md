@@ -31,7 +31,9 @@ This week will include further research onto how to overcome this obstacle, and 
 #### Hardware
 **Hardware** have begun a preliminary design for the outward appearance of the device, which we can see below.
 
-**EDIT IMAGES TO FIT PROPERLY**
+<div style="text-align:center"><img src ="images/design-images/side-render-1-crop.png" /></div>
+
+<div style="text-align:center"><img src ="images/design-images/top-render-1-crop.png" /></div>
 
 The client was happy with the general shape of this design, focusing on ergonomics as much as possible, as well as hygiene and ease of cleaning after each use. More work is required to accommodate ports, lights, and cooling. However once complete, a first print will be completed, to see how well it looks, prints and feels in the hand, and if any adjustments need to be made.
 
@@ -47,9 +49,6 @@ These concerns will be addressed in due time. It is likely however that we will 
 The ConOps have been finalised and the client is happy with the content. The only thing that remains is to create a contract and have it signed by the relevant stakeholders.
 
 Requirements have also been developed with the client to reach a set that was accepted by the client. While these have been accepted they are subject to revision with prototyping and further research.
-
-### Research (Steph to add?)
-
 
 ## Previous Progress Updates
 * [August 1st](Progress-Updates/progress-update-2018-08-01.md)
@@ -80,7 +79,7 @@ The Saturday Meeting is primarily made available for meeting with the client, an
 Meeting Minutes can also be found in our repository:
 
 ## Last Meeting Minutes
-* [August 15th](Meeting-Minutes/Meeting-Minutes-2018-08-15.md)
+* [August 18th](Meeting-Minutes/Meeting-Minutes-2018-08-18.md)
 
 ## Previous Meeting Minutes
 * [July 31st](Meeting-Minutes/Meeting-Minutes-2018-07-31.md)  
@@ -89,6 +88,7 @@ Meeting Minutes can also be found in our repository:
 * [August 8th](Meeting-Minutes/Meeting-Minutes-2018-08-08.md)
 * [August 11th](Meeting-Minutes/Meeting-Minutes-2018-08-11.md)
 * [August 14th](Meeting-Minutes/Meeting-Minutes-2018-08-14.md)
+* [August 15th](Meeting-Minutes/Meeting-Minutes-2018-08-15.md)
 
 # 6. Design Documents
 The design of the VeinCam will be presented here, once the ConOps has been approved, and progress/final designs are made available. the construction method of the device will also be presented here.
