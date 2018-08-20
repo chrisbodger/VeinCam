@@ -18,3 +18,4 @@ Our latest tests have been giving us some pretty good results as you can see bel
 
 <div style="text-align:center"><img src ="images/progress-images/test-stream-result-2.png" /></div>
 
+## For more details check out our [GitHub site](https://github.com/chrisbodger/VeinCam)
