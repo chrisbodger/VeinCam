@@ -2,62 +2,46 @@
 
 | Attending: | Absent: |
 | :---: | :---: |
-| Joey McPhail | Chris Bodger |
+| Joey McPhail | |
 | Steph Pratt | |
+| Chris Bodger | |
 | Alex Ollman | |
 | Shadow Team | |
 | Jenny Simmons | |
 
 ---
 
-## Project Update
-* Second meeting with the client had this weekend (Saturday)
-* Discussed recent setback - are not able to use the Venenfinder HackADay code (Alex)
-* Initial tutorial document has been added onto the repository - First draft, currently, it only has the system installation/preparation instructions. Once more fleshed out software is complete, download and implementation instructions will be added to the document.
-* Progressing well with improved governance practices and more documentation for clarification
+## Agenda (Project Update)
+1. Streaming/software progress
+2. Chassis CAD design
+3. Requirements and ConOps ready (need contract for ConOps sign-off)
+4. Public landing page has been adjusted (open to feedback)
+5. Additional feedback 
 
 ---
 
-## Project output
-* Develop specific, measurable requirements - Requirements document created
-* Haven't yet ranked stretch goals by achieveability but in Saturday client meeting, we discussed removing one of the stretch goal, this will now be easier to do based on the requirements
-* More engaging public landing page - currently researching best way to do this in GitHub
-* Detailed stakeholder analysis now in the ConOps
-* Clarification requested on how we are adding value to the project - Project Comparison section of ConOps created
-* Risk analysis will be developed a bit more over the next week
+## Streaming/software Progress
+* 
 
 ---
 
-## Decision making
-* Decision making document asked for - plan to discuss in the next meeting (Wednesday) the best way for everyone to contribute to that, including the best way to communicate how decisions are being made
-* Question regarding software/hardware updates in the decision log - unsure how detailed this needs to be 
-* Task tracking is also currently done in the GitHub - tracking of current issues as well as previous
-* Formalise language in meeting minutes will be made a priority
-
----
- 
-## Teamwork
-* Clarification of team roles - this has now been included in the ConOps under the Project Team section
-* Conflict resolution strategy - haven't yet addressed this. Any ideas how best to approach this from the group?
-  * Reach for consensus, refer to decision making strategy and documents.
-  * Ensure everyone has their ideas heard.
+## Chassis CAD Design
+* 
 
 ---
 
-## Communication
-* Main point in the feedback was decision making
-* One point was mentioned that we haven't explicitly stated anywhere the established frequency of client meetings - this is on the landing page under meeting minutes
-* More meaningful name than 'Docs' will be done this week
-* We consider that given the nature of our project that baseline weekly update is adequate, with major events can be added on an as needed basis - would like to hear feedback on why more may be necessary?
-* Feedback on agenda separate document or otherwise spearated from the meeting minutes
-  * Numbering agenda items and headings that address them.
-  * Having the agenda in a different colour.
+## Requirements and ConOps
+* 
 
 ---
 
-## Tutor Feedback
-* Marking harsh - but if we continue to look at feedback and respond appropriately then should improve.
-* Make sure repository is active work.
+## Public Landing Page
+* 
+
+---
+
+## Additional Feedback
+* 
 
 ---
 
@@ -69,6 +53,6 @@
 * Alex to:
   * 
 * Joey to:
-  * Clean up minutes docs (add numbers and colours)
+  * 
 * All:
   * 
