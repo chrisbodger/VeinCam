@@ -20,27 +20,27 @@
 
 ---
 
-## Streaming/software Progress
+## 1. Streaming/software Progress
 * 
 
 ---
 
-## Chassis CAD Design
-* 
+## 2. Chassis CAD Design
+* Magnets have been selected to hold the chassis together (and to the stand), they will have no effect on the electronics.
 
 ---
 
-## Requirements and ConOps
-* 
+## 3. Requirements and ConOps
+* Have considered battery life (refer to requirements)
 
 ---
 
-## Public Landing Page
-* 
+## 4. Public Landing Page
+* Should consider using more formal language (find a balance to make it engaging and professional)
 
 ---
 
-## Additional Feedback
+## 5. Additional Feedback
 * 
 
 ---
