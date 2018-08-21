@@ -17,6 +17,8 @@ Progress from start of project as at 15/08/2018
 18/08/2018
 * Preliminary design of the case presented to the client. He was overall happy with the design as it stands. will continue to work on to add further features to accommodate the Pi device.
 
+
+
 ## Documentation, Research, Meetings and other Governance Activities
 
 Progress from start of project as at 15/8/18
@@ -48,3 +50,10 @@ Progress from start of project as at 15/8/18
 * Reviewed email from Client regarding sourcing LEDs - pass this on to the team
 * Received confirmation from Convenor regarding Open Day presenting 
 * Requested Client permission for Open Day presenting
+
+22/8/18 Steph
+* Reviewed email from Client confirming permission for Open Day presenting
+* Created resources file in the Git to store info about purchasing new hardware
+* Emailed Convenor about Open Day
+* Client passed on that he has linked veincam.org to the Github site
+
