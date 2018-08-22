@@ -1,8 +1,9 @@
 # Device Requirements and Design Specifications
-
-Requirements have been developed through conversation with the project client resulting in a total of eight that would make the VeinCam a success.
+Requirements were gathered from the client and refined into measurable specifications. The sets of both requirements and specifications should be considered evolutionary and may change through prototyping and testing.
 
 ## Requirements
+Requirements have been developed through conversation with the project client resulting in a total of eight that would make the VeinCam a success.
+
 | ID | Requirement |
 | --- | --- |
 | 1 | The device must be inexpensive compared to devices that have similar functions |
