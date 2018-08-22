@@ -3,11 +3,7 @@
 
 @import "{{ site.theme }}";
 
-@font-face {
-  font-family: 'Baloo';
-  font-style: normal;
-  src: url(https://fonts.googleapis.com/css?family=Baloo) format('woff2');
-}
+@import url(https://fonts.googleapis.com/css?family=Baloo|Open+Sans)
 
 h1 {
   margin: 10px 0;
