@@ -67,3 +67,4 @@ Progress from start of project as at 15/8/18
 * Initial market research performed, at least four competitors found.
 * Landing page content updated.
 * Work diary link added to readme.
+* Added small section in testing to the ConOps.
