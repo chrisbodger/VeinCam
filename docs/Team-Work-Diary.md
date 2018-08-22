@@ -65,3 +65,5 @@ Progress from start of project as at 15/8/18
 * Font-style of landing page adjuest to client's original type.
 * ConOps contract created.
 * Initial market research performed, at least four competitors found.
+* Landing page content updated.
+* Work diary link added to readme.
