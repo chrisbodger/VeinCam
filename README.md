@@ -56,7 +56,7 @@ Requirements have also been developed with the client to reach a set that was ac
 * [August 11th](Progress-Updates/progress-update-2018-08-11.md)
 
 ## Work Diary
-For more detailed information on the work that has been completed please refer to the [work diary](docs/Team-Work_Diary.md)
+For more detailed information on the work that has been completed please refer to the [work diary](docs/Team-Work-Diary.md)
 
 # 3. Audit Log
 Here we will have the information, results, and feedback to our audits, and will be presented in the following links (as they are created):
