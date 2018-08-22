@@ -17,7 +17,8 @@ Progress from start of project as at 15/08/2018
 18/08/2018
 * Preliminary design of the case presented to the client. He was overall happy with the design as it stands. will continue to work on to add further features to accommodate the Pi device.
 
-
+22/08/2018
+The first prototype case design ready to be printed. Chris will start the print in the makerspace overnight and will need to pickuped the following day.
 
 ## Documentation, Research, Meetings and other Governance Activities
 
