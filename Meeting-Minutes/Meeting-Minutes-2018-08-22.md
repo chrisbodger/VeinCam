@@ -59,4 +59,4 @@
 * Joey to:
   * 
 * All:
-  * 
+  * Keep work diary updated
