@@ -1,5 +1,7 @@
 # Device Requirements and Design Specifications
 
+Requirements have been developed through conversation with the project client resulting in a total of eight that would make the VeinCam a success.
+
 ## Requirements
 | ID | Requirement |
 | --- | --- |
@@ -15,6 +17,8 @@
 *Requirement 8 is part of a stretch deliverable for the project.
 
 ## Specifications
+The requirements were broken down into specifications that will provide validation for the project and can be verified through testing.
+
 | ID | Specification | Metric | Benchmark |
 | --- | --- | --- | --- |
 | 1 | Total Cost | $ | <250 |
@@ -72,7 +76,7 @@
 
 **7.1. Construction Steps -** The number of steps needed to construct the device from scratch.
 
-**7.2. Construction Time -** The time taken for an independent user to construct the device from scratch.
+**7.2. Construction Time -** The time taken for an independent user to construct the device from scratch. To be tested by independent users.
 
 **8.1-4. Automatic Contrast Adjustment (for various use cases) -** Similar to 2.1. however in scenarios where vein detection has been shown to be more difficult.
 
