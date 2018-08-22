@@ -47,6 +47,9 @@ Progress from start of project as at 15/8/18
 * Decision Making/Conflict Resolution added to ConOps and Decision Log.
   * Column "Stakeholders Involved" added to decision log.
 
+20/8/18 Joey
+* Landing page changed over to a more public friendly style
+
 21/8/18 Steph
 * Reviewed email from Client regarding sourcing LEDs - pass this on to the team
 * Received confirmation from Convenor regarding Open Day presenting 
@@ -58,3 +61,6 @@ Progress from start of project as at 15/8/18
 * Emailed Convenor about Open Day
 * Client passed on that he has linked veincam.org to the Github site
 
+22/8/18 Joey
+* Font-style of landing page adjuest to client's original type.
+* ConOps contract created.
