@@ -17,7 +17,8 @@ Progress from start of project as at 15/08/2018
 18/08/2018
 * Preliminary design of the case presented to the client. He was overall happy with the design as it stands. will continue to work on to add further features to accommodate the Pi device.
 
-
+22/08/2018
+The first prototype case design ready to be printed. Chris will start the print in the makerspace overnight and will need to pickuped the following day.
 
 ## Documentation, Research, Meetings and other Governance Activities
 
@@ -46,6 +47,9 @@ Progress from start of project as at 15/8/18
 * Decision Making/Conflict Resolution added to ConOps and Decision Log.
   * Column "Stakeholders Involved" added to decision log.
 
+20/8/18 Joey
+* Landing page changed over to a more public friendly style
+
 21/8/18 Steph
 * Reviewed email from Client regarding sourcing LEDs - pass this on to the team
 * Received confirmation from Convenor regarding Open Day presenting 
@@ -57,3 +61,10 @@ Progress from start of project as at 15/8/18
 * Emailed Convenor about Open Day
 * Client passed on that he has linked veincam.org to the Github site
 
+22/8/18 Joey
+* Font-style of landing page adjuest to client's original type.
+* ConOps contract created.
+* Initial market research performed, at least four competitors found.
+* Landing page content updated.
+* Work diary link added to readme.
+* Added small section in testing to the ConOps.
