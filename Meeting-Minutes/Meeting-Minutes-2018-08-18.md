@@ -1,4 +1,4 @@
-# Meeting Minutes - 15/8/2018
+# Meeting Minutes - 18/8/2018
 
 | Attending: | Absent: |
 | :---: | :---: |
