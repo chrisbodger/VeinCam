@@ -18,7 +18,16 @@ Progress from start of project as at 15/08/2018
 * Preliminary design of the case presented to the client. He was overall happy with the design as it stands. will continue to work on to add further features to accommodate the Pi device.
 
 22/08/2018
-The first prototype case design ready to be printed. Chris will start the print in the makerspace overnight and will need to pickuped the following day.
+* The first prototype (v1.0) case design ready to be printed. Chris will start the print in the makerspace overnight and will need to picked up the following day.
+
+23/08/2018
+
+**Hardware**
+* Case v1.0 printed successfully, with a few minor defects. The simple supports for the Pi were easy to break, and most of the support material did not come away easily. Case v1.1 should be started today, hopefully to be picked up tomorrow for ANU Open Day. V1.1 brings stronger Pi supports, a more flush interface with the lid, enlarged openings for the IR LEDs, and a 180 degree reorientation when printing. this reorientation will generate more support material, but will hopefulle make for an easier clean up post print.
+* The case shell was cleaned as best as possible and was determined to be too large for small hands. v2.0 has begun to address this, cutting the size down by almost 10mm all round. a proper mounting solution for the LED array will be embedded into the case lid as well, when the LED array has been constructed and finalised. further design improvementments to be implemented after our weekly meeting with the client.
+
+**Software**
+* Alex to fill out
 
 ## Documentation, Research, Meetings and other Governance Activities
 
@@ -68,3 +77,8 @@ Progress from start of project as at 15/8/18
 * Landing page content updated.
 * Work diary link added to readme.
 * Added small section in testing to the ConOps.
+
+24/8/18 Steph
+* Sent microgrant application to Course convenor
+* Completed research regarding medical device classification, regulation and marketing. Will upload this onto Git in the next week
+* Basic draft of audit 2 presentation started
