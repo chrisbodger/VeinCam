@@ -16,6 +16,6 @@ Right now we're still working on getting it up and running but we have an image 
 
 Our latest tests have been giving us some pretty good results as you can see below, but we're still working on adding automatic and manual contrast adjustment as well as a few other features.
 
-<div style="text-align:center"><img src ="images/progress-images/test-stream-result-2.png" /></div>
+<div style="text-align:center"><img src ="images/progress-images/test-stream-result-3-crop.png" /></div>
 
 ### For more details check out our [GitHub site](https://github.com/chrisbodger/VeinCam)
