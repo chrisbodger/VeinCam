@@ -77,3 +77,7 @@ Progress from start of project as at 15/8/18
 * Landing page content updated.
 * Work diary link added to readme.
 * Added small section in testing to the ConOps.
+
+24/8/18
+* Sent microgrant application to Course convenor
+* Completed research regarding medical device classification, regulation and marketing. Will upload this onto Git in the next week
