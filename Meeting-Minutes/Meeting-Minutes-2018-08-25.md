@@ -57,7 +57,7 @@
 * Steph to:
   * Look into other open source projects (e.g. diabetes pumps)
 * Alex to:
-  * 
+  * Sign documents.
 * Joey to:
   * 
 * All:
