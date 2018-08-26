@@ -82,3 +82,10 @@ Progress from start of project as at 15/8/18
 * Sent microgrant application to Course convenor
 * Completed research regarding medical device classification, regulation and marketing. Will upload this onto Git in the next week
 * Basic draft of audit 2 presentation started
+
+25/8/18 ALL project team
+* Open day presentation and user testing
+* Signoff of Conops and requirements by team and client
+
+27/8/18 Steph
+* Sent conops agreement to project tutor for signoff
