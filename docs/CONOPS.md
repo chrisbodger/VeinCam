@@ -1,5 +1,7 @@
 # Concept of Operations
 
+Version 1.0 Signed-off by stakeholders as of 27.8.18.
+
 ## Table of Contents
 * [Project Vision](#project-vision)
   * [Value Proposition](#value-proposition)
