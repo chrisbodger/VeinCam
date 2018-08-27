@@ -13,47 +13,35 @@ Once the feedback has been received, an issue will be created within the GitHub 
 **Any feedback is welcome.**
 
 # 2. Progress Update
-## August 18th
-It has been a light week this week in terms of progress. We focused on finalising our documentation with the client.
+## August 25th
+### Hardware/Software
+We have had a productive week on the hardware and software side of the project. We have successfully printed a prototype of the chassis, and have begun iterating on it to make it more suitable for the final product. A second print with some minor adjustments is underway and should be completed by our audit tutorial.
 
-### Hardware/Software Update
-#### Software
-**Software** has hit a wall for the first time during this project. After the successive progress of preliminary testing of different programs in relation of what features were to be added to the project, it was the attempted merging of them that has slowed us down.
+We found that the first chassis that was printed was quite large to hold, even by those with larger hands, and certainly would pose a challenge to hold by people with smaller hands. We determined that there was a lot of wasted space inside where the device is stored, and the next version will remove a lot of this space to slim down the device. The second version is currently being drawn up which will correct the dimensions and include a proper mounting system for the LED array, and after we have a time to inspect the v1.1 changes, more will be discovered and corrected in v2.0 and beyond. A new LED array will be constructed to be embedded in the new chassis.
 
-Python has a built-in HTML layer, which allows us to produce a stream from the camera and present it onto a web page for viewing on any web-enabled device. HTML natively has very little support for the execution of python scripts, which is essentially what the hardware runs on. This week has been research week, attempting to look into various programming languages as well as more complex extensions of Python to bridge the gap between HTML and Python. small progress has been made, as the creation of manual controls can be seen in the same window as the video stream. these controls are not functional at the time of writing, as the bridge between the two languages is still missing.
+On the side of software, we were able to achieve a histogram equalisation of a single frames, and push those frames to a local high frame-per-second video stream. This is a huge step towards our next milestone, and a step closer to finalising our product. The next goal for the project software is to feed the equalized video stream into the web stream so it can displayed on an external device, as well as applying colour filtering to further enhance the definition of veins.
 
-It was also decided that the permanence of these manual controls is ideal, for 2 reasons:
-1. it allows the developers to absolutely understand how the adjustments to the image stream can be achieved for when the automatic controls are implemented
-2. it provides a backup in case the automatic adjust is not able to produce a clear image, and intervention is required.
+### ANU Open Day
+The VeinCam team volunteered to showcase the project to visitors, including many ANU student prospects, during this year's ANU Open Day. Throughout the day, we aimed to try and gauge public interest and acceptance, as well as user testing and receiving specific feedback. It was great opportunity to have a large number of people of diverse skin types test our product to determine where we can improve the product at such an early stage so we can gauge what adjustments need to be made.
 
-This week will include further research onto how to overcome this obstacle, and move forward into successfully implementing these controls. We hope to have this obstacle cleared by the next audit.
+We tested the device on many different skin colours, and noticed the skin tone appeared to not be an issue in displaying a prominent image of the veins, with both lighter skin tones and a range of darker skin tones tested.  A substantial amount of arm hair was thought to be an issue with vein detection, but this was proved not to be the case, as the small sample of testers with a significant portion of arm hair had their veins show up quite clearly. 
 
-#### Hardware
-**Hardware** have begun a preliminary design for the outward appearance of the device, which we can see below.
+We had a small number of people with skin conditions visit, including eczema, calloused skin and blemishes. Unfortunately, the device was not able to detect veins underneath sections where calloused skin was present, which we thought it due to the areas being to thick for the IR light to penetrate. The other skin conditions were no issue in regards to vein detection. There were no tests on those with tattoos on the day.
 
-<div style="text-align:center"><img src ="images/design-images/side-render-1-crop.png" /></div>
+Vein detection through varying degrees of body fat was a primary concern of our client. Some testers came through with larger amounts of body fat around their arms, or simply had veins that were not on the surface of the skin, in which they were not able to have their veins detected by the device. The ability to detect veins through varying degrees of tissue will be very important function to focus on, as it may potentially determine whether or not our product can be used by a majority population and thus meet our project goals.
 
-<div style="text-align:center"><img src ="images/design-images/top-render-1-crop.png" /></div>
+It was also observed that lots of external lighting, most prominently fluorescent lights and sunlight, produce enough infrared (IR) light to affect our project's ability to clearly deifne veins. The histogram equalisation software was not able to adjust the contrast of the stream as there was too much ambient IR light in the room, and skewed the histogram of the image itself to be more in the whiter zones, and washing out the darker zones. We are still looking into ways of resolving this, but one method may be purchasing an IR filter for the device for a longer wavelength (~800nm) so more light is filtered out, and hopefully making the overall image darker. A software solution may exist which we will also be exploring.
 
-The client was happy with the general shape of this design, focusing on ergonomics as much as possible, as well as hygiene and ease of cleaning after each use. More work is required to accommodate ports, lights, and cooling. However once complete, a first print will be completed, to see how well it looks, prints and feels in the hand, and if any adjustments need to be made.
-
-The device will be mounted into the internal cavity, and the camera into the lid, with the IR filter sitting in the large recess on top. It is unclear how this will be achieved, but we are currently looking into acquiring a small adapter that can be fastened into the recess and the lens simply screwed on to.
-
-Small magnets will hold the lid closed while the small lip on the lid will prevent it from slipping around. the IR LEDs will also be embedded into the lid in a circular pattern around the camera filter. The type of IR LED to use has become unclear, as there are conflicting resources about what wavelength to use that best penetrate the skin to visualise the veins. IR LEDs of different wavelengths will be acquired for testing, and to empirically confirm what wavelength is best, or if a mix of different wavelengths gives the best universal result (factoring in different skin colour and conditions).
-
-There is a concern however, wavelengths nearest to the limit of infrared spectrum will be hard to obtain in a regular form factor. These LEDs seem to come in the SMD (Surface Mounted Device) form factor, with becomes more difficult to work with when soldering into a circuit, and require specialised techniques.
-
-These concerns will be addressed in due time. It is likely however that we will find that something slightly 'suboptimal' will prove to be enough for this project.
-
-## Governance
-The ConOps have been finalised and the client is happy with the content. The only thing that remains is to create a contract and have it signed by the relevant stakeholders.
-
-Requirements have also been developed with the client to reach a set that was accepted by the client. While these have been accepted they are subject to revision with prototyping and further research.
+Overall, our project received a lot of interest and patrons were intrigued and impressed with what we presented on the day; validating our progress and urging us to continue moving forward. 
+ 
+### Other Admin/Governance 
+Regarding documentation updates, we have now received signoff from all stakeholders for our Concept of Operations. Research is well underway to get a good idea of the product market, as well as information on commercialisation and medical procedures around the VeinCam. 
 
 ## Previous Progress Updates
 * [August 1st](Progress-Updates/progress-update-2018-08-01.md)
 * [August 7th](Progress-Updates/progress-update-2018-08-07.md)
 * [August 11th](Progress-Updates/progress-update-2018-08-11.md)
+* [August 18th](Progress-Updates/progress-update-2018-08-18.md)
 
 ## Work Diary
 For more detailed information on the work that has been completed please refer to the [work diary](docs/Team-Work-Diary.md)
@@ -82,7 +70,7 @@ The Saturday Meeting is primarily made available for meeting with the client, an
 Meeting Minutes can also be found in our repository:
 
 ## Last Meeting Minutes
-* [August 18th](Meeting-Minutes/Meeting-Minutes-2018-08-18.md)
+* [August 25th](Meeting-Minutes/Meeting-Minutes-2018-08-25.md)
 
 ## Previous Meeting Minutes
 * [July 31st](Meeting-Minutes/Meeting-Minutes-2018-07-31.md)  
@@ -92,6 +80,8 @@ Meeting Minutes can also be found in our repository:
 * [August 11th](Meeting-Minutes/Meeting-Minutes-2018-08-11.md)
 * [August 14th](Meeting-Minutes/Meeting-Minutes-2018-08-14.md)
 * [August 15th](Meeting-Minutes/Meeting-Minutes-2018-08-15.md)
+* [August 18th](Meeting-Minutes/Meeting-Minutes-2018-08-18.md)
+* [August 22nd](Meeting-Minutes/Meeting-Minutes-2018-08-22.md)
 
 # 6. Design Documents
 The design of the VeinCam will be presented here, once the ConOps has been approved, and progress/final designs are made available. the construction method of the device will also be presented here.
