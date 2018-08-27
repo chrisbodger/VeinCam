@@ -2,4 +2,5 @@
 
 
 ## Preliminary Feedback - ANU Open Day 25/8/18
-| Unique Features| Results |
+| Attending: | Absent: |
+| :---: | :---: |
