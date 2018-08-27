@@ -88,4 +88,5 @@ Progress from start of project as at 15/8/18
 * Signoff of Conops and requirements by team and client
 
 27/8/18 Steph
-* Sent conops agreement to project tutor for signoff
+* Sent conops agreement to project tutor for signoff - received signoff. Updated ConOps for Version 1.0 with all stakeholders signoff
+* Received acceptance of microgrant ($40) from course convenor. 
