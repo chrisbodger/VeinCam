@@ -89,4 +89,7 @@ Progress from start of project as at 15/8/18
 
 27/8/18 Steph
 * Sent conops agreement to project tutor for signoff - received signoff. Updated ConOps for Version 1.0 with all stakeholders signoff
-* Received acceptance of microgrant ($40) from course convenor. 
+* Received acceptance of microgrant ($40) from course convenor.
+
+27/8/18 Joey
+* Updated the public landing page with a few new images and current state of the project.
