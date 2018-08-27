@@ -93,3 +93,8 @@ Progress from start of project as at 15/8/18
 
 27/8/18 Joey
 * Updated the public landing page with a few new images and current state of the project.
+
+28/8/18 Steph
+* Created user feedback document in resources file of repository
+* Updated user feedback with preliminary results from open day 25/8/18
+* Created research document, starting compiling research
