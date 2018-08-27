@@ -1,4 +1,4 @@
-<div style="text-align:center"><img src ="images/design-images/side-render-1-crop.png" /></div>
+<div style="text-align:center"><img src ="images/progress-images/test-stream-result-3-crop.png" /></div>
 
 ## What We're Doing
 The main goal of our project is to ease patient discomfort. To do this we're developing the VeinCam to make it easier for medical professionals to visualise superficial veins in patients for venous puncture.
@@ -10,12 +10,13 @@ The VeinCam uses near infrared (nIR) light and a camera to stream a real-time im
 This page will provide all the necessary downloads, links and resources that you'll need to construct a VeinCam yourself.
 
 ## Where We're At Now
-Right now we're still working on getting it up and running but we have an image from our setup (as you can see we're using [Raspberry Pi](https://www.raspberrypi.org/) materials as they're available all over the world):
+We were able to show off our latest prototype at the ANU open day and doing some simple tests we were able to demonstrate our automatic contrast adjustment. We are still working on optimising this and getting a stream going to allow for wireless use.
 
-<div style="text-align:center"><img src ="images/progress-images/milestone-1-hardware-small.jpg" /></div>
+<div style="text-align:center"><img src ="images/progress-images/open-day-test-crop.jpg" /></div>
 
-Our latest tests have been giving us some pretty good results as you can see below, but we're still working on adding automatic and manual contrast adjustment as well as a few other features.
+We've also begun protoyping a chassis, but at the moment it is a bit big and the surface is rough. Bringing down the size and getting the 3D printing process optimised are our next steps.
 
-<div style="text-align:center"><img src ="images/progress-images/test-stream-result-3-crop.png" /></div>
+<div style="text-align:center"><img src ="images/prototype/prototype-1-crop.jpg" /></div>
+
 
 ### For more details check out our [GitHub site](https://github.com/chrisbodger/VeinCam)
