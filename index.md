@@ -14,9 +14,10 @@ We were able to show off our latest prototype at the ANU open day and doing some
 
 <div style="text-align:center"><img src ="images/progress-images/open-day-test-crop.jpg" /></div>
 
-We've also begun protoyping a chassis, but at the moment it is a bit big and the surface is rough. Bringing down the size and getting the 3D printing process optimised are our next steps.
+We've also begun protoyping a chassis, but at the moment it is a bit big and we're still working on mounting all the bits and pieces.
 
-<div style="text-align:center"><img src ="images/prototype/prototype-1-crop.jpg" /></div>
+<div style="text-align:center"><img src ="images/prototype/prototype-2-crop.jpg" /></div>
 
+<div style="text-align:center"><img src ="images/prototype/prototype-2-open-crop.jpg" /></div>
 
 ### For more details check out our [GitHub site](https://github.com/chrisbodger/VeinCam)
