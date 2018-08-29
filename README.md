@@ -70,7 +70,7 @@ The Saturday Meeting is primarily made available for meeting with the client, an
 Meeting Minutes can also be found in our repository:
 
 ## Last Meeting Minutes
-* [August 25th](Meeting-Minutes/Meeting-Minutes-2018-08-25.md)
+* [August 28th](Meeting-Minutes/Meeting-Minutes-2018-08-28.md)
 
 ## Previous Meeting Minutes
 * [July 31st](Meeting-Minutes/Meeting-Minutes-2018-07-31.md)  
@@ -82,6 +82,7 @@ Meeting Minutes can also be found in our repository:
 * [August 15th](Meeting-Minutes/Meeting-Minutes-2018-08-15.md)
 * [August 18th](Meeting-Minutes/Meeting-Minutes-2018-08-18.md)
 * [August 22nd](Meeting-Minutes/Meeting-Minutes-2018-08-22.md)
+* [August 25th](Meeting-Minutes/Meeting-Minutes-2018-08-25.md)
 
 # 6. Design Documents
 The design of the VeinCam will be presented here, once the ConOps has been approved, and progress/final designs are made available. the construction method of the device will also be presented here.
