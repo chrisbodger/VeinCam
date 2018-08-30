@@ -11,7 +11,7 @@ Progress from start of project as at 15/08/2018
 * Performed testing of the hardware with sample code provided by the Raspberry Pi documentation.
 
 17/08/2018
-* Alex researching into the implementation of manual software controls - intermediary step to automatic controls. Rudimentary control methods in place, yet to make them actionable.
+* Alex researching into the implementation of manual software controls in a HTML web page space - intermediary step to automatic controls. Rudimentary control methods in place, yet to make them actionable.
 * Chris designing an enclosure for the device and components using CAD software. Several concepts in mind, looking for a compact, ergonomic form factor.
 
 18/08/2018
@@ -27,7 +27,15 @@ Progress from start of project as at 15/08/2018
 * The case shell was cleaned as best as possible and was determined to be too large for small hands. v2.0 has begun to address this, cutting the size down by almost 10mm all round. a proper mounting solution for the LED array will be embedded into the case lid as well, when the LED array has been constructed and finalised. further design improvementments to be implemented after our weekly meeting with the client.
 
 **Software**
-* Alex to fill out
+* Scrapping the manual controls for the moment. Focussed more on the image processing and getting a clear, defined image of veins for Open Day. Constructed an script using OpenCV which would capture an image, perform a histogram equalisation of the image, and then feed the equalised image into a stream. The next major goal will be to parse this video stream into a web page that can be accessed by any external device. 
+
+27/08/2018
+
+**Hardware**
+* Alex constructed the LED array to be placed in the newly 3D-printed v1.1 enclosure for a full demonstration of our first complete prototype during the Audit 2 presentation. 
+
+**Presentation**
+* Steph presented our project to the tutors and tutorial group, including our shadow team. We received great feedback and plenty of questions, which gave us an idea of how others external to the group viewed our progress. The topics of commercialisation and hygiene (sterilizing our product for hospital environments) were raised and gave the group plenty to think about when considering the final design. The prototype demonstration went very well. 
 
 30/08/2018
 **Hardware**
@@ -97,6 +105,9 @@ Progress from start of project as at 15/8/18
 
 27/8/18 Joey
 * Updated the public landing page with a few new images and current state of the project.
+
+27/8/18 Alex and Chris
+* Discussion regarding next phase of hardware and software development, including defining and finalising modifications to the v2.0 design of the enclosure. 
 
 28/8/18 Steph
 * Created user feedback document in resources file of repository
