@@ -4,9 +4,9 @@ Some preliminary research has been done for supplementary information regarding 
 
 ## Regulatation of Medical Devices
 ### How are Medical Devices regulated in Australia
- * Therapeutic Goods Administration (TGA), a division of the Australian Government Department of Health and Ageing is responsible for administering the Act/legislation
- * The Office of Devices Authorisation (ODA) is the area within the TGA responsible for pre-market regulation of medical devices
- * Office of Product Review (OPR) responsible for post-market regulation of all therapeutic goods
+* Therapeutic Goods Administration (TGA), a division of the Australian Government Department of Health and Ageing is responsible for administering the Act/legislation
+* The Office of Devices Authorisation (ODA) is the area within the TGA responsible for pre-market regulation of medical devices
+* Office of Product Review (OPR) responsible for post-market regulation of all therapeutic goods
 -	The TGA may conduct assessments before a device is to be supplied to mark, and while it is available on the market
 -	Regulatory requirements vary depending on the device. The level of assessment performed by the TGA before the device is supplied in Australia directly related to the level of potential risk
 
@@ -41,25 +41,25 @@ Majority of medical devices must be included in the ARTG before being made avail
 
 1.	The manufacturer of a medical device is the person who is responsible for the design, production, packaging and labelling of the device before it is supplied under the person’s name, whether or not it is the person, or another person acting on the person’s behalf, who carries out those operations. 
 2.	If subsection (1) does not apply to a medical device, the manufacturer of the device is the person who, with a view to supplying the device under the person’s name, does one or more of the following using ready made products: 
-a.	assembles the device; 
-b.	packages the device; 
-c.	processes the device; 
-d.	fully refurbishes the device; 
-e.	labels the device; 
-f.	assigns to the device its purpose by means of information supplied, by the person, on or in any one or more of the following: 
-i.	the labelling on the device; 
-ii.	the instructions for using the device; 
-iii.	any advertising material relating to the device; 
-iv.	technical documentation describing the mechanism of the device. 
+  a.	assembles the device; 
+  b.	packages the device; 
+  c.	processes the device; 
+  d.	fully refurbishes the device; 
+  e.	labels the device; 
+  f.	assigns to the device its purpose by means of information supplied, by the person, on or in any one or more of the following: 
+     i.	the labelling on the device; 
+     ii.	the instructions for using the device; 
+     iii.	any advertising material relating to the device; 
+     iv.	technical documentation describing the mechanism of the device. 
 
 3.	However, a person is not the manufacturer of a medical device if: 
-a.	the person assembles or adapts the device for an individual patient; and 
-b.	the device has already been supplied by another person; and 
-c.	the assembly or adaptation does not change the purpose intended for the device by means of information supplied by that other person, on or in any one or more of the following: 
-i.	the labelling on the device; 
-ii.	the instructions for using the device; 
-iii.	any advertising material relating to the device. 
-iv.	technical documentation describing the mechanism of action of the device 
+  a.	the person assembles or adapts the device for an individual patient; and 
+  b.	the device has already been supplied by another person; and 
+  c.	the assembly or adaptation does not change the purpose intended for the device by means of information supplied by that other person, on or in any one or more of the following: 
+    i.	the labelling on the device; 
+    ii.	the instructions for using the device; 
+    iii.	any advertising material relating to the device. 
+    iv.	technical documentation describing the mechanism of action of the device 
 
 Manufacturer’s responsibilities
 -	Determine classification, intended purpose, appropriate GMDN code
@@ -134,18 +134,18 @@ Classification of medical devices – relates to the risk of the device and the 
 ### What is a Medical Device
 
 -	Any instrument, apparatus, appliance materials or other article (whether used alone or in combination, and including the software necessary for its proper application) intended, by te person under whose name it is or it to be supplied, to be used for human beings for the purpose of one or more of the following:
-o	Diagnosis, prevention, monitoring, treatment or alleviation of disease;
-o	Diagnosis, monitoring, treatment, alleviation of or compensation for an injury or disability;
-o	Investigation, replacement or modification of the anatomy or of a physiological process;
-o	Control of conception;
-o	And that does not achieve its principal intended action in or on the human body by pharmacological, immunological or metabolic means, but that may be assisted in its function by such means; or
-	Any instrument, apparatus, appliance, material or other article specified under subsection (2A); or
-	Any instrument, apparatus, appliance, material or any other article that is included in a class of instruments, apparatus, appliances,  materials or other articles specified under subsection (2B); or
-	An accessary to such an instrument, apparatus, appliance, material or other article covered by paragraph (all above).
+  o	Diagnosis, prevention, monitoring, treatment or alleviation of disease;
+  o	Diagnosis, monitoring, treatment, alleviation of or compensation for an injury or disability;
+  o	Investigation, replacement or modification of the anatomy or of a physiological process;
+  o	Control of conception;
+  o	And that does not achieve its principal intended action in or on the human body by pharmacological, immunological or metabolic means, but that may be assisted in its function by such means; or
+    	Any instrument, apparatus, appliance, material or other article specified under subsection (2A); or
+    	Any instrument, apparatus, appliance, material or any other article that is included in a class of instruments, apparatus, appliances,  materials or other articles specified under subsection (2B); or
+    	An accessary to such an instrument, apparatus, appliance, material or other article covered by paragraph (all above).
 -	Medical devices
-o	Are used for humans
-o	Have therapeutic benefits
-o	Generally have a physical or mechanical effect on the body or are used to measure or monitor functions of the body
+  o	Are used for humans
+  o	Have therapeutic benefits
+  o	Generally have a physical or mechanical effect on the body or are used to measure or monitor functions of the body
 
 ### Classification Rule and Class
 
