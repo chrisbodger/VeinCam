@@ -38,8 +38,9 @@ Progress from start of project as at 15/08/2018
 * Steph presented our project to the tutors and tutorial group, including our shadow team. We received great feedback and plenty of questions, which gave us an idea of how others external to the group viewed our progress. The topics of commercialisation and hygiene (sterilizing our product for hospital environments) were raised and gave the group plenty to think about when considering the final design. The prototype demonstration went very well. 
 
 30/08/2018
+
 **Hardware**
-Version 2.0 of the chassis has been completed, and printed has started on it for completion and assessment over the coming days. further changes are expected, and hopefully they will be minor so that it can be handed over to the client for testing, pending completion of the software.
+* Version 2.0 of the chassis has been completed, and printed has started on it for completion and assessment over the coming days. further changes are expected, and hopefully they will be minor so that it can be handed over to the client for testing, pending completion of the software.
 
 ## Documentation, Research, Meetings and other Governance Activities
 
