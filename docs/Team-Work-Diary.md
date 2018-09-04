@@ -114,3 +114,7 @@ Progress from start of project as at 15/8/18
 * Created user feedback document in resources file of repository
 * Updated user feedback with preliminary results from open day 25/8/18
 * Created research document, starting compiling research
+
+4/9/18 Joey
+* Created initial site design and architecture,
+* Created site pages to expand the website. Not yet complete.
