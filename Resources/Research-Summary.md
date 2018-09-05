@@ -133,7 +133,7 @@ Classification of medical devices – relates to the risk of the device and the 
 
 ### What is a Medical Device
 
--	Any instrument, apparatus, appliance materials or other article (whether used alone or in combination, and including the software necessary for its proper application) intended, by te person under whose name it is or it to be supplied, to be used for human beings for the purpose of one or more of the following:
+-	Any instrument, apparatus, appliance materials or other article (whether used alone or in combination, and including the software necessary for its proper application) intended, by the person under whose name it is or it to be supplied, to be used for human beings for the purpose of one or more of the following:
   o	Diagnosis, prevention, monitoring, treatment or alleviation of disease;
   o	Diagnosis, monitoring, treatment, alleviation of or compensation for an injury or disability;
   o	Investigation, replacement or modification of the anatomy or of a physiological process;
