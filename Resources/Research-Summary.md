@@ -85,6 +85,17 @@ Sponsor of a medical device
 
 The sponsor is the person or company responsible for the importation of medical devices into Australia, and/or the supply of medical devices in Australia, and/or the export of medical devices from Australia, as well as making application to the TGA to have their device included in the ARTG.
 
+
+
+## The Global Harmonization Task Force
+
+### Manufacturer Definition
+"  “Manufacturer” means any natural or legal person  with responsibility for design and/or manufacture of a medical device with the intention of making the medical device available for use, under his name; whether or not such a medical device is designed and/or manufactured by that person himself or on his behalf by another person(s). "
+
+Responsibility for:
+
+
+
 ## Fees and Charges for Medical Devices
 
 This section will be written based on the assumption of a Class 11a medical device.
