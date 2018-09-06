@@ -1,5 +1,5 @@
 # Venous Access
-Canberra Hospital and Health Services Procedure
+Canberra Hospital and Health Services Procedure  
 Peripheral Intravenous Cannula (PIVC), Adults and Children (Not neonates)
 
 For the following professionals
@@ -7,11 +7,12 @@ For the following professionals
 -	Registered nurses/midwifes working within the scope of practice
 -	Enrolled nurses working within their scope of practice
 -	Students under direct supervision
--	Radiographers who have completed:
-o	Administration of Iodinated Contrast media
-o	Aseptic technique
-o	Competency assessment: flushing of PIVCs and administration of contrast media
-PIVC insertion may only be performed by staff that have completed appropriate IV cannulation training and credentialing.
+-	Radiographers who have completed:  
+    *	Administration of Iodinated Contrast media
+    *	Aseptic technique
+    *	Competency assessment: flushing of PIVCs and administration of contrast media
+
+PIVC insertion may only be performed by staff that have completed appropriate IV cannulation training and credentialing.  
 Section 1 - Site Selection and Insertion of PIVC
 
 ## Equipment
@@ -32,7 +33,6 @@ Section 1 - Site Selection and Insertion of PIVC
 -	Local anaesthetic if required
 -	Alcohol based hand rub
 
-
 ## Procedure 
 1.	Ensure PIVC required
 2.	Consider central venous access, to avoid peripheral vein damage if necessary
@@ -50,35 +50,34 @@ Section 1 - Site Selection and Insertion of PIVC
 14.	Don protective eyewear.
 15.	Position patient comfortably, supporting proposed area of insertion. Place the underpad as required.
 16.	Apply tourniquet, select vein then release tourniquet.
-17.	Select the most appropriate vein for insertion of the PIVC. Points to consider include: 
-a.	Patient’s activity level
-b.	Size and condition of patient’s veins
-c.	Indication for PIVC and expected duration of PIVC
-d.	Position of patient during any planned procedure(s)
-e.	Use non-dominant forearm if practical
-f.	Use basilic or cephalic veins on the posterior (dorsal) forearm if possible (below)
-g.	The metacarpal veins on the dorsum of the hand (below) are easier to visualise but are more liable to clot, difficult to stabilise, and prone to vessel damage
-h.	In patients with chronic renal failure, the use of the anterior (ventral) forearm veins (especially the cephalic vein) should be avoided, as these may be required for fistula formation for dialysis.
+17.	Select the most appropriate vein for insertion of the PIVC. Points to consider include:  
+    *	Patient’s activity level
+    * Size and condition of patient’s veins
+    * Indication for PIVC and expected duration of PIVC
+    * Position of patient during any planned procedure(s)
+    * Use non-dominant forearm if practical
+    * Use basilic or cephalic veins on the posterior (dorsal) forearm if possible (below)
+    * The metacarpal veins on the dorsum of the hand (below) are easier to visualise but are more liable to clot, difficult to stabilise, and prone to vessel damage
+    * In patients with chronic renal failure, the use of the anterior (ventral) forearm veins (especially the cephalic vein) should be avoided, as these may be required for fistula formation for dialysis.
 
-Avoid the use of veins in the following sites:
-
-•	Areas of flexion or bony prominences
-o	Vein easily damaged
-o	Uncomfortable
-•	Areas below previous cannulation site
-o	Vein may be damaged
-•	Bruised or phlebitis (inflamed veins) areas
-o	Poor venous return
-o	Piece of clot can be dislodged into the system
-•	A limb with an arteriovenous fisulae (abnormal connection between an artery and a vein)  or shunt (hole or a small passage which moves, or allows movement of, fluid from one part of the body to another)
-o	May compromise the haemodialysis access
-•	An arm on the same side as a previous lymph node dissection, mastectomy or affected by cerebrovascular accident
-o	Poor venous/lymphatic return
-•	An infected limb (e.g. cellulitis)
-•	A limb with a peripherally inserted central catheter (PICC) or implanted venous access device
-•	Lower limbs (infants excepted)
-o	Risk of deep vein thrombosis
-o	Limits access, patient comfort and mobility
+    Avoid the use of veins in the following sites:
+      *	Areas of flexion or bony prominences
+        *	Vein easily damaged
+        * Uncomfortable
+      *	Areas below previous cannulation site
+        * Vein may be damaged
+      *	Bruised or phlebitis (inflamed veins) areas
+        *	Poor venous return
+        *	Piece of clot can be dislodged into the system
+      *	A limb with an arteriovenous fisulae (abnormal connection between an artery and a vein)  or shunt (hole or a small passage which moves, or allows movement of, fluid from one part of the body to another)
+        *	May compromise the haemodialysis access
+      *	An arm on the same side as a previous lymph node dissection, mastectomy or affected by cerebrovascular accident
+        *	Poor venous/lymphatic return
+      *	An infected limb (e.g. cellulitis)
+      *	A limb with a peripherally inserted central catheter (PICC) or implanted venous access device
+      *	Lower limbs (infants excepted)
+        *	Risk of deep vein thrombosis
+        *	Limits access, patient comfort and mobility
 
  Procedure cont:
  
@@ -100,22 +99,22 @@ o	Limits access, patient comfort and mobility
 
 # Venous Access in Neonatal Intensive Care
 ## Equipment required 
-•	IV trolley
-•	Dressing pack
-•	Skin cleansing solution
-•	24 gauge IV cannula
-•	Luer lock T piece
-•	Occlusive dressing
-•	Adhesive strapping and arm-board
-•	Ampoule of heparinised saline 50 unit in 5mL
-•	3 way tap 
-•	5mL syringe
-•	500 Units Heparin in 500mL 0.45% Saline
-•	Intravenous giving set
-•	Transducer set and cable
-•	Cold light
-•	Sucrose
-•	1mL syringe
+*	IV trolley
+*	Dressing pack
+*	Skin cleansing solution
+*	24 gauge IV cannula
+*	Luer lock T piece
+*	Occlusive dressing
+*	Adhesive strapping and arm-board
+*	Ampoule of heparinised saline 50 unit in 5mL
+*	3 way tap 
+*	5mL syringe
+*	500 Units Heparin in 500mL 0.45% Saline
+*	Intravenous giving set
+*	Transducer set and cable
+*	Cold light
+*	Sucrose
+*	1mL syringe
 
 ## Procedure
 Radial and posterior tibial arteries are the preferred site for arterial cannulation. 
