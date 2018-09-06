@@ -42,9 +42,9 @@ Majority of medical devices must be included in the ARTG before being made avail
 1.	The manufacturer of a medical device is the person who is responsible for the design, production, packaging and labelling of the device before it is supplied under the person’s name, whether or not it is the person, or another person acting on the person’s behalf, who carries out those operations. 
 2.	If subsection (1) does not apply to a medical device, the manufacturer of the device is the person who, with a view to supplying the device under the person’s name, does one or more of the following using ready made products: 
 
-  a.	assembles the device; 
+  a.  assembles the device; 
   
-  b.	packages the device; 
+  b.  packages the device; 
   
   c.	processes the device; 
   
@@ -88,12 +88,19 @@ The sponsor is the person or company responsible for the importation of medical 
 
 
 ## The Global Harmonization Task Force
+http://www.imdrf.org/docs/ghtf/final/sg1/technical-docs/ghtf-sg1-n055-definition-terms-090326.doc
 
 ### Manufacturer Definition
 "  “Manufacturer” means any natural or legal person  with responsibility for design and/or manufacture of a medical device with the intention of making the medical device available for use, under his name; whether or not such a medical device is designed and/or manufactured by that person himself or on his behalf by another person(s). "
 
 Responsibility for:
-
+1.  This ‘natural or legal person’ has ultimate legal responsibility for ensuring compliance with all applicable regulatory requirements for the medical device in the countries or jurisdictions where it is intended to be made available or sold, unless this responsibility is specifically imposed on another person by the Regulatory Authority (RA) within that jurisdiction.
+2.  The manufacturer’s responsibilities are described in other GHTF guidance documents.  These responsibilities include meeting both pre-market requirements and post-market requirements, such as adverse event reporting and notification of corrective actions.
+3.  ‘Design and/or manufacture’, as referred to in the above definition, may include specification development, production, fabrication, assembly, processing, packaging, repackaging, labelling, relabelling, sterilization, installation, or remanufacturing of a medical device; or putting a collection of devices, and possibly other products, together for a medical purpose.
+4.  Any person who assembles or adapts a medical device that has already been supplied by another person for an individual patient, in accordance with the instructions for use, is not the manufacturer, provided the assembly or adaptation does not change the intended use of the medical device.
+5.  Any person who changes the intended use of, or modifies, a medical device without acting on behalf of the original manufacturer and who makes it available for use under his own name, should be considered the manufacturer of the modified medical device.
+6.  An authorised representative, distributor or importer who only adds its own address and contact details to the medical device or the packaging, without covering or changing the existing labelling, is not considered a manufacturer.
+7.  To the extent that an accessory is subject to the regulatory requirements of a medical device , the person responsible for the design and/or manufacture of that accessory is considered to be a manufacturer.
 
 
 ## Fees and Charges for Medical Devices
