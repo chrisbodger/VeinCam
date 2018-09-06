@@ -1,5 +1,8 @@
 # Manufacturer of a medical Device
 
+https://www.tga.gov.au/sites/default/files/devices-argmd-01.pdf
+https://fossbazaar.org/content/laws-governing-medical-devices-eu-and-their-effect-free-and-open-source-software/
+
 1.	The manufacturer of a medical device is the person who is responsible for the design, production, packaging and labelling of the device before it is supplied under the person’s name, whether or not it is the person, or another person acting on the person’s behalf, who carries out those operations. 
 2.	If subsection (1) does not apply to a medical device, the manufacturer of the device is the person who, with a view to supplying the device under the person’s name, does one or more of the following using ready made products: 
 
