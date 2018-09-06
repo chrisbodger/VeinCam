@@ -3,14 +3,14 @@
 ## What is a Medical Device
 
 -	Any instrument, apparatus, appliance materials or other article (whether used alone or in combination, and including the software necessary for its proper application) intended, by the person under whose name it is or it to be supplied, to be used for human beings for the purpose of one or more of the following:
-  - Diagnosis, prevention, monitoring, treatment or alleviation of disease;
-  - Diagnosis, monitoring, treatment, alleviation of or compensation for an injury or disability;
-  - Investigation, replacement or modification of the anatomy or of a physiological process;
-  - Control of conception;
-  - And that does not achieve its principal intended action in or on the human body by pharmacological, immunological or metabolic means, but that may be assisted in its function by such means; or
-    - Any instrument, apparatus, appliance, material or other article specified under subsection (2A); or
-    - Any instrument, apparatus, appliance, material or any other article that is included in a class of instruments, apparatus, appliances,  materials or other articles specified under subsection (2B); or
-    -  An accessary to such an instrument, apparatus, appliance, material or other article covered by paragraph (all above).
+    - Diagnosis, prevention, monitoring, treatment or alleviation of disease;
+    - Diagnosis, monitoring, treatment, alleviation of or compensation for an injury or disability;
+    - Investigation, replacement or modification of the anatomy or of a physiological process;
+    - Control of conception;
+    - And that does not achieve its principal intended action in or on the human body by pharmacological, immunological or metabolic means, but that may be assisted in its function by such means; or
+      - Any instrument, apparatus, appliance, material or other article specified under subsection (2A); or
+      - Any instrument, apparatus, appliance, material or any other article that is included in a class of instruments, apparatus, appliances,  materials or other articles specified under subsection (2B); or
+      -  An accessary to such an instrument, apparatus, appliance, material or other article covered by paragraph (all above).
 -	Medical devices
   o	Are used for humans
   o	Have therapeutic benefits
