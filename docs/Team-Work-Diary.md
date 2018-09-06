@@ -42,6 +42,9 @@ Progress from start of project as at 15/08/2018
 **Hardware**
 * Version 2.0 of the chassis has been completed, and printed has started on it for completion and assessment over the coming days. further changes are expected, and hopefully they will be minor so that it can be handed over to the client for testing, pending completion of the software.
 
+06/09/2018 Joey
+* v2.1 of the chassis, including buttons and both shell and lid started (speed set to 50mm/s to ensure clean print)
+
 ## Documentation, Research, Meetings and other Governance Activities
 
 Progress from start of project as at 15/8/18
