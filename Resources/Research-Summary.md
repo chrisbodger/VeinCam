@@ -41,15 +41,25 @@ Majority of medical devices must be included in the ARTG before being made avail
 
 1.	The manufacturer of a medical device is the person who is responsible for the design, production, packaging and labelling of the device before it is supplied under the person’s name, whether or not it is the person, or another person acting on the person’s behalf, who carries out those operations. 
 2.	If subsection (1) does not apply to a medical device, the manufacturer of the device is the person who, with a view to supplying the device under the person’s name, does one or more of the following using ready made products: 
+
   a.	assembles the device; 
+  
   b.	packages the device; 
+  
   c.	processes the device; 
+  
   d.	fully refurbishes the device; 
+  
   e.	labels the device; 
+  
   f.	assigns to the device its purpose by means of information supplied, by the person, on or in any one or more of the following: 
+  
      i.	the labelling on the device; 
+     
      ii.	the instructions for using the device; 
+     
      iii.	any advertising material relating to the device; 
+     
      iv.	technical documentation describing the mechanism of the device. 
 
 3.	However, a person is not the manufacturer of a medical device if: 
