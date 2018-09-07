@@ -1,8 +1,11 @@
 # Purchase Log
 
 ## Future Expenses
-| Item Description | Available From | Needed By |
+| Item Description | Available From | Cost  | Needed By | Microgrant Approved | Date Approved |
 | :---: | :---: | :---: |
+| 75mm x 95mm Prototyping Board | Available at Jaycar electronics Website: https://www.jaycar.com.au/pc-boards-vero-type-strip-95mm-x-75mm/p/HP9540 | Cost: $4.50 | | Yes | 27/8/18 |
+
+
 
 
 ## Incurred Expenses
