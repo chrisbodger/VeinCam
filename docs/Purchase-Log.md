@@ -7,4 +7,4 @@
 
 ## Incurred Expenses
 | Item Description | Obtained From |  Date Obtained  | Cost | Microgrant Approved | Date Approved | Reimbused?  |
-| :---: | :---: | :---: | :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
