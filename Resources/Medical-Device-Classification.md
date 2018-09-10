@@ -12,9 +12,9 @@
       - Any instrument, apparatus, appliance, material or any other article that is included in a class of instruments, apparatus, appliances,  materials or other articles specified under subsection (2B); or
       -  An accessary to such an instrument, apparatus, appliance, material or other article covered by paragraph (all above).
 -	Medical devices
-  o	Are used for humans
-  o	Have therapeutic benefits
-  o	Generally have a physical or mechanical effect on the body or are used to measure or monitor functions of the body
+    - Are used for humans
+    - Have therapeutic benefits
+    - Generally have a physical or mechanical effect on the body or are used to measure or monitor functions of the body
 
 ## Classification Rule and Class
 
