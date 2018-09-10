@@ -42,8 +42,19 @@ Progress from start of project as at 15/08/2018
 **Hardware**
 * Version 2.0 of the chassis has been completed, and printed has started on it for completion and assessment over the coming days. further changes are expected, and hopefully they will be minor so that it can be handed over to the client for testing, pending completion of the software.
 
+03/09/2018 - 04/09/2018
+
+**Software**
+* Solved issue of sending processed images to stream by scrapping old streaming code and instead using Flask (based on code by Miguel Grinberg at https://blog.miguelgrinberg.com/post/video-streaming-with-flask). Device can now stream live images to WLAN localhost at 60fps, meaning any device can connect to the network outputted by the RasPi and view the stream.
+* After many hours, we also managed to get the streaming script to run on startup. This ensures that all a user has to do is press the power button and the device will begin streaming (after 30 second boot time) to its localhost address.
+* Cleaned up HTML code, which now displays correct fonts and current RasPi temperature (for testing purposes). 
+* Currently working on displaying Battery percentage on stream web page and improving the image processing capabilities.
+ 
+
 06/09/2018 Joey
 * v2.1 of the chassis, including buttons and both shell and lid started (speed set to 50mm/s to ensure clean print)
+
+
 
 ## Documentation, Research, Meetings and other Governance Activities
 
