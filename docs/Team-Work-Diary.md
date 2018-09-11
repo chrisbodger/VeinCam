@@ -135,3 +135,9 @@ Progress from start of project as at 15/8/18
 4/9/18 Joey
 * Created initial site design and architecture,
 * Created site pages to expand the website. Not yet complete.
+
+11/9/18 Steph
+* Meeting with ANUSA Lawyer to discuss liability issues
+* Email sent to TGA regarding medical device definition and compliance
+* Research done on human ethics
+
