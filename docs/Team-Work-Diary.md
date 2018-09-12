@@ -141,3 +141,9 @@ Progress from start of project as at 15/8/18
 * Email sent to TGA regarding medical device definition and compliance
 * Research done on human ethics
 
+12/9/18 Steph
+* Email sent to technology transfer office to make booking 
+* Email sent to ANU human ethics committee regarding need to ethics approval
+
+
+
