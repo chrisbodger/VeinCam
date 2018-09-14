@@ -1,4 +1,4 @@
-# Device Requirements and Design Specifications
+.md# Device Requirements and Design Specifications
 Requirements were gathered from the client and refined into measurable specifications. The sets of both requirements and specifications should be considered evolutionary and may change through prototyping and testing.
 
 ## Requirements
@@ -27,7 +27,7 @@ The requirements were broken down into specifications that will provide validati
 | 2.2 | Camera Focal Length | mm | 300-500 |
 | 2.3 | Adjustable Set Height | mm | 300-500 |
 | 2.4 | Handsfree Operation | min | >5 |
-| 2.5 | Battery Life | hrs | >1 |
+| 2.5 | Battery Life | min | >60 |
 | 3.1 | Wireless Range | m | >1 |
 | 3.2 | Stream Delay | ms | <1000 |
 | 4 | Form Factor | mm | <150 x 90 x 70 |
