@@ -145,5 +145,6 @@ Progress from start of project as at 15/8/18
 * Email sent to technology transfer office to make booking 
 * Email sent to ANU human ethics committee regarding need to ethics approval
 
-
+14/9/18 Joey
+* Initial testing documents created.
 
