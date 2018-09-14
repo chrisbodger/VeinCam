@@ -1,8 +1,8 @@
 # Device Specification Verification
-The prototype device must be verified against the specifications as developed from the [Requirements](/docs/requirements.md) to ensure a successful prototype. A series of tests have been created to verify the design:
+The prototype device must be verified against the specifications as developed from the [Requirements](REQUIREMENTS.md) to ensure a successful prototype. A series of tests have been created to verify the design:
 
 ## Tests
-Test IDs correlate with specification IDs found in the [Requirements](/docs/requirements.md) document. At this stage venous puncture is not permitted for testing and there is no stand to address a number of specifications, though tests have been considered.
+Test IDs correlate with specification IDs found in the [Requirements](REQUIREMENTS.md) document. At this stage venous puncture is not permitted for testing and there is no stand to address a number of specifications, though tests have been considered.
 
 | ID | Test |
 | --- | --- |
@@ -26,6 +26,7 @@ Test IDs correlate with specification IDs found in the [Requirements](/docs/requ
 | 8.5 | Similar to 2.1 |
 
 ## Results Table Template
+As prototypes are tested the results will be updated here. Raw data can be found [here](https://docs.google.com/spreadsheets/d/18sSy89GIRTKhPBCF92-t4Pr2AGmHzw_IFHvKGeLFWAo/edit?usp=sharing).
 
 | ID | Specification | Metric | Benchmark | Result |
 | --- | --- | --- | --- | --- |
