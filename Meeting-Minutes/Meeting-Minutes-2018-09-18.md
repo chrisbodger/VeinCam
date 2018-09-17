@@ -43,3 +43,31 @@
    * Rotating roles
    * Progress update explicitly state how the project is progressing against each milestone - this is a good idea coming up to the end of the project and with the shift in the project goals
 
+---
+
+## 1. Governance/Bureaucratic Issues
+* 
+
+---
+
+## 2. Hardware/Software Developments
+* 
+
+---
+
+## 3. Feedback
+* 
+
+---
+
+## Actionables
+* Chris to:
+  *
+* Steph to:
+  *
+* Alex to:
+  *
+* Joey to:
+  *
+* All:
+  *
