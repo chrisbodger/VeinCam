@@ -153,3 +153,7 @@ Progress from start of project as at 15/8/18
 * Brief meeting with course convenor with project update 
 * Emailed client about project updates and forwarded correspondence from ethics committee
 * Emailed other course lecturer about medical devices
+* Made agenda for tutorial tomorrow 18/9
+* Begun agenda for group meeting 19/9
+* Written up audit 2 feedback summary, lawyer meeting summary and human ethics committee summary of correspondence
+
