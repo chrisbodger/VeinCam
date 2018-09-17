@@ -144,7 +144,12 @@ Progress from start of project as at 15/8/18
 12/9/18 Steph
 * Email sent to technology transfer office to make booking 
 * Email sent to ANU human ethics committee regarding need to ethics approval
+* Appointment made with ANU Technology Transfer Office
 
 14/9/18 Joey
 * Initial testing documents created.
 
+17/9/18
+* Brief meeting with course convenor with project update 
+* Emailed client about project updates and forwarded correspondence from ethics committee
+* Emailed other course lecturer about medical devices
