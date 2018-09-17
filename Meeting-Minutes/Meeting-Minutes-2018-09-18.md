@@ -17,8 +17,8 @@
      * Need to re-think the main outputs of the project
      * Human ethics approval needed for testing
    * Emailed Therapeutic Goods Administrations about open source project regulations
-   * Emailed a course lecturer about medical devices 
-   * Correspondence with ANU Human ethics committee - summary in Resources 'Human Ethics Committee Correspondence' 
+   * Emailed a course lecturer about medical devices
+   * Correspondence with ANU Human ethics committee - summary in Resources 'Human Ethics Committee Correspondence'
      * Definitely need approval before any testing done
      * Will get the ball rolling on this
    * Meeting with Technology Transfer office Tuesday 18/9 in afternoon
@@ -31,9 +31,19 @@
      * Purpose now to product a functional prototype
      * Will still do testing, but only on ourselves and Ben
    * Can use the device as demonstrating but no taking any feedback and such
-   * Client not wanting us to waste time persuing commercialisation as that is lots of documentation 
+   * Client not wanting us to waste time persuing commercialisation as that is lots of documentation
 2. Hardware/Software Developments
-3. Feedback 
+### Hardware
+   * V2.1 of case failed to print several times
+     - Required to order new filament
+     - Printing will recommence today under full supervision
+   * Testing of LEDs will commence
+     - Determining an optimal mix of different wavelengths for deeper penetration
+     - Final mix will be implemented into the final design
+
+### Software
+
+3. Feedback
    * Feedback summary now up from Audit 2 - Resources file. Full actions and justifications where necessary - feedback from that?
    * Some things no longer relevant since re-structuring the goals of the project - testing recommendations, etc
    * Starting to look into alternative methods of construction of case
@@ -46,17 +56,17 @@
 ---
 
 ## 1. Governance/Bureaucratic Issues
-* 
+*
 
 ---
 
 ## 2. Hardware/Software Developments
-* 
+*
 
 ---
 
 ## 3. Feedback
-* 
+*
 
 ---
 
