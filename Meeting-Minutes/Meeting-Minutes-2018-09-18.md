@@ -42,6 +42,10 @@
      - Final mix will be implemented into the final design
 
 ### Software
+   * Decision to discuss: what's first to complete? Manual Control or Image Enhancement
+   * Focus will be placed on perfecting selected feature and attempt other as a reach goal.
+   * Next primary goal will be to communicate with external LEDs to indicate status of device.
+   * Automatic Script Startup and HTML processed image streaming now functional.
 
 3. Feedback
    * Feedback summary now up from Audit 2 - Resources file. Full actions and justifications where necessary - feedback from that?
