@@ -33,7 +33,8 @@
    * Can use the device as demonstrating but no taking any feedback and such
    * Client not wanting us to waste time persuing commercialisation as that is lots of documentation
 2. Hardware/Software Developments
-### Hardware
+
+Hardware
    * V2.1 of case failed to print several times
      - Required to order new filament
      - Printing will recommence today under full supervision
@@ -41,7 +42,7 @@
      - Determining an optimal mix of different wavelengths for deeper penetration
      - Final mix will be implemented into the final design
 
-### Software
+Software
    * Decision to discuss: what's first to complete? Manual Control or Image Enhancement
    * Focus will be placed on perfecting selected feature and attempt other as a reach goal.
    * Next primary goal will be to communicate with external LEDs to indicate status of device.
