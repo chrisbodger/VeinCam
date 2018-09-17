@@ -1,4 +1,4 @@
-.md# Device Requirements and Design Specifications
+# Device Requirements and Design Specifications
 Requirements were gathered from the client and refined into measurable specifications. The sets of both requirements and specifications should be considered evolutionary and may change through prototyping and testing.
 
 ## Requirements
