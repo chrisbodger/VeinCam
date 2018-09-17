@@ -15,7 +15,7 @@ A summary of the recommendations to improve regarding different aspects of the p
 | Testing  | Ensure automatic contrast and depth works in all conditions | Will be integrating this into the team testing | Can no longer test in hospital or with a wide variety of use cases  |
 | | Clear validation and real-world testing techniques available to all stakeholders | Currently writing up detailed user testing | Will be partially used by team testing but also will be for future project |
 | |  |  | |
-| Decision Making | Add more decisions into decision log - e.g. why desings are changed | | |
+| Decision Making | Add more decisions into decision log - e.g. why desings are changed | Will be adding these in as we go through the rest of the project  | Not too manu design changes so far  |
 | | Document why certain things in the project are taking priority - e.g. what research is being done and outcomes hoping to be achieved | Will work this in as a brief summary | |
 | |  |  | |
 | Teamwork and Communication | Administrative work not being distributed evenly  | No action | The team is functioning well as is  |
