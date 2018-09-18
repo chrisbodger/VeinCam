@@ -22,7 +22,7 @@
      * Definitely need approval before any testing done
      * Will get the ball rolling on this
    * Meeting with Technology Transfer office Tuesday 18/9 in afternoon
-     * Aim to get a second opinion about the medical device and manufacturer definitions and open source projects and such
+     * Aim to get a second opinion about medical devices, manufacturer definitions and open source projects
      * Get a brief idea of how we could get startup funding if we decided to go that way
      * Any other advice on how to go forward with getting the device out there in the future
    * Overall changes
