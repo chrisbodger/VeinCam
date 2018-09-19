@@ -19,19 +19,19 @@
    * Emailed Therapeutic Goods Administrations about open source project regulations
    * Emailed a course lecturer about medical devices
    * Correspondence with ANU Human ethics committee - summary in Resources 'Human Ethics Committee Correspondence'
-     * Definitely need approval before any testing done
+     * Need approval before any testing done
      * Will get the ball rolling on this
    * Meeting with Technology Transfer office Tuesday 18/9 in afternoon
      * Aim to get a second opinion about medical devices, manufacturer definitions and open source projects
-     * Get a brief idea of how we could get startup funding if we decided to go that way
+     * Get a brief idea of how we could get startup funding
      * Any other advice on how to go forward with getting the device out there in the future
    * Overall changes
-     * Not going to make the device open source - not going to provide a tutorial on how to make
+     * Not going to make the device open source - not going to provide a how-to tutorial
      * Going to work on restructuring repository and review purpose and main goals of the project
      * Purpose now to product a functional prototype
      * Will still do testing, but only on ourselves and Ben
-   * Can use the device as demonstrating but no taking any feedback and such
-   * Client not wanting us to waste time persuing commercialisation as that is lots of documentation
+   * Can use the device for demonstrations, without formal data
+   * Client does not want to waste time pursuing commercialisation
 2. Hardware/Software Developments
    * Hardware
      * V2.1 of case failed to print several times
@@ -59,17 +59,23 @@
 ---
 
 ## 1. Governance/Bureaucratic Issues
-*
+* Testing on different body parts for alternate BMI.
 
 ---
 
 ## 2. Hardware/Software Developments
-*
+* Magnets used to hold device to stand.
+* Will address outcomes in the next meeting.
 
 ---
 
 ## 3. Feedback
-*
+* Nothing to add.
+
+---
+
+## Additional Feedback
+* Think about how to demonstrate the exemplary levels of assessment criteria.
 
 ---
 
