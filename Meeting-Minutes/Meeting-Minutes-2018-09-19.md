@@ -16,14 +16,52 @@
 
 ---
 
+## 1. Audit Feedback
+* Resin coating optional extra. Not a priority.
+* Magnets could interfere with wireless charging. Future development.
+* Actionables to be added to issues after meetings.
+* Goals:
+  * Prioritise manual adjustment
+  * Checking different wavelength LEDs
+  * Will be updated with new ConOps
+  * Tutorial and user-feedback form for testing when ethics is approved
+
+---
+
+## Hardware Update
+* Might integrate 12 LEDs instead of 6.
+  * If 3 LEDs has good results.
+
+---
+
+## Software Update
+* Manual Adjustment or Image Processing?
+  * Prioritise manual adjustments.
+    * Hue, saturation, etc.
+    * Changing the power levels of different wavelength LEDs.
+
+---
+
+## TGA Feedback
+* We are considered the manufacturer (aligning with EU law)
+* If we reframe the device and repurpose it as just an IR camera then we wouldn't be manufacturers as it wouldn't be a medical device.
+
+---
+
+## For Client Meeting
+* Examine rebranding options (educational or other).
+
+---
+
 ## Actionables
 * Chris to:
-  *
+  * Update 3D printing design changes between versions.
 * Steph to:
-  *
+  * Update decision log with research decisions.
 * Alex to:
-  *
+  * Update decision log with software decisions.
+  * Upload poster template to Drive.
 * Joey to:
-  *
+  * Put actionables into Issues at the end of meetings.
 * All:
-  *
+  * Draft changes to ConOps and Website in terms of scope.
