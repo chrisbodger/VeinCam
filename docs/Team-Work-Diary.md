@@ -27,15 +27,15 @@ Progress from start of project as at 15/08/2018
 * The case shell was cleaned as best as possible and was determined to be too large for small hands. v2.0 has begun to address this, cutting the size down by almost 10mm all round. a proper mounting solution for the LED array will be embedded into the case lid as well, when the LED array has been constructed and finalised. further design improvementments to be implemented after our weekly meeting with the client.
 
 **Software**
-* Scrapping the manual controls for the moment. Focussed more on the image processing and getting a clear, defined image of veins for Open Day. Constructed an script using OpenCV which would capture an image, perform a histogram equalisation of the image, and then feed the equalised image into a stream. The next major goal will be to parse this video stream into a web page that can be accessed by any external device. 
+* Scrapping the manual controls for the moment. Focussed more on the image processing and getting a clear, defined image of veins for Open Day. Constructed an script using OpenCV which would capture an image, perform a histogram equalisation of the image, and then feed the equalised image into a stream. The next major goal will be to parse this video stream into a web page that can be accessed by any external device.
 
 27/08/2018
 
 **Hardware**
-* Alex constructed the LED array to be placed in the newly 3D-printed v1.1 enclosure for a full demonstration of our first complete prototype during the Audit 2 presentation. 
+* Alex constructed the LED array to be placed in the newly 3D-printed v1.1 enclosure for a full demonstration of our first complete prototype during the Audit 2 presentation.
 
 **Presentation**
-* Steph presented our project to the tutors and tutorial group, including our shadow team. We received great feedback and plenty of questions, which gave us an idea of how others external to the group viewed our progress. The topics of commercialisation and hygiene (sterilizing our product for hospital environments) were raised and gave the group plenty to think about when considering the final design. The prototype demonstration went very well. 
+* Steph presented our project to the tutors and tutorial group, including our shadow team. We received great feedback and plenty of questions, which gave us an idea of how others external to the group viewed our progress. The topics of commercialisation and hygiene (sterilizing our product for hospital environments) were raised and gave the group plenty to think about when considering the final design. The prototype demonstration went very well.
 
 30/08/2018
 
@@ -47,14 +47,20 @@ Progress from start of project as at 15/08/2018
 **Software**
 * Solved issue of sending processed images to stream by scrapping old streaming code and instead using Flask (based on code by Miguel Grinberg at https://blog.miguelgrinberg.com/post/video-streaming-with-flask). Device can now stream live images to WLAN localhost at 60fps, meaning any device can connect to the network outputted by the RasPi and view the stream.
 * After many hours, we also managed to get the streaming script to run on startup. This ensures that all a user has to do is press the power button and the device will begin streaming (after 30 second boot time) to its localhost address.
-* Cleaned up HTML code, which now displays correct fonts and current RasPi temperature (for testing purposes). 
+* Cleaned up HTML code, which now displays correct fonts and current RasPi temperature (for testing purposes).
 * Currently working on displaying Battery percentage on stream web page and improving the image processing capabilities.
- 
+
 
 06/09/2018 Joey
 * v2.1 of the chassis, including buttons and both shell and lid started (speed set to 50mm/s to ensure clean print)
 
+18/09/2018 Chris
+Retrospective Recount of the last two weeks:
+* Attempted several times to print case v2.1, with no success. Attempts would either fail to print entirely, or would not print cleanly, and leaving features malformed.
+* Due to so much wastage from the failed prints, a new roll of filament was ordered 7/9/18. The replacement roll arrived 14/9/18.
+* v2.2 of the chassis was created, altering the shape to take on more of an hourglass, in an effort to make the case easier to hold by the ends. Currently, this revision is being printed, and seems to be printing well. smaller features yet to be printed to see if this remains the same.
 
+* Software completed the autostart and initialisation procedures for the web stream and image processing. Currently, it outputs the processed image at a reasonably high framerate for its intended use. The webpage however has an issue initialising the stream in a timely manner (upwards of 30 seconds) and the Wireless connectivity fails to initiate on some occurrences. These will hopefully be explored in the coming weeks.
 
 ## Documentation, Research, Meetings and other Governance Activities
 
@@ -88,7 +94,7 @@ Progress from start of project as at 15/8/18
 
 21/8/18 Steph
 * Reviewed email from Client regarding sourcing LEDs - pass this on to the team
-* Received confirmation from Convenor regarding Open Day presenting 
+* Received confirmation from Convenor regarding Open Day presenting
 * Requested Client permission for Open Day presenting
 
 22/8/18 Steph
@@ -125,7 +131,7 @@ Progress from start of project as at 15/8/18
 * Updated the public landing page with a few new images and current state of the project.
 
 27/8/18 Alex and Chris
-* Discussion regarding next phase of hardware and software development, including defining and finalising modifications to the v2.0 design of the enclosure. 
+* Discussion regarding next phase of hardware and software development, including defining and finalising modifications to the v2.0 design of the enclosure.
 
 28/8/18 Steph
 * Created user feedback document in resources file of repository
@@ -142,7 +148,7 @@ Progress from start of project as at 15/8/18
 * Research done on human ethics
 
 12/9/18 Steph
-* Email sent to technology transfer office to make booking 
+* Email sent to technology transfer office to make booking
 * Email sent to ANU human ethics committee regarding need to ethics approval
 * Appointment made with ANU Technology Transfer Office
 
@@ -150,10 +156,9 @@ Progress from start of project as at 15/8/18
 * Initial testing documents created.
 
 17/9/18
-* Brief meeting with course convenor with project update 
+* Brief meeting with course convenor with project update
 * Emailed client about project updates and forwarded correspondence from ethics committee
 * Emailed other course lecturer about medical devices
 * Made agenda for tutorial tomorrow 18/9
 * Begun agenda for group meeting 19/9
 * Written up audit 2 feedback summary, lawyer meeting summary and human ethics committee summary of correspondence
-
