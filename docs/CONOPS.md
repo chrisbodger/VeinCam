@@ -1,6 +1,6 @@
 # Concept of Operations
 
-Version 1.0 Signed-off by stakeholders as of 27.8.18.
+Version 2.0 Signed-off by stakeholders as of .
 
 ## Table of Contents
 * [Project Vision](#project-vision)
@@ -31,7 +31,7 @@ Version 1.0 Signed-off by stakeholders as of 27.8.18.
 ---
 
 ## Project Vision
-The VeinCam is based on the [Venenfinder project](https://hackaday.io/project/26158-assistance-system-for-vein-detection) submitted during the 2017 HackADay event. The goal was to create an affordable device that produces a clear image of a suitable vein for superficial venous puncture, a procedure that is a requirement for patient blood testing and the delivery of external drug administration.
+The VeinCam is based on the [Venenfinder project](https://hackaday.io/project/26158-assistance-system-for-vein-detection) submitted during the 2017 HackADay event. The goal was to create an affordable device that produces a clear image of a suitable vein for superficial venous puncture, a procedure that is a requirement for patient blood testing and the delivery of external drug administration. However the goal of this project is to extend the customer base to educators and students while maintaining affordability and accessibility.
 
 ### Value Proposition
 Our VeinCam device will help both medical professionals and patients who want to perform intravenous procedures by augmenting visualisation of upper limb veins. It will increase the likelihood of successfully accessing those veins to reduce patient discomfort and increase medical staff efficiency and intravenous competency.
