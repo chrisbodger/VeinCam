@@ -1,6 +1,6 @@
 # Concept of Operations
 
-Version 2.0 Signed-off by stakeholders as of .
+Version 1.1 Signed-off by stakeholders as of .
 
 ## Table of Contents
 * [Project Vision](#project-vision)
@@ -27,6 +27,7 @@ Version 2.0 Signed-off by stakeholders as of .
 * [Risk Analysis](#risk-analysis)
   * [Safety Risk Analysis](#safety-risk-analysis)
 * [References](#references)
+* [Change Log](#change-log)
 
 ---
 
@@ -34,7 +35,7 @@ Version 2.0 Signed-off by stakeholders as of .
 The VeinCam is based on the [Venenfinder project](https://hackaday.io/project/26158-assistance-system-for-vein-detection) submitted during the 2017 HackADay event. The goal was to create an affordable device that produces a clear image of a suitable vein for superficial venous puncture, a procedure that is a requirement for patient blood testing and the delivery of external drug administration. However the goal of this project is to extend the customer base to educators and students while maintaining affordability and accessibility.
 
 ### Value Proposition
-Our VeinCam device will help both medical professionals and patients who want to perform intravenous procedures by augmenting visualisation of upper limb veins. It will increase the likelihood of successfully accessing those veins to reduce patient discomfort and increase medical staff efficiency and intravenous competency.
+Our VeinCam device will help students better understand venous sites by augmenting visualisation of upper limb veins. It will increase the likelihood of successfully accessing those veins to reduce patient discomfort and increase medical staff efficiency and intravenous competency.
 
 ### Project Scope
 The project aims to greatly extend and refine what was achieved in the Venenfinder HackADay project; automating and adding to some of the functionality while remaining a cost effective solution. Ideally, the device will be able to be built and used by members of the public with chronic diseases that regularly require personal drug administration.
@@ -357,6 +358,13 @@ In developing the prototype there is a chance of injury, similar to above these 
 [Venenfinder Github](https://github.com/Myrijam/Venenfinder)
 
 [Venenfinder HackAThon Page](https://hackaday.io/project/26158-assistance-system-for-vein-detection)
+
+---
+
+## Change Log
+| Version | Section | Change | Justification |
+| --- | --- | --- |
+| 1.1 | Project Vision | Adjust project vision to create an educational device. | There are a lot of responsibilities for a medical device manufacturer. Developing the VeinCam for an educational purpose removes these responsibilities. |
 
 
 This Project is licensed under the Creative Commons license.
