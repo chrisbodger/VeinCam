@@ -365,8 +365,9 @@ In developing the prototype there is a chance of injury, similar to above these 
 ---
 
 ## Change Log
+
 | Version | Section | Change | Justification |
-| --- | --- | --- |
+| --- | --- | --- | --- |
 | 1.1 | [Project Vision](#project-vision) | Adjust project vision to create an educational device. | There are a lot of responsibilities for a medical device manufacturer. Developing the VeinCam for an educational purpose removes these responsibilities. |
 | 1.1 | [Project Management](#project-management) | Added how-to build and how-to use guides, and device testing to baseline deliverables. | Missing from previous deliverables and necessary for open-source construction and verification. |
 | 1.1 | [Project Management](#project-management) | Added manual adjustment and user feedback deliverables. | Considered more important than the other stretch deliverables as it will enhance the user experience and is more achievable. Testing will provide points for the project to move forward. |
