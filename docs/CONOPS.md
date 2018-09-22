@@ -35,16 +35,14 @@ Version 1.1 Signed-off by stakeholders as of .
 The VeinCam is based on the [Venenfinder project](https://hackaday.io/project/26158-assistance-system-for-vein-detection) submitted during the 2017 HackADay event. The goal was to create an affordable device that produces a clear image of a suitable vein for superficial venous puncture, a procedure that is a requirement for patient blood testing and the delivery of external drug administration. However the goal of this project is to extend the customer base to educators and students while maintaining affordability and accessibility.
 
 ### Value Proposition
-Our VeinCam device will help students better understand venous sites by augmenting visualisation of upper limb veins. It will increase the likelihood of successfully accessing those veins to reduce patient discomfort and increase medical staff efficiency and intravenous competency.
+Our VeinCam device will help students better understand venous sites by augmenting visualisation of upper limb veins. It will provide students with a better understanding of venous sites around the body compared to an image or model.
 
 ### Project Scope
-The project aims to greatly extend and refine what was achieved in the Venenfinder HackADay project; automating and adding to some of the functionality while remaining a cost effective solution. Ideally, the device will be able to be built and used by members of the public with chronic diseases that regularly require personal drug administration.
+The project aims to greatly extend and refine what was achieved in the Venenfinder HackADay project; automating and adding to some of the functionality while remaining cost effective.
 
-The device should be portable, hands-free and wireless. Veins will be illuminated using near-infrared light and the scattering from this light detected by a Raspberry Pi device equipped with a Pi noIR module. The project will be looking exclusively looking at using a Raspberry Pi as the basis for the device as has been suggested by the client due to the Pi plaform being available internationally as a well established product for such uses, and has a rich set of add-on devices that support development of a vein camera.
+The device should be portable and widely accessible. Veins will be illuminated using near-infrared light and the scattering from this light detected by a Raspberry Pi device equipped with a Pi noIR module. The project will be looking exclusively looking at using a Raspberry Pi as the basis for the device as has been suggested by the client due to the Pi plaform being available internationally as a well established product for such uses. Additionally the Pi system has a rich set of add-on devices that support development of a vein camera.
 
-Due to the variation in human skin in its absorption of different wavelengths of light an unclear image can be produced and a proper candidate vein may be undetected. The software from the Venenfinder project will be heavily modified, incorporating intelligent OpenCV scripts to perform automatic adjustments to the lighting and contrast settings.  This adjusts the contrast of the image to allow for the easier detection of veins, with minimal to no input from the user.
-
-A physical potentiometer and/or web-app interface will be used for automatic adjustment of light settings to get the clearest image possible.
+The software from the Venenfinder project will be heavily modified, incorporating intelligent OpenCV scripts to perform automatic adjustments to the lighting and contrast settings. Manual adjustments will also be implemented in order to get the best possible image in any use case.
 
 ### Project Comparison
 As this project is building on what was achieved by the Venenfinder project, it is worth noting what is being added.
@@ -68,12 +66,12 @@ The Venenfinder team were able to produce a device that was able to use a near-I
 #### VeinCam Core Features
 The VeinCam project hopes to utilise similar hardware to the Venenfinder project (Raspberry Pi, PiCam, IR LEDs) and extend the software's capabilities to automatically adjust the infrared light filtration, brightness and contrast to produce the clearest image possible with limited manual adjustment.
 
-In further adding to the Venenfinder project, the aim is to produce a device that is battery powered, completely wireless and to reduce the size of the device to be comfortably held in one hand. Being a wireless device, we need to ensure the device is as power efficient as possible and does not require recharging more than absolutely necessary. As part of the new housing for the device, a mounting system will be integrated, and a mount be devised for hands-free use. 
+Further adding to the Venenfinder project; the aim is to produce a device that is battery powered, completely wireless and to reduce the size of the device to be comfortably held in one hand. Being a wireless device, we need to ensure the device is as power efficient as possible and does not require recharging more than absolutely necessary. As part of the new housing for the device, a mounting system will be integrated, and a mount be devised for hands-free use. 
 
 #### VeinCam Testing and Future Development Plans
-Once the core device has reached the prototype stage, extensive testing will be completed on varying skin conditions and appearances. These range from light skin to dark skin, clean, tattooed areas and other skin abnormalities (barring skin irritations such as rash and infection) all in an effort to enhance the effectiveness of the device. Furthering this, there is a plan to incorporate detection algorithms to help nominate most suitable veins (for example, identify velocities of blood flow and size of veins), should time allow.
+Once the core device has reached the prototype stage, extensive testing will need to be completed on varying skin conditions and appearances such as: complexion, hairy, tattooed areas and other skin abnormalities (barring skin irritations such as rash and infection) all in an effort to enhance the effectiveness of the device.
 
-The prototype will also be tested with potential users of the system to ensure that it functions acceptably, and feedback will be taken to revise the prototype. Similarly potential users will be asked to construct the VeinCam so that it can be ensured that the device will be able to be constructed independently as would be necessary if the device is successful.
+The prototype will also be tested with potential users of the system to ensure that it functions acceptably; feedback will be taken to revise the prototype. Similarly potential users will be asked to construct the VeinCam so it can be ensured that the device will be independently constructible as necessary if the device is successful.
 
 Requiring further investigation and implementation; the device may be able to be shrunk to a smaller platform, such as the Raspberry Pi Zero. This would allow for the device to become a lot cheaper to build, reducing the size to something that fits into the palm of your hand, and be able to conserve more power. Implementations and performance would need to be investigated, as the Pi Zero may not be able to process the video stream as effectively as its larger counterpart.
 
@@ -196,7 +194,7 @@ Members of the public who are potential users of the device.
 #### Responsibilities of the project team to the users
 * Provide members of the public access to information that pertains to all aspects of the project.
 * Design a device that, at minimum, must not endanger the safety of potential users.
-* To the best of their ability, provide the public with the information to design an affordable device that can non-invasively image the veins of a person for venous puncture.
+* To the best of their ability, provide the public with the information to design an affordable device that can image the veins of a person.
 
 #### Responsibilities of the users to the project
 * Members of the public have little steadfast responsibility to the project team. 
@@ -259,11 +257,16 @@ The initial deliverables are as follows:
 
 #### Baseline Deliverable
 * Configure device based on Venenfinder to be able to automatically adjust contrast.
-* Design and manufacture a prototype chassis to house Pi modules to allow for handsfree real time visualization.
+* Design and manufacture a prototype chassis to house Pi modules to allow for handsfree, real-time visualization.
+* Produce a "how to build" and "how to use" guides for the device.
+* Perform initial testing on the device itself (not user-testing).
 
 #### Stretch Deliverables
-* Design or source an appropriate hands free stand to mount the device
-* Optimise for different use-case scenarios (e.g. tattooed skin, dark skin)
+In order of priority.
+* Implement manual controls for image adjustment.
+* Compile user feedback on the construction and use of the device (based on the written guides).
+* Optimise for different use-case scenarios (e.g. tattooed skin, dark skin).
+* Design or source an appropriate hands free stand to mount the device.
 * Optimise device to visualise blood flow to identify best candidate vein
 
 #### Ultra-Stretch Deliverables or Future Project Aims
@@ -274,7 +277,7 @@ The initial deliverables are as follows:
 Further detail on the optimisation of milestones and design aims of the prototype are detailed in the Requirements document. 
 
 #### Milestone 1
-Construct Functional prototype based off of Venenfinder design.
+Construct functional prototype based off of Venenfinder design.
 
 #### Milestone 2
 Configure software to automate brightness and contrast of vein visualisation, and design hardware to reduce product's form factor.
@@ -364,7 +367,8 @@ In developing the prototype there is a chance of injury, similar to above these 
 ## Change Log
 | Version | Section | Change | Justification |
 | --- | --- | --- |
-| 1.1 | Project Vision | Adjust project vision to create an educational device. | There are a lot of responsibilities for a medical device manufacturer. Developing the VeinCam for an educational purpose removes these responsibilities. |
-
+| 1.1 | [Project Vision](#project-vision) | Adjust project vision to create an educational device. | There are a lot of responsibilities for a medical device manufacturer. Developing the VeinCam for an educational purpose removes these responsibilities. |
+| 1.1 | [Project Management](#project-management) | Added how-to build and how-to use guides, and device testing to baseline deliverables. | Missing from previous deliverables and necessary for open-source construction and verification. |
+| 1.1 | [Project Management](#project-management) | Added manual adjustment and user feedback deliverables. | Considered more important than the other stretch deliverables as it will enhance the user experience and is more achievable. Testing will provide points for the project to move forward. |
 
 This Project is licensed under the Creative Commons license.
