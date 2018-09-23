@@ -69,11 +69,11 @@ The VeinCam project hopes to utilise similar hardware to the Venenfinder project
 Further adding to the Venenfinder project; the aim is to produce a device that is battery powered, completely wireless and to reduce the size of the device to be comfortably held in one hand. Being a wireless device, we need to ensure the device is as power efficient as possible and does not require recharging more than absolutely necessary. As part of the new housing for the device, a mounting system will be integrated, and a mount be devised for hands-free use. 
 
 #### VeinCam Testing and Future Development Plans
-Once the core device has reached the prototype stage, extensive testing will need to be completed on varying skin conditions and appearances such as: complexion, hairy, tattooed areas and other skin abnormalities (barring skin irritations such as rash and infection) all in an effort to enhance the effectiveness of the device.
+Once the core device has reached the prototype stage testing will be completed on the device to determine its functionality and improve the technical aspects. The device will also be informally tested as a proof-of-concept.
 
-The prototype will also be tested with potential users of the system to ensure that it functions acceptably; feedback will be taken to revise the prototype. Similarly potential users will be asked to construct the VeinCam so it can be ensured that the device will be independently constructible as necessary if the device is successful.
+To formally verfiy and validate the device extensive testing will need to be completed on varying skin conditions and appearances such as: complexion, hairy, tattooed areas and other skin abnormalities (barring skin irritations such as rash and infection). The prototype will also be tested with potential users of the system to ensure that it functions acceptably; feedback will be taken to revise the prototype. Similarly potential users will be asked to construct the VeinCam so it can be ensured that the device will be independently constructible as necessary if the device is successful. To formally conduct this testing ethics approval is necessary and therefore outside the scope of the project, however examining this process would provide the project pathways to continue into the future.
 
-Requiring further investigation and implementation; the device may be able to be shrunk to a smaller platform, such as the Raspberry Pi Zero. This would allow for the device to become a lot cheaper to build, reducing the size to something that fits into the palm of your hand, and be able to conserve more power. Implementations and performance would need to be investigated, as the Pi Zero may not be able to process the video stream as effectively as its larger counterpart.
+Also requiring further investigation and implementation; the device may be able to be shrunk to a smaller platform, such as the Raspberry Pi Zero. This would allow for the device to become a lot cheaper to build, reducing the size to something that fits into the palm of your hand, and be able to conserve more power. Implementations and performance would need to be investigated, as the Pi Zero may not be able to process the video stream as effectively as its larger counterpart.
 
 ---
 
@@ -259,7 +259,7 @@ The initial deliverables are as follows:
 * Configure device based on Venenfinder to be able to automatically adjust contrast.
 * Design and manufacture a prototype chassis to house Pi modules to allow for handsfree, real-time visualization.
 * Produce a "how to build" and "how to use" guides for the device.
-* Perform initial testing on the device itself (not user-testing).
+* Perform initial testing on the device itself (not formal user-testing).
 
 #### Stretch Deliverables
 In order of priority.
