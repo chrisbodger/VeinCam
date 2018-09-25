@@ -49,28 +49,24 @@ Our Concept of Operations is nearly complete. after we have completed the feedba
 The [Concept of Operations](docs/CONOPS.md) document can be found in our repository.
 
 # 5. Meeting Minutes
-Team meetings are scheduled twice a week, to ensure the team is aware of the overall progress made, as well to provide the client an opportunity to see what we have achieved, should they choose to join the meetings. They are currently scheduled for the following times:
-* Wednesday 11pm
-* Saturday 2pm
+Team meetings are scheduled two to three times a week with different stakeholders present. One meeting is internal with only the project team, one has the tutor and shadow team present, and one is with the project client. They are currently scheduled for the following times:
+* Tuesday 10am (Tutor and Shadow Team)
+* Wednesday 11pm (Project Team)
+* Saturday 2pm (Project Client)
 
-The Saturday Meeting is primarily made available for meeting with the client, and to provide a weekly update, where Wednesday is an internal midweek meeting to ensure our actionables are on track for completion. These times may vary, depending on the availability of the team, and client.
+The wednesday and saturday meeting times may vary, depending on the availability of the team, and client.
 
 Meeting Minutes can also be found in our repository:
 
 ## Last Meeting Minutes
-* [August 28th](Meeting-Minutes/Meeting-Minutes-2018-08-28.md)
+* [September 22nd](Meeting-Minutes/Meeting-Minutes-2018-09-22.md)
 
-## Previous Meeting Minutes
-* [July 31st](Meeting-Minutes/Meeting-Minutes-2018-07-31.md)  
-* [August 1st](Meeting-Minutes/Meeting-Minutes-2018-08-01.md)
-* [August 4th](Meeting-Minutes/Meeting-Minutes-2018-08-04.md)
-* [August 8th](Meeting-Minutes/Meeting-Minutes-2018-08-08.md)
-* [August 11th](Meeting-Minutes/Meeting-Minutes-2018-08-11.md)
-* [August 14th](Meeting-Minutes/Meeting-Minutes-2018-08-14.md)
-* [August 15th](Meeting-Minutes/Meeting-Minutes-2018-08-15.md)
-* [August 18th](Meeting-Minutes/Meeting-Minutes-2018-08-18.md)
-* [August 22nd](Meeting-Minutes/Meeting-Minutes-2018-08-22.md)
-* [August 25th](Meeting-Minutes/Meeting-Minutes-2018-08-25.md)
+## Recent Meeting Minutes
+* [September 5th](Meeting-Minutes/Meeting-Minutes-2018-09-05.md)  
+* [September 15th](Meeting-Minutes/Meeting-Minutes-2018-09-15.md)
+* [September 18th](Meeting-Minutes/Meeting-Minutes-2018-09-18.md)
+* [September 19th](Meeting-Minutes/Meeting-Minutes-2018-09-19.md)
+* [September 22nd](Meeting-Minutes/Meeting-Minutes-2018-09-22.md)
 
 # 6. Design Documents
 The design of the VeinCam will be presented here, once the ConOps has been approved, and progress/final designs are made available. the construction method of the device will also be presented here.
