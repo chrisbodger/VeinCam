@@ -13,16 +13,21 @@ Once the feedback has been received, an issue will be created within the GitHub 
 **Any feedback is welcome.**
 
 # 2. Progress Update
-## September 5th
-Progress this week has been based around finalising the prototype. This has taken longer than anticipated due to a few setbacks with 3D printing and finalising code.
+## September 25th
+Several weeks have gone by since the last update, and theres much to talk about:
 
 ### Hardware
-Version 2.0 of the chassis has proved difficult to complete as there has been complications with the 3D printers. A version was printed however the mounting pins inside the case were malformed. An ad hoc mechanism may be used with the print and if the issue persists then an alternative will be chosen. Version 2.1 will be printed tomorrow with the hope that it will be suitable to hand to the client for preliminary testing.
+We are up to case version 2.2, that incorporates a smaller form factor, and better ergonomics. Unfortunately these past few weeks have not been able to produce a successful print of the new case. We believe that this will be the final iteration of the case.
+
+The only variation to the case that may happen is testing into a different LED configuration. the aim is to attempt to achieve a better contrast of skin and veins, and hope to achieve deeper skin penetration to visualise veins on people who have a higher BMI. This is still on going but we hope to have a clear idea by the end of this week.
 
 ### Software
-A successful stream has been created with the automatic contrast adjustment. The next step is to get the Pi to run the necessary scripts on boot so that the process can be simple and automated when users turn on the device. 
+The software currently works to automatically start up on boot up; initialising the wireless access point for external connections and starting the web stream to an external device. It has been noted that the wireless access point fails to start sometimes on point, making it difficult to connect to externally. this will be looked into, as it is believed that there is other software that may be interfering with the hosting software and blocking it from starting.
 
-The goal is to complete a working prototype in both hardware and software to give to the client this Saturday (8th of September)
+Aside from this, some manual controls will be implemented to the hosting web page for better controls over the software processing and image input.
+
+###
+
 
 ## Previous Progress Updates
 * [August 1st](Progress-Updates/progress-update-2018-08-01.md)
@@ -30,6 +35,7 @@ The goal is to complete a working prototype in both hardware and software to giv
 * [August 11th](Progress-Updates/progress-update-2018-08-11.md)
 * [August 18th](Progress-Updates/progress-update-2018-08-18.md)
 * [August 25th](Progress-Updates/progress-update-2018-08-25.md)
+* [September 5th](Progress-Updates/progress-update-2018-09-05.md)
 
 ## Work Diary
 For more detailed information on the work that has been completed please refer to the [work diary](docs/Team-Work-Diary.md)
