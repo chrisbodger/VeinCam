@@ -62,6 +62,12 @@ Retrospective Recount of the last two weeks:
 
 * Software completed the autostart and initialisation procedures for the web stream and image processing. Currently, it outputs the processed image at a reasonably high framerate for its intended use. The webpage however has an issue initialising the stream in a timely manner (upwards of 30 seconds) and the Wireless connectivity fails to initiate on some occurrences. These will hopefully be explored in the coming weeks.
 
+25/09/2018 Chris
+Started work on an alternative LED array to try and achieve deep vein visualisation. An array of both 850nm and 940nm has been laid out but yet to be tested. The case lid has been slightly altered to be able to house 12 LEDs in preparation of success. 
+
+Printing the case has been continually failed since last term, regardless of the printer and variation of settings. We will need to speak to one of the technicians on how to successfully print the case.
+
+
 ## Documentation, Research, Meetings and other Governance Activities
 
 Progress from start of project as at 15/8/18
