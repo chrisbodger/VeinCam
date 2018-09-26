@@ -10,9 +10,8 @@ Requirements have been developed through conversation with the project client re
 | 2 | The device must be handsfree |
 | 3 | The device must be able to wirelessly connect to an external device with a screen |
 | 4 | The device must be portable and mobile |
-| 5 | The device must be wipeable for sterilisation |
-| 6 | The device must be simple to use |
-| 7 | The device must be simple to construct |
+| 5 | The device must be simple to use |
+| 6 | The device must be simple to construct |
 | 8* | The device must improve venous puncture success in all use-cases (e.g dark-skinned, tattooed, hairy) |
 
 *Requirement 8 is part of a stretch deliverable for the project.
@@ -31,8 +30,6 @@ The requirements were broken down into specifications that will provide validati
 | 3.1 | Wireless Range | m | >1 |
 | 3.2 | Stream Delay | ms | <1000 |
 | 4 | Form Factor | mm | <150 x 90 x 70 |
-| 5.1 | Surface Roughness (R<sub>a</sub>) | &mu;m | <10 |
-| 5.2 | Gapless Case | mm | <1 |
 | 6.1 | User Acceptance | % | >90 |
 | 6.2 | Boot Time | s | <15 |
 | 6.3 | OS Compatibility | # | >2 |
@@ -82,3 +79,8 @@ The requirements were broken down into specifications that will provide validati
 **8.1-4. Automatic Contrast Adjustment (for various use cases) -** Similar to 2.1. however in scenarios where vein detection has been shown to be more difficult.
 
 **8.5. Visualise Vascular Blood FLow -** The ability of the device to visualise real-time blood flow through candidate veins. Measured through success rate in user testing.
+
+| Date | Section | Change | Justification |
+| --- | --- | --- | --- |
+| 26/8/18 | [Requirements](#requirements) | Remove sterilisation requirement and associated specifications: gapless case and surface roughness. | The device is to be used as an educational tool as opposed to a medical device. |
+| 26/8/18 | [Requirements](#requirements) |  |  |
