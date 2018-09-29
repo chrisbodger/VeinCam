@@ -44,15 +44,13 @@ The requirements were broken down into specifications that will provide validati
 ### Description
 **1. Total Cost -** The total cost of all components necessary to construct the VeinCam
 
-**2.1. Automatic Contrast Adjustment (for ideal scenario) -** 
+**2.1. Camera Focal Length -** The focal length of the camera used in the device. Must have an image in focus at a height where it will not interfere with the users.
 
-**2.2. Camera Focal Length -** The focal length of the camera used in the device. Must have an image in focus at a height where it will not interfere with the users.
+**2.2. Adjustable Set Height -** The heights that the device can be held still without human interaction once set in the appropriate position (i.e within the camera focal length).
 
-**2.3. Adjustable Set Height -** The heights that the device can be held still without human interaction once set in the appropriate position (i.e within the camera focal length).
+**2.3. Handsfree Operation -** The time that both the physical device and the software interface can operate without human interaction.
 
-**2.4. Handsfree Operation -** The time that both the physical device and the software interface can operate without human interaction.
-
-**2.5. Battery Life -** The amount of time the device can be used (while streaming) without needing to be plugged in to recharge.
+**2.4. Battery Life -** The amount of time the device can be used (while streaming) without needing to be plugged in to recharge.
 
 **3.1. Wireless Range -** The range that the device is able to communicate wirelessly with an external device.
 
