@@ -26,7 +26,12 @@ The software currently works to automatically start up on boot up; initialising 
 
 Aside from this, some manual controls will be implemented to the hosting web page for better controls over the software processing and image input.
 
-###
+### Governance and Bureaucratic Issues
+Over the source of the mid semester teaching break the team was in contact with a variety of sources to discuss the purpose of the device and how that impacts the how we distribute information about the device. Through much discussion, the group decided the best path for the future of the project would be to advertise the device as an educational tool, assisting with teaching about veins and educating the public for informed consent of medical procedures. 
+
+Additionally, through correspondence with legal services and the ANU Human Ethics Committee, the group became aware that initial human testing of the device would not be able to be completed at this stage of the project as human ethics approval is necessary to do testing. This provides some roadblocks for the development of the device as the group is not able to determine how the device needs to be improved for optimal practical use. As such, the aims and scope of the project were modified slightly. 
+
+Going forward, the group will be finishing up with tutorial documents on how to build the device, documents for conducting future testing, and acting on feedback from the client on the functioning of the device. The group is also developing designs for the poster to present the device at the closure of this project. 
 
 
 ## Previous Progress Updates
@@ -50,7 +55,7 @@ Here we will have the information, results, and feedback to our audits, and will
 Should our stakeholders wish to provide us with feedback, they can fill out a google survey in which we will action them appropriately as responses are presented to us.
 
 # 4. Concept of Operations
-Our Concept of Operations is nearly complete. after we have completed the feedback from Audit 1, we feel that this document will be ready for sign off.
+Our Concept of Operations has undergone further iterations in recent weeks, primarily to the aims, scope and stakeholders of the project. We encourage any feedback on changes made. 
 
 The [Concept of Operations](docs/CONOPS.md) document can be found in our repository.
 
