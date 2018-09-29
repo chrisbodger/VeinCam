@@ -168,3 +168,12 @@ Progress from start of project as at 15/8/18
 * Made agenda for tutorial tomorrow 18/9
 * Begun agenda for group meeting 19/9
 * Written up audit 2 feedback summary, lawyer meeting summary and human ethics committee summary of correspondence
+
+25/9/18 Joey
+* Reworked sections of the ConOps (as seen in change log in rebranding patch).
+
+26/9/18 Joey
+* Began changes to requirements document with rebranding.
+
+29/9/18 Joey
+* Completed changes to requirements and testing documents.
