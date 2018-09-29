@@ -18,20 +18,21 @@
 
 ## 1. Project Update
 * Hardware
-  * 
+  * Steps to operate:
+    * Turn on
+    * Connect to wifi (RasPi related name)
+      * Password: ChangeMe
+    * Site: 10.3.141.1:8000
+  * Can still get images from different LED configurations.
 * Software
-  * 
-
----
-
-## Additional Feedback
-* 
+  * Check for SD card corruption.
+* Device had some unforeseen issues to be fixed ASAP to give to Ben for examination on Tuesday.
 
 ---
 
 ## Actionables
 * Chris to:
-  * 
+  * Take images of different LED configurations.
 * Steph to:
   * 
 * Alex to:
@@ -39,4 +40,4 @@
 * Joey to:
   * 
 * All:
-  * 
+  * Have full case and working software ready for tuesday.
