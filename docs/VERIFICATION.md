@@ -28,10 +28,10 @@ As prototypes are tested the results will be updated here. Raw data can be found
 | ID | Specification | Metric | Benchmark | Result |
 | --- | --- | --- | --- | --- |
 | 1 | Total Cost | $ | <250 | |
-| 2.2 | Camera Focal Length | mm | 300-500 | |
-| 2.3 | Adjustable Set Height | mm | 300-500 | |
-| 2.4 | Handsfree Operation | min | >5 | |
-| 2.5 | Battery Life | min | >60 | |
+| 2.1 | Camera Focal Length | mm | 300-500 | |
+| 2.2 | Adjustable Set Height | mm | 300-500 | |
+| 2.3 | Handsfree Operation | min | >5 | |
+| 2.4 | Battery Life | min | >60 | |
 | 3.1 | Wireless Range | m | >1 | |
 | 3.2 | Stream Delay | ms | <1000 | |
 | 4 | Form Factor | mm | <150 x 90 x 70 | |
