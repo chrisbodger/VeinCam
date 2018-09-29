@@ -76,6 +76,8 @@ The requirements were broken down into specifications that will provide validati
 
 **7.6. Visualise Vascular Blood FLow -** The ability of the device to visualise real-time blood flow. Measured through success rate in user testing.
 
+## Change Log
+
 | Date | Section | Change | Justification |
 | --- | --- | --- | --- |
 | 26/9/18 | [Requirements](#requirements) | Remove sterilisation requirement and associated specifications: gapless case and surface roughness. | The device is to be used as an educational tool as opposed to a medical device. |
