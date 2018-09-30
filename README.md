@@ -70,7 +70,7 @@ The wednesday and saturday meeting times may vary, depending on the availability
 Meeting Minutes can also be found in our repository:
 
 ## Last Meeting Minutes
-* [September 22nd](Meeting-Minutes/Meeting-Minutes-2018-09-22.md)
+* [September 29th](Meeting-Minutes/Meeting-Minutes-2018-09-29.md)
 
 ## Recent Meeting Minutes
 * [September 5th](Meeting-Minutes/Meeting-Minutes-2018-09-05.md)  
