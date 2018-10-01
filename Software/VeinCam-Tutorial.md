@@ -197,7 +197,9 @@ It will prompt you for input, accept them by typing 'y' and hitting enter (as so
   - Login Password: secret
   - DHCP range: 10.3.141.50 to 10.3.141.255
 
-You can log into the web interface, and change parameters by using the login details listed above. These are the default parameters, so you may wish to change them.
+You can log into the web interface, and change parameters by using the login details listed above. These are the default parameters, so you may wish to change them. Below are the parameters we used.
+* SSID: VeinCam
+* Password: ANUVeinCam
 
 
 **ADD MORE HERE FOR ANY CODE DEPLOYMENT**
