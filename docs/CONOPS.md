@@ -320,8 +320,7 @@ An [indicative schedule](https://docs.google.com/spreadsheets/d/1nfNqFCF2ieP5CyV
    2.5. Update software with stretch deliverables
 3. Validation & Verification  
    3.1. Test prototype in-house  
-   3.2. Test prototype with users  
-   3.3. Conduct performance review  
+   3.2. Conduct performance review  
 4. Documentation  
    4.1. Write ConOps v1  
    4.2. Update ConOps v2  
@@ -371,5 +370,6 @@ In developing the prototype there is a chance of injury, similar to above these 
 | 1.1 | [Project Vision](#project-vision) | Adjust project vision to create an educational device. | There are a lot of responsibilities for a medical device manufacturer. Developing the VeinCam for an educational purpose removes these responsibilities. |
 | 1.1 | [Project Management](#project-management) | Added how-to build and how-to use guides, and device testing to baseline deliverables. | Missing from previous deliverables and necessary for open-source construction and verification. |
 | 1.1 | [Project Management](#project-management) | Added manual adjustment and user feedback deliverables. | Considered more important than the other stretch deliverables as it will enhance the user experience and is more achievable. Testing will provide points for the project to move forward. |
+| 1.1 | [WBS](#work-breakdown-structure) | Removed testing with users. | No longer falls within the scope of the project and would require ethics approval. |
 
 This Project is licensed under the Creative Commons license.
