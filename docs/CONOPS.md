@@ -40,7 +40,7 @@ Our VeinCam device will help students better understand venous sites by augmenti
 ### Project Scope
 The project aims to greatly extend and refine what was achieved in the Venenfinder HackADay project; automating and adding to some of the functionality while remaining cost effective.
 
-The device should be portable and widely accessible. Veins will be illuminated using near-infrared light and the scattering from this light detected by a Raspberry Pi device equipped with a Pi noIR module. The project will be looking exclusively looking at using a Raspberry Pi as the basis for the device as has been suggested by the client due to the Pi plaform being available internationally as a well established product for such uses. Additionally the Pi system has a rich set of add-on devices that support development of a vein camera.
+The device should be portable and widely accessible. Veins will be illuminated using near-infrared light and the scattering from this light detected by a Raspberry Pi device equipped with a Pi noIR module. The project will be looking exclusively looking at using a Raspberry Pi as the basis for the device as has been suggested by the client due to the Pi platform being available internationally as a well established product for such uses. Additionally the Pi system has a rich set of add-on devices that support development of a vein camera.
 
 The software from the Venenfinder project will be heavily modified, incorporating intelligent OpenCV scripts to perform automatic adjustments to the lighting and contrast settings. Manual adjustments will also be implemented in order to get the best possible image in any use case.
 
@@ -71,7 +71,7 @@ Further adding to the Venenfinder project; the aim is to produce a device that i
 #### VeinCam Testing and Future Development Plans
 Once the core device has reached the prototype stage testing will be completed on the device to determine its functionality and improve the technical aspects. The device will also be informally tested as a proof-of-concept.
 
-To formally verfiy and validate the device extensive testing will need to be completed on varying skin conditions and appearances such as: complexion, hairy, tattooed areas and other skin abnormalities (barring skin irritations such as rash and infection). The prototype will also be tested with potential users of the system to ensure that it functions acceptably; feedback will be taken to revise the prototype. Similarly potential users will be asked to construct the VeinCam so it can be ensured that the device will be independently constructible as necessary if the device is successful. To formally conduct this testing ethics approval is necessary and therefore outside the scope of the project, however examining this process would provide the project pathways to continue into the future.
+To formally verify and validate the device extensive testing will need to be completed on varying skin conditions and appearances such as: complexion, hairy, tattooed areas and other skin abnormalities (barring skin irritations such as rash and infection). The prototype will also be tested with potential users of the system to ensure that it functions acceptably; feedback will be taken to revise the prototype. Similarly potential users will be asked to construct the VeinCam so it can be ensured that the device will be independently constructible as necessary if the device is successful. To formally conduct this testing ethics approval is necessary and therefore outside the scope of the project, however examining this process would provide the project pathways to continue into the future.
 
 Also requiring further investigation and implementation; the device may be able to be shrunk to a smaller platform, such as the Raspberry Pi Zero. This would allow for the device to become a lot cheaper to build, reducing the size to something that fits into the palm of your hand, and be able to conserve more power. Implementations and performance would need to be investigated, as the Pi Zero may not be able to process the video stream as effectively as its larger counterpart.
 
@@ -214,7 +214,7 @@ Tools likely to be used throughout this project include:
 - Soldering Iron
 - 3D Printer
 - Laser Cutter
-- Dremmel
+- Dremel
 - Screwdriver, screws, nuts and bolts.
 
 All safety precautions outlined by the ANU Makerspace's Terms and Conditions will be followed during the use of instrument or tool, regardless of where and how it is used. A safety risk analysis has been performed at the bottom of this document.
@@ -255,7 +255,7 @@ Please note these pricings are indicative and can change with the market. It is 
 ### Deliverables
 The initial deliverables are as follows:  
 
-#### Baseline Deliverable
+#### Baseline Deliverables
 * Configure device based on Venenfinder to be able to automatically adjust contrast.
 * Design and manufacture a prototype chassis to house Pi modules to allow for handsfree, real-time visualization.
 * Produce a "how to build" and "how to use" guides for the device.
