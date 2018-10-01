@@ -14,8 +14,7 @@
    2.5. Update software with stretch deliverables
 3. Validation & Verification  
    3.1. Test prototype in-house  
-   3.2. Test prototype with users  
-   3.3. Conduct performance review  
+   3.2. Conduct performance review  
 4. Documentation  
    4.1. Write ConOps v1  
    4.2. Update ConOps v2  
