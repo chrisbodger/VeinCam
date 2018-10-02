@@ -10,3 +10,4 @@ To use the device and stream the camera image to your own personal device:
 #### 6. View the stream!
 
 To switch off the device, press the left button (lid/LEDs facing up). 
+ 
