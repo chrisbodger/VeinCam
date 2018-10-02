@@ -15,7 +15,7 @@ Once the feedback has been received, an issue will be created within the GitHub 
 # 2. Progress Update
 ## October 2nd
 The client has recieved our second complete prototype to take and provide feedback on based on their use.
-Photos of the prototype can be found in the 'images' folder, and a user instructions manual can be found in the 'docs' folder.  
+Photos of the prototype can be found in the 'images' folder, and a user instructions manual above in the main respository.  
 
 ### Hardware
 At long last, case version 2.2 finally completed a full successful print. No changes were made to the LED configuration after testing of LEDS with differing wavelengths (840 vs 940nm) proved to not improve performance of viewing veins. The case was assembled however the mounts, charging port and button hole placement was found to be all out of place (less so than previous iterations). This will be a major focus for the final design.
