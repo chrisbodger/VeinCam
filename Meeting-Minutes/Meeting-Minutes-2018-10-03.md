@@ -52,10 +52,11 @@
 * Steph to:
   * Begin to draft summary/handover doc.
   * Send sign-off document to Jenny and Ben.
+  * Draft audit presentation by Sunday
 * Alex to:
   * Focus solely on implementing manual controls.
 * Joey to:
   * Move docs to repo.
-  * Complete poster template by next audit.
+  * Complete poster template by next audit (sunday).
 * All:
   * Sign v1.1 ConOps agreement.
