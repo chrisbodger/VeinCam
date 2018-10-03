@@ -1,3 +1,8 @@
+Materials and simple steps on where to begin
+Including final pictures and maybe pictures on individual components
+
+
+
 # Preparing a Raspberry Pi for VeinCam
 Install the Raspbian operating system. At time of writing, Stretch is the latest version, and can be downloaded from the Raspeberry Pi Website. You can install either the full desktop version, or the lite version for those who are familiar with navigating through a Command Line Interface.
 
