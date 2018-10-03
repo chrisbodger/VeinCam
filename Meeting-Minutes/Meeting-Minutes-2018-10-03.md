@@ -8,11 +8,18 @@
 | Alex Ollman | |
 
 ## Agenda
-1. 
+1. Documentation for wrapping up.
+   * Testing
+2. Poster layout decision.
 
 ---
 
-## 1.
+## 1. Documentation
+* 
+
+---
+
+## 2. Poster Layout
 * 
 
 ---
