@@ -1,10 +1,70 @@
-Materials and simple steps on where to begin
-Including final pictures and maybe pictures on individual components
+**Fix links**
 
+# Table of Contents
 
+# Required Hardware
+- [Raspberry Pi 3 (Model B+)](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/)
+- [Raspberry PiCam NoIR](https://www.raspberrypi.org/products/pi-noir-camera-v2/)
+- PiJuice HAT for the Raspberry Pi
+- ~750nm Infrared Filter
+- 6 850nm Infrared LEDs
+- 65mm x 95mm Veraboard (may need to cut a slightly larger one down)
+- 16GB MicroSD Card
+- 8 3mmx5mm diameter disk magnets
+- 3 20mmx10mmx3mm cuboid magnets
+- Micro USB phone charger (2.1A output required)
 
-# Preparing a Raspberry Pi for VeinCam
-Install the Raspbian operating system. At time of writing, Stretch is the latest version, and can be downloaded from the Raspeberry Pi Website. You can install either the full desktop version, or the lite version for those who are familiar with navigating through a Command Line Interface.
+# Assembling the Raspberry Pi
+Attach the NoIR Camera module to the Raspberry Pi (RPi). To do this, disengage the lock on the port by lifting the edge tabs until you feel a click. The ribbon cable should be orientated as seen in the image below:
+
+**Image**
+
+Once the cable is firmly seated, press down on the edge tabs once again until you feel that click. Place the camera module down like in the next image, where the ribbon cable sits over the rear ports of the RPi. Put a slight kick in the ribbon cable suppost (Blue plastic) to help keep the cable flat.
+
+**Image**
+
+Install the PiJuice HAT onto the RPi. ensure that the pins on the RPi are aligned to the header on the underside of the PiJuice. The screw posts on the PiJuice should all align with the holes on the RPi board. Make sure you move the camera ribbon cable out of the way of the screw posts near the ports. Damage to the cable can result in the camera being unusable
+
+**Images**
+
+# Assembling the LED array (WARNING - BURN HAZARD)
+...to do...
+
+Connect the Positive wire to the 5V header on the PiJuice, and the negative wire to the Ground Pin
+
+**image**
+
+# Preparing The Raspberry Pi for VeinCam (The Quick Way)
+Download a program called [Etcher](https://etcher.io/) which is available on all desktop platforms. Etcher is a simple tool to flash ISO files to USBs and SD Cards. Also download the ISO file found [here](/Software/System-Image) and save it to you computer.
+
+Run Etcher once it is installed, and insert the microSD card into your computer - most microSD cards come with an SD Card adapter to make this easier, and Etcher will auto-detect the card within a few seconds. Click the 'Select Image' button and navigate to where you downloaded and saved the ISO file. 
+
+The 'Flash!' button should now be available. Click it and wait for the flashing process to complete. Do not touch the SD card while this completes as you can corrupt the card and have to start again. Make sure your computer does not go to sleep or turn off during this process as well.
+
+When the flash is complete, Etcher will prompt you with 'Flash Complete'. Remove the card from your computer and put it into the microSD slot on the underside of the RPi. Connect the power cable to the PiJuice and press the button closest to the charger. See [The User Guide](/User-Manual.md) on how to connect to the device with your personal device.
+
+# Preparing The Raspberry Pi for VeinCam (The Advanced Way)
+Install the Raspbian operating system. At time of writing, Stretch is the latest version, and can be downloaded from the Raspeberry Pi Website. You can install either the full desktop version, or the lite version for those who are familiar with navigating through a Command Line Interface. You will need a Desktop/Laptop for the remainder of the guide (Windows, Mac or Linux), one with an microSD/SD Card slot, ortherwise you will also require a USB adapter.
+
+## Preparing the SD Card
+This guide uses the Full Desktop version. Download the Raspbian ISO file [Here](https://www.raspberrypi.org/downloads/) and save it to your computer. Download a program called [Etcher](https://etcher.io/) which is available on all desktop platforms. Etcher is a simple tool to flash ISO files to USBs and SD Cards. 
+
+Run Etcher once it is installed, and insert the microSD card into your computer - most microSD cards come with an SD Card adapter to make this easier, and Etcher will auto-detect the card within a few seconds. Click the 'Select Image' button and navigate to where you downloaded and saved the ISO file. 
+
+The 'Flash!' button should now be available. Click it and wait for the flashing process to complete. Do not touch the SD card while this completes as you can corrupt the card and have to start again. Make sure your computer does not go to sleep or turn off during this process as well.
+
+When the flash is complete, Etcher will prompt you with 'Flash Complete'. Remove the card from your computer and put it into the microSD slot on the underside of the RPi. Connect the necessary cables to the RPi - you will need a keyboard, mouse, ethernet cable (connected to your router) and a monitor connected via HDMI. 
+
+Once this is done, connect power to the Micro USB port on the PiJuice (this will start charging the battery) and press the small button closest to the USB port. A red LED on the RPi board will illuminate, indicating it has turned on. You will see it booting up on your screen, and within 15 seconds it will display the RPi desktop with the 'Welcome to Rasperry Pi' dialog box. this is a first run program to configure your RPi. Step through and fill in the required information. DO NOT configure a WiFi network to the device, as it will be overridden by the WiFi hotspot software and can cause issues.
+
+## Configuring the PiJuice
+Open up a terminal window, and run the following command
+```
+sudo apt-get install pijuice-gui
+```
+This will install the software required to configure the PiJuice.
+
+**set up for switches**
 
 ## Installing OpenCV
 ### Preparing the Filesystem
@@ -185,7 +245,7 @@ sudo mv cv2.cpython-35m-arm-linux-gnueabihf.so cv2.so
 cd ~/.virtualenvs/cv/lib/python3.5/site-packages/
 ln -s /usr/local/lib/python3.5/site-packages/cv2.so cv2.so
 ```
-# Wireless Hotspot Configuration
+## Wireless Hotspot Configuration
 This is mainly takes one command to fully configure using the [RaspAP Utility](https://github.com/billz/raspap-webgui). This utility installs the required dependencies and configures the Raspberry Pi into a self-serving Internet access point. The advantage to this is that it can allow connections from multiple devices and allow them 'Internet' access, like a modem would. Internet can also be passed through the RasPi via its on board ethernet port.
 
 Before setup, disconnect any wireless networks the device may already be connected to, and plug in an ethernet cable. Execute the command below and it will download the required files and start the install.
@@ -202,7 +262,42 @@ It will prompt you for input, accept them by typing 'y' and hitting enter (as so
   - Login Password: secret
   - DHCP range: 10.3.141.50 to 10.3.141.255
 
-You can log into the web interface, and change parameters by using the login details listed above. These are the default parameters, so you may wish to change them.
+You can log into the web interface, and change parameters by using the login details listed above. These are the default parameters, so you may wish to change them. Below are the parameters we used.
+* SSID: VeinCam
+* Password: ANUVeinCam
+* Channel: 6
 
+## Preparing for VeinCam Autostart
+During our development, we encountered an error where the bash profile would not autorun on user log in, we determined this could be due to still....**EXPLAIN!!!**
 
-**ADD MORE HERE FOR ANY CODE DEPLOYMENT**
+To fix this, we need to switch to the CLI environment for boot, and back again. to do this, open a terminal and execute the command
+```
+sudo raspi-config
+```
+and navigate to **"3 Boot options > B1 Desktop / CLI > Console Autologin"** and go finish. it will ask you to reboot. Accept and you will be booted into the command line interface. Run the config command again and go to **"3 Boot options > B1 Desktop / CLI > Desktop Autologin"** this time, and reboot. This should allow the profile to autoload on user login.
+
+## Running the VeinCam Software
+Ensure you are in the OpenCV environment:
+```
+source ~/,profile
+workon cv
+```
+and run the next 2 commands:
+```
+pip3 install flask
+pip3 install picamera
+```
+These are the last of the softwares required to run the VeinCam software - Flask is a python framework that extends what python can do, and is useful in our case to convert HTML into python commands (loading the webstream and controlling its parameters). The picamera module is for the camera itself, as the full library is not present within the python environment.
+
+Download our [launcher.sh](Software/Final/launcher.sh) file and our [app.py](Software/Final/app.py) file and save them to the home directory. Put the app.py file into a folder called pistream.
+
+In a terminal, run the below command
+```
+sudo nano ~/.profile
+```
+and add these two lines to the bottom of the file
+```
+workon cv
+bash launcher.sh
+```
+Reboot your device, and you should be able to connect to it with your personal device using the settings you configured during [the Hotspot configuration](#wireless-hotspot-configuration).
