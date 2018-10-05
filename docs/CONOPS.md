@@ -237,7 +237,7 @@ An initial Bill of Materials has been drafted below of what we expect the projec
 | Raspberry Pi 3 | $65 | Y |
 | Raspberry PiCam | $50 | Y |
 | Raspberry Pi Battery Module | $90 | Y |
-| 10 x 940nm near-Infrared LEDs | $15 | N |
+| 10 x 850nm near-Infrared LEDs | $15 | N |
 | 10 x 220 Ohm Resistors | $1 | N |
 | 8 x Neodymium Magnets | $5 | N |
 | IR Filter | $10 | Y |
