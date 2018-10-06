@@ -17,3 +17,4 @@
 | 5mm x 2mm Disk Magnets, Quantity 20 | SimplyOnline Ebay Store: https://www.ebay.com.au/itm/152688785592 | 27/08/2018 | $3.85 | TBD | TBD | No |
 | 20mm x 10mm x 3mm Cuboid Magnets, Quantity 3 | SimplyOnline Ebay Store: https://www.ebay.com.au/itm/152689101658 | 17/09/2018 | $4.50 | TBD | TBD | No |
 | 75mm x 95mm Prototyping Board | Available at Jaycar electronics Website: https://www.jaycar.com.au/pc-boards-vero-type-strip-95mm-x-75mm/p/HP9540 | Cost: $4.50 | | Yes | 27/8/18 |
+| 5MP Camera Module for Raspberry Pi | Available at Jaycar electronics Website: https://www.jaycar.com.au/5mp-camera-for-raspberry-pi/p/XC9020 | Cost: $24.95 | | Yes | 5/10/18 |
