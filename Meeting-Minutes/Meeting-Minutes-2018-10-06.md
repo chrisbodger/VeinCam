@@ -11,6 +11,9 @@
 ## Agenda
 1. Future of the project.
    * What the repository and website will look like.
+2. Client Feedback (google drive)
+   * Conops- some small changes
+   * Device use
 
 ---
 
