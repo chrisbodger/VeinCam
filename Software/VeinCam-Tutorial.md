@@ -284,7 +284,7 @@ You can log into the web interface, and change parameters by using the login det
 * Channel: 6
 
 ## Preparing for VeinCam Autostart
-During our development, we encountered an error where the bash profile would not autorun on user log in, we determined this could be due to still....**EXPLAIN!!!**
+During our development, we encountered an error where the bash profile would not autorun on user log in. We determined that this was likely due to the OS was preconfigured to log into the desktop environment automatically, and the profile script does not automatically load. 
 
 To fix this, we need to switch to the CLI environment for boot, and back again. to do this, open a terminal and execute the command
 ```
