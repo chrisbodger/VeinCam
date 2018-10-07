@@ -1,6 +1,22 @@
 **Fix links**
 
 # Table of Contents
+1. [Required Hardware](#required-hardware)
+2. [Assembling the Raspberry Pi](#assembling-the-raspberry-pi)
+3. [Assembling the LED Array (WARNING: BURN HAZARD)](#assembling-the-led-array-warning-burn-hazard)
+4. [Preparing The Raspberry Pi for VeinCam (The Quick Way)](#preparing-the-raspberry-pi-for-veincam-the-quick-way)
+5. [Preparing The Raspberry Pi for VeinCam (The Advanced Way)](#preparing-the-raspberry-pi-for-veincam-the-advanced-way)
+    - [Preparing the SD Card](#preparing-the-sd-card)
+    - [Configuring the PiJuice](#configuring-the-pijuice)
+    - [Installing OpenCV](#installing-opencv)
+        - [Preparing the Filesystem](#preparing-the-filesystem)
+        - [Installing the OpenCV Dependencies](#installing-the-opencv-dependencies)
+    - [Installing OpenCV](#installing-opencv)
+    - [Preparing the Python Compiler](#preparing-the-python-compiler)
+    - [Compiling and Installing](#compiling-and-installing)
+    - [Wireless Hotspot Configuration](#wireless-hotspot-configuration)
+6. [Preparing for VeinCam Autostart](#preparing-for-veincam-autostart)
+7. [Running the VeinCam Software](#running-the-veincam-software)
 
 # Required Hardware
 - [Raspberry Pi 3 (Model B+)](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/)
@@ -27,7 +43,7 @@ Install the PiJuice HAT onto the RPi. ensure that the pins on the RPi are aligne
 
 **Images**
 
-# Assembling the LED array (WARNING - BURN HAZARD)
+# Assembling the LED Array (WARNING: BURN HAZARD)
 ...to do...
 
 Connect the Positive wire to the 5V header on the PiJuice, and the negative wire to the Ground Pin
@@ -184,7 +200,7 @@ Next we need to install NumPy, a package used for numerical processing, which wi
 pip install numpy
 ```
 
-# Compiling and Installing
+## Compiling and Installing
 Now its time for the installation. But first we need to compile the software. **Note that it will take more than an hour to successfully compile**. Before we start, make sure you are in the virtual environment
 ```
 workon cv
