@@ -33,22 +33,30 @@
 # Assembling the Raspberry Pi
 Attach the NoIR Camera module to the Raspberry Pi (RPi). To do this, disengage the lock on the port by lifting the edge tabs until you feel a click. The ribbon cable should be orientated as seen in the image below:
 
-**Image**
+<div style="text-align:center"><img src ="images/tutorial-images/camera-port.jpg" width="25%" height="25%" /></div>
+<div style="text-align:center"><img src ="images/tutorial-images/cam-ribbon.jpg" width="25%" height="25%" /></div>
 
-Once the cable is firmly seated, press down on the edge tabs once again until you feel that click. Place the camera module down like in the next image, where the ribbon cable sits over the rear ports of the RPi. Put a slight kick in the ribbon cable suppost (Blue plastic) to help keep the cable flat.
+Once the cable is firmly seated, press down on the edge tabs once again until you feel that click. Place the camera module down like in the next image, where the ribbon cable sits over the rear ports of the RPi. Put a slight kink in the ribbon cable suppost (Blue plastic) to help keep the cable flat.
 
-**Image**
+<div style="text-align:center"><img src ="images/tutorial-images/cam-layout.jpg" width="25%" height="25%" /></div>
+<div style="text-align:center"><img src ="images/tutorial-images/ribbon-fold.jpg" width="25%" height="25%" /></div>
 
-Install the PiJuice HAT onto the RPi. ensure that the pins on the RPi are aligned to the header on the underside of the PiJuice. The screw posts on the PiJuice should all align with the holes on the RPi board. Make sure you move the camera ribbon cable out of the way of the screw posts near the ports. Damage to the cable can result in the camera being unusable
+Install the PiJuice HAT onto the RPi. ensure that the pins on the RPi are aligned to the header on the underside of the PiJuice. The screw posts on the PiJuice should all align with the holes on the RPi board. Make sure you move the camera ribbon cable out of the way of the screw posts near the ports. Damage to the cable can result in the camera being unusable.
 
-**Images**
+<div style="text-align:center"><img src ="images/tutorial-images/pijuice-align.jpg" width="25%" height="25%" /></div>
+<div style="text-align:center"><img src ="images/tutorial-images/cable-out.jpg" width="25%" height="25%" /></div>
 
 # Assembling the LED Array (WARNING: BURN HAZARD)
-...to do...
+WARNING: There is great potential to burn yourself if you are not skilled in electronic soldering. Seek assistance as required!
 
-Connect the Positive wire to the 5V header on the PiJuice, and the negative wire to the Ground Pin
+Study the image below carefully. the prototyping board should have grid references for you to use. eash LED must have a 220 ohm resistor attached to the positive (longer) leg, which is attached to a 5v voltage rail, while the negative LED is connected to a ground rail.
 
-**image**
+<div style="text-align:center"><img src ="images/tutorial-images/led-front.jpg" width="25%" height="25%" /></div>
+<div style="text-align:center"><img src ="images/tutorial-images/led-back.jpg" width="25%" height="25%" /></div>
+
+Connect the Positive wire to the 5V header on the PiJuice, and the negative wire to the Ground Pin.
+
+<div style="text-align:center"><img src ="images/tutorial-images/led-connect.jpg" width="25%" height="25%" /></div>
 
 # Preparing The Raspberry Pi for VeinCam (The Quick Way)
 Download a program called [Etcher](https://etcher.io/) which is available on all desktop platforms. Etcher is a simple tool to flash ISO files to USBs and SD Cards. Also download the ISO file found [here](/Software/System-Image) and save it to you computer.
@@ -84,7 +92,7 @@ This will install the software required to configure the PiJuice.
 
 ## Installing OpenCV
 ### Preparing the Filesystem
-This install guide follows what is detailed [on this page](https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/).
+This install guide follows what is detailed [on this page](https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/). Images in this guide are courtesy of the original guide.
 First expand the file system to fill the entire SD Card. In the terminal:
 Type
 ```
@@ -97,8 +105,6 @@ sudo reboot
 ```
 
 Once rebooted, the file system should fill the SD card. You can use ```df -h``` to check this. ```/dev/root``` should be a similar size to the SD Card.
-
-**IMAGE**
 
 Some space can be freed from the default install by removing some software. Wolfram and Libreoffice will not be used on the platform, and takes up around a 1GB of storage. Use the code below to remove these applications from the system:
 ```
@@ -185,7 +191,7 @@ mkvirtualenv cv -p python3
 
 Upon creation of the environment, it's name (in this case is cv) will appear in parentheses as a prefix to the command entry in the terminal, which can be seen below.
 
-**IMAGE**
+![virtual environment indicator](https://www.pyimagesearch.com/wp-content/uploads/2017/08/cv_virtualenv.png)
 
 If this is not the case, use the commands below to enter the virtual environment
 ```
@@ -216,9 +222,9 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
     -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib-3.4.2/modules \
     -D BUILD_EXAMPLES=ON ..
 ```
-Examine the output to ensure that Interpreter, Libraries, numpy and packages path fields of the output are pointing to the correct directories. It should look similar to the images below, depending on the Python version you are using.
+Examine the output to ensure that Interpreter, Libraries, numpy and packages path fields of the output are pointing to the correct directories. It should look similar to the images below, depending on the Python version you are using. In this case, we are using Python 3. We can also see the Python 2 links above the red box.
 
-**IMAGE**
+![Python 3 links](https://www.pyimagesearch.com/wp-content/uploads/2017/08/python3_opencv.png)
 
 Now we need to change the file swap size. the default used by Raspbian is small, and could cause compilation errors. run the command below to open up the swap file configuration file in nano:
 ```
