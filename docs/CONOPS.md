@@ -35,8 +35,7 @@ Version 1.1 Signed-off by stakeholders as of .
 The VeinCam is based on the [Venenfinder project](https://hackaday.io/project/26158-assistance-system-for-vein-detection) submitted during the 2017 HackADay event. The goal was to create an affordable device that produces a clear image of a suitable vein for superficial venous puncture, a procedure that is a requirement for patient blood testing and the delivery of external drug administration. However the goal of this project is to extend the customer base to educators and students while maintaining affordability and accessibility.
 
 ### Value Proposition
-Our VeinCam device will help students better understand venous sites by augmenting visualisation of upper limb veins. It will provide students with a better understanding of venous sites around the body compared to an image or model.
-
+Our VeinCam device will help students better understand venous sites by augmenting visualisation of upper limb veins. It will provide students with a better understanding of venous sites around the body compared to an image or model. The VeinCam is not intended for use as a medical device.
 ### Project Scope
 The project aims to greatly extend and refine what was achieved in the Venenfinder HackADay project; automating and adding to some of the functionality while remaining cost effective.
 
@@ -69,9 +68,10 @@ The VeinCam project hopes to utilise similar hardware to the Venenfinder project
 Further adding to the Venenfinder project; the aim is to produce a device that is battery powered, completely wireless and to reduce the size of the device to be comfortably held in one hand. Being a wireless device, we need to ensure the device is as power efficient as possible and does not require recharging more than absolutely necessary. As part of the new housing for the device, a mounting system will be integrated, and a mount be devised for hands-free use. 
 
 #### VeinCam Testing and Future Development Plans
-Once the core device has reached the prototype stage testing will be completed on the device to determine its functionality and improve the technical aspects. The device will also be informally tested as a proof-of-concept.
+Once the core device has reached the prototype stage in-house testing will be completed on the device to determine its functionality and improve the technical aspects. The device will also be informally tested as a proof-of-concept.
 
-To formally verify and validate the device extensive testing will need to be completed on varying skin conditions and appearances such as: complexion, hairy, tattooed areas and other skin abnormalities (barring skin irritations such as rash and infection). The prototype will also be tested with potential users of the system to ensure that it functions acceptably; feedback will be taken to revise the prototype. Similarly potential users will be asked to construct the VeinCam so it can be ensured that the device will be independently constructible as necessary if the device is successful. To formally conduct this testing ethics approval is necessary and therefore outside the scope of the project, however examining this process would provide the project pathways to continue into the future.
+Formally conducting testing requires ethics approval which is outside the scope of this project. Examining the formal testing processes will provide the project pathways to continue into the future. 
+To formally verify and validate the device extensive testing will need to be completed on varying skin conditions and appearances such as: complexion, hairy, tattooed areas and other skin abnormalities (barring skin irritations such as rash and infection). The prototype will also be tested with potential users of the system to ensure that it functions acceptably; feedback will be taken to revise the prototype. Similarly potential users will be asked to construct the VeinCam so it can be ensured that the device will be independently constructible as necessary if the device is successful. 
 
 Also requiring further investigation and implementation; the device may be able to be shrunk to a smaller platform, such as the Raspberry Pi Zero. This would allow for the device to become a lot cheaper to build, reducing the size to something that fits into the palm of your hand, and be able to conserve more power. Implementations and performance would need to be investigated, as the Pi Zero may not be able to process the video stream as effectively as its larger counterpart.
 
@@ -189,7 +189,7 @@ ANU ENGN4221 course convenor for Semester 2 2018. The course convenor is the ove
 * Organise the course appropriate to the desired outcomes and be receptive to feedback regarding this structure. Information regarding the structure and assessment milestones of the course should be available to students within a reasonable timeframe.
 
 ### Users
-Members of the public who are potential users of the device.
+Members of the public, particularly students and educators who wish to utilse the device for educational purposes. 
 
 #### Responsibilities of the project team to the users
 * Provide members of the public access to information that pertains to all aspects of the project.
@@ -259,7 +259,7 @@ The initial deliverables are as follows:
 * Configure device based on Venenfinder to be able to automatically adjust contrast.
 * Design and manufacture a prototype chassis to house Pi modules to allow for handsfree, real-time visualization.
 * Produce a "how to build" and "how to use" guides for the device.
-* Perform initial testing on the device itself (not formal user-testing).
+* Perform initial in-house testing on the device itself (not formal user-testing).
 
 #### Stretch Deliverables
 In order of priority.
@@ -371,5 +371,6 @@ In developing the prototype there is a chance of injury, similar to above these 
 | 1.1 | [Project Management](#project-management) | Added how-to build and how-to use guides, and device testing to baseline deliverables. | Missing from previous deliverables and necessary for open-source construction and verification. |
 | 1.1 | [Project Management](#project-management) | Added manual adjustment and user feedback deliverables. | Considered more important than the other stretch deliverables as it will enhance the user experience and is more achievable. Testing will provide points for the project to move forward. |
 | 1.1 | [WBS](#work-breakdown-structure) | Removed testing with users. | No longer falls within the scope of the project and would require ethics approval. |
+| 1.1 | Value proposition, VeinCam testing, Users and Baseline deliverables | Formally stated not intended as a medical device. Making it clear testing is only in-house and any further testing is detailed only for future development of the project. Adjustment of users to specify students and educators as per the revised purpose of the device. | As per changes recommended by the client to align with re-purposing of the device for educational purposes. |
 
 This Project is licensed under the Creative Commons license.
