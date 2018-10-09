@@ -13,7 +13,7 @@ Once the feedback has been received, an issue will be created within the GitHub 
 **Any feedback is welcome.**
 
 # 2. Progress Update
-## October 9
+## October 9th
 
 ### Software
 
