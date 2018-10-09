@@ -1,5 +1,13 @@
 # Meeting Minutes 19/9/18
 
+| Attending: | Absent: |
+| :---: | :---: |
+| Joey McPhail | |
+| Steph Pratt | |
+| Chris Bodger | |
+| Alex Ollman | |
+
+
 ## Agenda
 1. Audit feedback
    * Alternative printing and resin coating

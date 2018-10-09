@@ -13,16 +13,54 @@ Once the feedback has been received, an issue will be created within the GitHub 
 **Any feedback is welcome.**
 
 # 2. Progress Update
-## September 5th
-Progress this week has been based around finalising the prototype. This has taken longer than anticipated due to a few setbacks with 3D printing and finalising code.
-
-### Hardware
-Version 2.0 of the chassis has proved difficult to complete as there has been complications with the 3D printers. A version was printed however the mounting pins inside the case were malformed. An ad hoc mechanism may be used with the print and if the issue persists then an alternative will be chosen. Version 2.1 will be printed tomorrow with the hope that it will be suitable to hand to the client for preliminary testing.
+## October 9th
 
 ### Software
-A successful stream has been created with the automatic contrast adjustment. The next step is to get the Pi to run the necessary scripts on boot so that the process can be simple and automated when users turn on the device. 
 
-The goal is to complete a working prototype in both hardware and software to give to the client this Saturday (8th of September)
+Implimented buttons into the HTML video streaming page, which trigger Flask/Python functions to set the camera parameters of brightness, contrast and saturation for the next frame. These buttons were designed to be large and use appropriate colours (red for lower, green for higher) in order to be intuative and intended for an educational audience. Following a meeting with the client after the testing, the stream is now shown in portrait rather than landscape to take advantage of the fact most users will be streaming to their personal devices in a portrait orientation, as well as being able to view someone's arm verticaly along the webpage. 
+
+All code had been uploaded into the software folder, including a complete image file which can be written to an SD card and used immediately with a Raspberry Pi and a PiCam (a method which has been tested and validated!). If the user does not have a PiJuice shield, minor adjustments must be made to app.py (see README.md in software folder or /home/pi/pistream in image for details). 
+
+#### A chronological work diary of software development throughout this project has also been added to the software folder.
+
+### Audit 3 Presentation
+
+The VeinCam was presented at our final Audit presentation during our tutorial timeslot. The final version was demonstrated to shadows and tutor. A draft of the poster to be presented next week was shown for feedback. The feedback given on the physical design, product functionality and overall presentation was very positive. 
+
+## October 2nd
+The client has recieved our second complete prototype to take and provide feedback on based on their use.
+Photos of the prototype can be found in the 'images' folder, and a user instructions manual above in the main respository.  
+
+### Hardware
+At long last, case version 2.2 finally completed a full successful print. No changes were made to the LED configuration after testing of LEDS with differing wavelengths (840 vs 940nm) proved to not improve performance of viewing veins. The case was assembled however the mounts, charging port and button hole placement was found to be all out of place (less so than previous iterations). This will be a major focus for the final design.
+
+Instead, firm packing foam was used to hold the components in place and align the PiJuice charging port with the charging hole cutout of the case. Makeshift buttons were made to turn the system on and off without having to open the case. The camera cable was replaced as it had been found to have been damaged during testing; a discovery made when the camera failed to load at the very last minute prior to client handover. This was replaced, tested and found to have resolved the issue.
+
+### Software
+A first attempt of a handover to the client with a makeshift prototype was made on Saturday, however the streaming web page would not load. This was found to have been due to an imcomplete line of code left in the script, due to having not saved the changes made. As a result, the main script would not complile. This was quickly resolved, but to ensure operational integrity during the client's testing, the system's operating system was wiped and reloaded with only the necessary files. This was performed to ensure there were no conflicting files that could cause issues during client use. 
+
+Variable control using Flask via HTML is still in development, to be ready for the final version. 
+
+## September 25th
+Several weeks have gone by since the last update, and theres much to talk about:
+
+### Hardware
+We are up to case version 2.2, that incorporates a smaller form factor and better ergonomics. Unfortunately these past few weeks have not been able to produce a successful print of the new case. We believe that this will be the final iteration of the case.
+
+The only variation to the case that may happen is testing into a different LED configuration. the aim is to attempt to achieve a better contrast of skin and veins, and hope to achieve deeper skin penetration to visualise veins on people who have a higher BMI. This is still on going but we hope to have a clear idea by the end of this week.
+
+### Software
+The software currently works to automatically start up on boot up; initialising the wireless access point for external connections and starting the web stream to an external device. It has been noted that the wireless access point fails to start sometimes, making it difficult to connect to externally. This will be looked into as it is believed that there is other software that may be interfering with the hosting software and blocking it from starting.
+
+Aside from this, some manual controls will be implemented to the hosting web page for better control over the software processing and image input.
+
+### Governance and Bureaucratic Issues
+Over the source of the mid semester teaching break the team was in contact with a variety of sources to discuss the purpose of the device and how that impacts the how we distribute information about the device. Through much discussion, the group decided the best path for the future of the project would be to advertise the device as an educational tool, assisting with teaching about veins and educating the public for informed consent of medical procedures. 
+
+Additionally, through correspondence with legal services and the ANU Human Ethics Committee, the group became aware that initial human testing of the device would not be able to be completed at this stage of the project as human ethics approval is necessary to do testing. This provides some roadblocks for the development of the device as the group is not able to determine how the device needs to be improved for optimal practical use. As such, the aims and scope of the project were modified slightly. 
+
+Going forward, the group will be finishing up with tutorial documents on how to build the device, documents for conducting future testing, and acting on feedback from the client on the functioning of the device. The group is also developing designs for the poster to present the device at the closure of this project. 
+
 
 ## Previous Progress Updates
 * [August 1st](Progress-Updates/progress-update-2018-08-01.md)
@@ -30,6 +68,7 @@ The goal is to complete a working prototype in both hardware and software to giv
 * [August 11th](Progress-Updates/progress-update-2018-08-11.md)
 * [August 18th](Progress-Updates/progress-update-2018-08-18.md)
 * [August 25th](Progress-Updates/progress-update-2018-08-25.md)
+* [September 5th](Progress-Updates/progress-update-2018-09-05.md)
 
 ## Work Diary
 For more detailed information on the work that has been completed please refer to the [work diary](docs/Team-Work-Diary.md)
@@ -44,33 +83,29 @@ Here we will have the information, results, and feedback to our audits, and will
 Should our stakeholders wish to provide us with feedback, they can fill out a google survey in which we will action them appropriately as responses are presented to us.
 
 # 4. Concept of Operations
-Our Concept of Operations is nearly complete. after we have completed the feedback from Audit 1, we feel that this document will be ready for sign off.
+Our Concept of Operations has undergone further iterations in recent weeks, primarily to the aims, scope and stakeholders of the project. We encourage any feedback on changes made. 
 
 The [Concept of Operations](docs/CONOPS.md) document can be found in our repository.
 
 # 5. Meeting Minutes
-Team meetings are scheduled twice a week, to ensure the team is aware of the overall progress made, as well to provide the client an opportunity to see what we have achieved, should they choose to join the meetings. They are currently scheduled for the following times:
-* Wednesday 11pm
-* Saturday 2pm
+Team meetings are scheduled two to three times a week with different stakeholders present. One meeting is internal with only the project team, one has the tutor and shadow team present, and one is with the project client. They are currently scheduled for the following times:
+* Tuesday 10am (Tutor and Shadow Team)
+* Wednesday 11pm (Project Team)
+* Saturday 2pm (Project Client)
 
-The Saturday Meeting is primarily made available for meeting with the client, and to provide a weekly update, where Wednesday is an internal midweek meeting to ensure our actionables are on track for completion. These times may vary, depending on the availability of the team, and client.
+The wednesday and saturday meeting times may vary, depending on the availability of the team, and client.
 
 Meeting Minutes can also be found in our repository:
 
 ## Last Meeting Minutes
-* [August 28th](Meeting-Minutes/Meeting-Minutes-2018-08-28.md)
+* [September 29th](Meeting-Minutes/Meeting-Minutes-2018-09-29.md)
 
-## Previous Meeting Minutes
-* [July 31st](Meeting-Minutes/Meeting-Minutes-2018-07-31.md)  
-* [August 1st](Meeting-Minutes/Meeting-Minutes-2018-08-01.md)
-* [August 4th](Meeting-Minutes/Meeting-Minutes-2018-08-04.md)
-* [August 8th](Meeting-Minutes/Meeting-Minutes-2018-08-08.md)
-* [August 11th](Meeting-Minutes/Meeting-Minutes-2018-08-11.md)
-* [August 14th](Meeting-Minutes/Meeting-Minutes-2018-08-14.md)
-* [August 15th](Meeting-Minutes/Meeting-Minutes-2018-08-15.md)
-* [August 18th](Meeting-Minutes/Meeting-Minutes-2018-08-18.md)
-* [August 22nd](Meeting-Minutes/Meeting-Minutes-2018-08-22.md)
-* [August 25th](Meeting-Minutes/Meeting-Minutes-2018-08-25.md)
+## Recent Meeting Minutes
+* [September 5th](Meeting-Minutes/Meeting-Minutes-2018-09-05.md)  
+* [September 15th](Meeting-Minutes/Meeting-Minutes-2018-09-15.md)
+* [September 18th](Meeting-Minutes/Meeting-Minutes-2018-09-18.md)
+* [September 19th](Meeting-Minutes/Meeting-Minutes-2018-09-19.md)
+* [September 22nd](Meeting-Minutes/Meeting-Minutes-2018-09-22.md)
 
 # 6. Design Documents
 The design of the VeinCam will be presented here, once the ConOps has been approved, and progress/final designs are made available. the construction method of the device will also be presented here.

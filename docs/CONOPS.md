@@ -1,6 +1,6 @@
 # Concept of Operations
 
-Version 1.1 Signed-off by stakeholders as of .
+Version 1.1 Signed-off by stakeholders as of 9/10/2018.
 
 ## Table of Contents
 * [Project Vision](#project-vision)
@@ -66,6 +66,7 @@ The Venenfinder team were able to produce a device that was able to use a near-I
 The VeinCam project hopes to utilise similar hardware to the Venenfinder project (Raspberry Pi, PiCam, IR LEDs) and extend the software's capabilities to automatically adjust the infrared light filtration, brightness and contrast to produce the clearest image possible with limited manual adjustment.
 
 Further adding to the Venenfinder project; the aim is to produce a device that is battery powered, completely wireless and to reduce the size of the device to be comfortably held in one hand. Being a wireless device, we need to ensure the device is as power efficient as possible and does not require recharging more than absolutely necessary. As part of the new housing for the device, a mounting system will be integrated, and a mount be devised for hands-free use. 
+
 
 #### VeinCam Testing and Future Development Plans
 Once the core device has reached the prototype stage in-house testing will be completed on the device to determine its functionality and improve the technical aspects. The device will also be informally tested as a proof-of-concept.
@@ -134,7 +135,7 @@ Ben is medical student at the ANU and an employee of ACT Health. He personally b
 * Design a device to meet the established baseline requirements that the client has presented.
 * Keep the client regularly updated with milestones and setbacks.
 
-#### Responisbilities of the client to the project
+#### Responsibilities of the client to the project
 * Provide information and requirements about the project to the team.
 * Respond to communications on a regular basis.
 * Be present and prepared at scheduled meetings.
@@ -162,7 +163,7 @@ ANU undergraduate engineering students, tasked with reviewing this project to pr
 ### Course Tutor
 Jenny Simmons (jenny.simmons@anu.edu.au)
 
-ANU ENGN4221 course tutor for Semester 2 2018. Tasked with formally organising and directing weekly tutorial sessions where the project is planned, presented and reflected upon. 
+ANU ENGN4221 course tutor for Semester 2 2018. Tasked with formally organising and directing weekly tutorial sessions where the project is planned, presented and reflected upon.
 
 #### Responsibilities of the project team to the course tutor
 * Provide the tutor access to all information surrounding the project, including repositories, documentation and relevant communications. This information should be up-to-date and presented appropriately.
@@ -197,8 +198,8 @@ Members of the public, particularly students and educators who wish to utilse th
 * To the best of their ability, provide the public with the information to design an affordable device that can image the veins of a person.
 
 #### Responsibilities of the users to the project
-* Members of the public have little steadfast responsibility to the project team. 
-* Ideally, members of the public will provide feedback on the function of the device during requirements analysis or testing. 
+* Members of the public have little steadfast responsibility to the project team.
+* Ideally, members of the public will provide feedback on the function of the device during requirements analysis or testing.
 
 ---
 
@@ -237,11 +238,12 @@ An initial Bill of Materials has been drafted below of what we expect the projec
 | Raspberry Pi 3 | $65 | Y |
 | Raspberry PiCam | $50 | Y |
 | Raspberry Pi Battery Module | $90 | Y |
-| 10 x 850nm near-Infrared LEDs | $15 | N |
-| 10 x 220 Ohm Resistors | $1 | N |
-| 8 x Neodymium Magnets | $5 | N |
+| 10 x 840nm near-Infrared LEDs | $22 | N |
+| 10 x 220 Ohm Resistors | $5 | N |
+| 8 x Disk Neodymium Magnets | $5 | N |
+| 3 x Cuboid Neodymium Magnets | $4.50 | N |
 | IR Filter | $10 | Y |
-| Light Dependent Sensor | $4 | N |
+| 1kg Filament | $34 | N |
 | Total | $240 |   |
 
 Please note these pricings are indicative and can change with the market. It is also worth noting that the client was kind enough to provide most of the hardware, as we can see in the table. This means the required costs during our development will be minimal to purchase the remaining inexpensive components.
@@ -274,7 +276,7 @@ In order of priority.
   * Offload image processing to secondary device
 
 ### Milestones
-Further detail on the optimisation of milestones and design aims of the prototype are detailed in the Requirements document. 
+Further detail on the optimisation of milestones and design aims of the prototype are detailed in the Requirements document.
 
 #### Milestone 1
 Construct functional prototype based off of Venenfinder design.
