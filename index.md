@@ -14,8 +14,6 @@ We are now at the end of our turn with the project, and we have completed all we
 
 Our final protoype is complete, and looks absolutely stunning along side our favourite houseplant, Hugh!
 
-<div style="text-align:center"><img src ="images/prototype/prototype-2.2-down.JPG" width="40%" /></div>
-
-<div style="text-align:center"><img src ="images/prototype/prototype-2.2-up.JPG" width="40%" /></div>
+<div style="text-align:center"><img src ="images/prototype/prototype-2.2-down.JPG" width="40%" /></div> <div style="text-align:center"><img src ="images/prototype/prototype-2.2-up.JPG" width="40%" /></div>
 
 ### For more details check out our [GitHub site](https://github.com/chrisbodger/VeinCam)
