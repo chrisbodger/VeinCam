@@ -168,13 +168,17 @@ Progress from start of project as at 15/8/18
 14/9/18 Joey
 * Initial testing documents created.
 
-17/9/18
+17/9/18 Steph
 * Brief meeting with course convenor with project update
 * Emailed client about project updates and forwarded correspondence from ethics committee
 * Emailed other course lecturer about medical devices
 * Made agenda for tutorial tomorrow 18/9
 * Begun agenda for group meeting 19/9
 * Written up audit 2 feedback summary, lawyer meeting summary and human ethics committee summary of correspondence
+
+24/9/18
+* Brief meeting with course convenor on biomedical materials  to discuss purpose of the device
+* No new information for project
 
 25/9/18 Joey
 * Reworked sections of the ConOps (as seen in change log in rebranding patch).
@@ -187,3 +191,10 @@ Progress from start of project as at 15/8/18
 
 1/10/18 Joey
 * ConOps v1.1 pdf created based on version in patch.
+
+8/10/18 Steph
+* Client feedback document created in resources
+* Conops v1.1 updates as per client feedback (see change log)
+* Created Audit 3 presentation and poster survey
+* First draft of Handover document
+* Microgrant 2.0
