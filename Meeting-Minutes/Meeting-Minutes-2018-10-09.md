@@ -6,7 +6,8 @@
 | Steph Pratt | |
 | Chris Bodger | |
 | Alex Ollman | |
-| Ben Healey | |
+| Chris Browne | |
+| Shadow Team | |
 
 ## Agenda
 1. Presentation
@@ -16,12 +17,16 @@
 ---
 
 ## 1. Feedback
-* 
+* ON/OFF labels.
+* Sanding to smooth the surface.
 
 ---
 
 ## 2. Poster Feedback
-* 
+* Collected in sheets
+* Verbal:
+  * Have comparison of images through (and not through) the VeinCam lens.
+  * Images instead of text for scenario/problem/resolution.
 
 ---
 
