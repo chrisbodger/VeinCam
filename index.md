@@ -1,10 +1,10 @@
 <div style="text-align:center"><img src ="images/progress-images/test-stream-result-3-crop.png" /></div>
 
 ## What We're Doing
-Our project is part of a final year ANU Engineering course ([ENGN4221](https://eng.anu.edu.au/courses/engn4221/project/)). The main goal of our project is to ease patient discomfort. To do this we're developing the VeinCam to make it easier for medical professionals to visualise superficial veins in patients for venous puncture.
+Our project is part of a final year ANU Engineering course ([ENGN4221](https://eng.anu.edu.au/courses/engn4221/project/)). The main goal of our project is to develop an educational tool for vein visualisation. To do this we're developing the VeinCam to make it easier for educators, students or curious minds to visualise superficial veins.
 
 ## How We're Doing It
-The VeinCam uses near infrared (nIR) light and a camera to stream a real-time image where candidate veins can be easily seen. It is going to be an open-source, build-it-yourself device so anyone who needs one will be able to construct it. We'll provide a how-to guide of what materials to buy, how to put them together and the software to upload to get it all working.
+The VeinCam uses near infrared (nIR) light and a camera to stream a real-time image where veins can be easily seen. It is going to be an open-source, build-it-yourself device so anyone who finds it useful will be able to construct it. We'll provide a how-to guide of what materials to buy, how to put them together and the software to upload to get it all working.
 
 ## When We're Done
 This page will provide all the necessary downloads, links and resources that you'll need to construct a VeinCam yourself.

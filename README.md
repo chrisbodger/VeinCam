@@ -13,6 +13,20 @@ Once the feedback has been received, an issue will be created within the GitHub 
 **Any feedback is welcome.**
 
 # 2. Progress Update
+## October 9th
+
+### Software
+
+Implimented buttons into the HTML video streaming page, which trigger Flask/Python functions to set the camera parameters of brightness, contrast and saturation for the next frame. These buttons were designed to be large and use appropriate colours (red for lower, green for higher) in order to be intuative and intended for an educational audience. Following a meeting with the client after the testing, the stream is now shown in portrait rather than landscape to take advantage of the fact most users will be streaming to their personal devices in a portrait orientation, as well as being able to view someone's arm verticaly along the webpage. 
+
+All code had been uploaded into the software folder, including a complete image file which can be written to an SD card and used immediately with a Raspberry Pi and a PiCam (a method which has been tested and validated!). If the user does not have a PiJuice shield, minor adjustments must be made to app.py (see README.md in software folder or /home/pi/pistream in image for details). 
+
+#### A chronological work diary of software development throughout this project has also been added to the software folder.
+
+### Audit 3 Presentation
+
+The VeinCam was presented at our final Audit presentation during our tutorial timeslot. The final version was demonstrated to shadows and tutor. A draft of the poster to be presented next week was shown for feedback. The feedback given on the physical design, product functionality and overall presentation was very positive. 
+
 ## October 2nd
 The client has recieved our second complete prototype to take and provide feedback on based on their use.
 Photos of the prototype can be found in the 'images' folder, and a user instructions manual above in the main respository.  
@@ -22,7 +36,7 @@ At long last, case version 2.2 finally completed a full successful print. No cha
 
 Instead, firm packing foam was used to hold the components in place and align the PiJuice charging port with the charging hole cutout of the case. Makeshift buttons were made to turn the system on and off without having to open the case. The camera cable was replaced as it had been found to have been damaged during testing; a discovery made when the camera failed to load at the very last minute prior to client handover. This was replaced, tested and found to have resolved the issue.
 
-## Software
+### Software
 A first attempt of a handover to the client with a makeshift prototype was made on Saturday, however the streaming web page would not load. This was found to have been due to an imcomplete line of code left in the script, due to having not saved the changes made. As a result, the main script would not complile. This was quickly resolved, but to ensure operational integrity during the client's testing, the system's operating system was wiped and reloaded with only the necessary files. This was performed to ensure there were no conflicting files that could cause issues during client use. 
 
 Variable control using Flask via HTML is still in development, to be ready for the final version. 

@@ -10,12 +10,11 @@ Requirements have been developed through conversation with the project client re
 | 2 | The device must be handsfree |
 | 3 | The device must be able to wirelessly connect to an external device with a screen |
 | 4 | The device must be portable and mobile |
-| 5 | The device must be wipeable for sterilisation |
-| 6 | The device must be simple to use |
-| 7 | The device must be simple to construct |
-| 8* | The device must improve venous puncture success in all use-cases (e.g dark-skinned, tattooed, hairy) |
+| 5 | The device must be simple to use |
+| 6 | The device must be simple to construct |
+| 7* | The device must display veins in as many use-cases as possible (e.g dark-skinned, tattooed, hairy) |
 
-*Requirement 8 is part of a stretch deliverable for the project.
+*Requirement 7 has elements of a stretch deliverable for the project.
 
 ## Specifications
 The requirements were broken down into specifications that will provide validation for the project and can be verified through testing.
@@ -23,39 +22,35 @@ The requirements were broken down into specifications that will provide validati
 | ID | Specification | Metric | Benchmark |
 | --- | --- | --- | --- |
 | 1 | Total Cost | $ | <250 |
-| 2.1 | Automatic Contrast Adjustment (for ideal scenario) | % | >90 |
-| 2.2 | Camera Focal Length | mm | 300-500 |
-| 2.3 | Adjustable Set Height | mm | 300-500 |
-| 2.4 | Handsfree Operation | min | >5 |
-| 2.5 | Battery Life | min | >60 |
+| 2.1 | Camera Focal Length | mm | 300-500 |
+| 2.2 | Adjustable Set Height | mm | 300-500 |
+| 2.3 | Handsfree Operation | min | >5 |
+| 2.4 | Battery Life | min | >60 |
 | 3.1 | Wireless Range | m | >1 |
 | 3.2 | Stream Delay | ms | <1000 |
 | 4 | Form Factor | mm | <150 x 90 x 70 |
-| 5.1 | Surface Roughness (R<sub>a</sub>) | &mu;m | <10 |
-| 5.2 | Gapless Case | mm | <1 |
-| 6.1 | User Acceptance | % | >90 |
-| 6.2 | Boot Time | s | <15 |
-| 6.3 | OS Compatibility | # | >2 |
-| 7.1 | Construction Steps | # | <5 |
-| 7.2 | Construction Time | hrs | <2 |
-| 8.1 | Automatic Contrast Adjustment (for any complexion) | % | 80 |
-| 8.2 | Automatic Contrast Adjustment (for high BMI/obesity) | % | 80 |
-| 8.3 | Automatic Contrast Adjustment (for any amount of hair) | % | 80 |
-| 8.4 | Automatic Contrast Adjustment (for tattooed area) | % | 80 |
-| 8.5 | Visualise Vascular Blood Flow | % | 80 |
+| 5.1 | User Acceptance | % | >90 |
+| 5.2 | Boot Time | s | <15 |
+| 5.3 | OS Compatibility | # | >2 |
+| 6.1 | Construction Steps | # | <5 |
+| 6.2 | Construction Time | hrs | <2 |
+| 7.1 | Automatic Contrast Adjustment (for ideal scenario) | % | >90 |
+| 7.2 | Automatic Contrast Adjustment (for any complexion) | % | 80 |
+| 7.3 | Automatic Contrast Adjustment (for high BMI/obesity) | % | 80 |
+| 7.4 | Automatic Contrast Adjustment (for any amount of hair) | % | 80 |
+| 7.5 | Automatic Contrast Adjustment (for tattooed area) | % | 80 |
+| 7.6 | Visualise Vascular Blood Flow | % | 80 |
 
 ### Description
 **1. Total Cost -** The total cost of all components necessary to construct the VeinCam
 
-**2.1. Automatic Contrast Adjustment (for ideal scenario) -** The success rate of the device to automatically adjust the contrast of the streamed image such that a candidate vein can be selected. Ideal situation is with a patient with a light complexion, against a white background.
+**2.1. Camera Focal Length -** The focal length of the camera used in the device. Must have an image in focus at a height where it will not interfere with the users.
 
-**2.2. Camera Focal Length -** The focal length of the camera used in the device. Must have an image in focus at a height where it will not interfere with the user or the sterile field.
+**2.2. Adjustable Set Height -** The heights that the device can be held still without human interaction once set in the appropriate position (i.e within the camera focal length).
 
-**2.3. Adjustable Set Height -** The heights that the device can be held still without human interaction once set in the appropriate position (i.e within the camera focal length).
+**2.3. Handsfree Operation -** The time that both the physical device and the software interface can operate without human interaction.
 
-**2.4. Handsfree Operation -** The time that both the physical device and the software interface can operate without human interaction.
-
-**2.5. Battery Life -** The amount of time the device can be used (while streaming) without needing to be plugged in to recharge.
+**2.4. Battery Life -** The amount of time the device can be used (while streaming) without needing to be plugged in to recharge.
 
 **3.1. Wireless Range -** The range that the device is able to communicate wirelessly with an external device.
 
@@ -63,22 +58,26 @@ The requirements were broken down into specifications that will provide validati
 
 **4. Form Factor -** The size and shape of the device.
 
-**5.1. Surface Roughness -** The surface roughness of the device casing. Must allow for simple cleaning.
+**5.1. User Acceptance -** The success rate that the device with users. Measured by user testing and feedback.
 
-**5.2. Gapless Case -** The size of gaps in the case. Must be small to ensure protection of electronics from wiping.
+**5.2. Boot Time -** The time taken from switching the device on to an image being produced.
 
-**6.1. User Acceptance -** The success rate that the device with users. Measured by user testing and feedback.
+**5.3. OS Compatibility -** The number of operating systems that the device is compatible with.
 
-**6.2. Boot Time -** The time taken from switching the device on to an image being produced.
+*Note - More specifications may be generated for Requirement 5 after initial testing.*
 
-**6.3. OS Compatibility -** The number of operating systems that the device is compatible with.
+**6.1. Construction Steps -** The number of steps needed to construct the device from scratch.
 
-*Note - More specifications may be generated for Requirement 6 after initial testing.*
+**6.2. Construction Time -** The time taken for an independent user to construct the device from scratch. To be tested by independent users.
 
-**7.1. Construction Steps -** The number of steps needed to construct the device from scratch.
+**7.1-5. Automatic Contrast Adjustment (for various use cases) -** The success rate of the device to automatically adjust the contrast of the streamed image such that veins can be clearly seen, as judged by the user. Ideal situation is with a patient with a light complexion, against a white background. Other scenarios are where vein detection has been shown to be more difficult.
 
-**7.2. Construction Time -** The time taken for an independent user to construct the device from scratch. To be tested by independent users.
+**7.6. Visualise Vascular Blood FLow -** The ability of the device to visualise real-time blood flow. Measured through success rate in user testing.
 
-**8.1-4. Automatic Contrast Adjustment (for various use cases) -** Similar to 2.1. however in scenarios where vein detection has been shown to be more difficult.
+## Change Log
 
-**8.5. Visualise Vascular Blood FLow -** The ability of the device to visualise real-time blood flow through candidate veins. Measured through success rate in user testing.
+| Date | Section | Change | Justification |
+| --- | --- | --- | --- |
+| 26/9/18 | [Requirements](#requirements) | Remove sterilisation requirement and associated specifications: gapless case and surface roughness. | The device is to be used as an educational tool as opposed to a medical device. |
+| 26/9/18 | [Requirements](#requirements) | The device does not need to improve venous puncture but still work for as many use cases as possible | As above. |
+| 29/9/18 | [Specifications](#specifications) | Moved automatic contrast adjustment (ideal scenario) to requirement 7. | Testing has to be split up between device and user, this groups more user testing together. |
