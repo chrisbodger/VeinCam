@@ -10,14 +10,12 @@ The VeinCam uses near infrared (nIR) light and a camera to stream a real-time im
 This page will provide all the necessary downloads, links and resources that you'll need to construct a VeinCam yourself.
 
 ## Where We're At Now
-We were able to show off our latest prototype at the ANU open day and doing some simple tests we were able to demonstrate our automatic contrast adjustment. We are still working on optimising this and getting a stream going to allow for wireless use.
+We are now at the end of our turn with the project, and we have completed all we have set out to do. We have the automatic image adjustment to create a high contrast image of veins, and have some manual adjustment controls all embedded within the same preview web page.
 
-<div style="text-align:center"><img src ="images/progress-images/open-day-test-crop.jpg" /></div>
+Our final protoype is complete, and looks absolutely stunning along side our favourite houseplant, Hugh!
 
-We've also begun protoyping a chassis, but at the moment it is a bit big and we're still working on mounting all the bits and pieces.
+<div style="text-align:center"><img src ="images/prototype/prototype-2.2-down.JPG" width="40%" /></div>
 
-<div style="text-align:center"><img src ="images/prototype/prototype-2-crop.jpg" /></div>
-
-<div style="text-align:center"><img src ="images/prototype/prototype-2-open-crop.jpg" /></div>
+<div style="text-align:center"><img src ="images/prototype/prototype-2.2-up.JPG" width="40%" /></div>
 
 ### For more details check out our [GitHub site](https://github.com/chrisbodger/VeinCam)
