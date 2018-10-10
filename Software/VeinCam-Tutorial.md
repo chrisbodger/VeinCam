@@ -34,30 +34,54 @@
 # Assembling the Raspberry Pi
 Attach the NoIR Camera module to the Raspberry Pi (RPi). To do this, disengage the lock on the port by lifting the edge tabs until you feel a click. The ribbon cable should be orientated as seen in the image below:
 
-<div style="text-align:center"><img src ="images/tutorial-images/camera-port.jpg" width="25%" height="25%" /></div>
-<div style="text-align:center"><img src ="images/tutorial-images/cam-ribbon.jpg" width="25%" height="25%" /></div>
+<div class="row">
+  <div class="column">
+    <img src ="tutorial-images/camera-port.jpg" width="25%" height="25%" />
+  </div>
+  <div class="column">
+    <img src ="tutorial-images/cam-ribbon.jpg" width="25%" height="25%" />
+  </div>
+</div>
 
 Once the cable is firmly seated, press down on the edge tabs once again until you feel that click. Place the camera module down like in the next image, where the ribbon cable sits over the rear ports of the RPi. Put a slight kink in the ribbon cable suppost (Blue plastic) to help keep the cable flat.
 
-<div style="text-align:center"><img src ="images/tutorial-images/cam-layout.jpg" width="25%" height="25%" /></div>
-<div style="text-align:center"><img src ="images/tutorial-images/ribbon-fold.jpg" width="25%" height="25%" /></div>
+<div class="row">
+  <div class="column">
+    <img src ="tutorial-images/cam-layout.jpg" width="25%" height="25%" />
+  </div>
+  <div class="column">
+    <img src ="tutorial-images/ribbon-fold.jpg" width="25%" height="25%" />
+  </div>
+</div>
 
 Install the PiJuice HAT onto the RPi. ensure that the pins on the RPi are aligned to the header on the underside of the PiJuice. The screw posts on the PiJuice should all align with the holes on the RPi board. Make sure you move the camera ribbon cable out of the way of the screw posts near the ports. Damage to the cable can result in the camera being unusable.
 
-<div style="text-align:center"><img src ="images/tutorial-images/pijuice-align.jpg" width="25%" height="25%" /></div>
-<div style="text-align:center"><img src ="images/tutorial-images/cable-out.jpg" width="25%" height="25%" /></div>
+<div class="row">
+  <div class="column">
+    <img src ="tutorial-images/pijuice-align" width="25%" height="25%" />
+  </div>
+  <div class="column">
+    <img src ="tutorial-images/cable-out.jpg" width="25%" height="25%" />
+  </div>
+</div>
 
 # Assembling the LED Array (WARNING: BURN HAZARD)
 WARNING: There is great potential to burn yourself if you are not skilled in electronic soldering. Seek assistance as required!
 
 Study the image below carefully. the prototyping board should have grid references for you to use. eash LED must have a 220 ohm resistor attached to the positive (longer) leg, which is attached to a 5v voltage rail, while the negative LED is connected to a ground rail.
 
-<div style="text-align:center"><img src ="images/tutorial-images/led-front.jpg" width="25%" height="25%" /></div>
-<div style="text-align:center"><img src ="images/tutorial-images/led-back.jpg" width="25%" height="25%" /></div>
+<div class="row">
+  <div class="column">
+    <img src ="tutorial-images/led-front.jpg" width="25%" height="25%" />
+  </div>
+  <div class="column">
+    <img src ="tutorial-images/led-back.jpg" width="25%" height="25%" />
+  </div>
+</div>
 
 Connect the Positive wire to the 5V header on the PiJuice, and the negative wire to the Ground Pin.
 
-<div style="text-align:center"><img src ="images/tutorial-images/led-connect.jpg" width="25%" height="25%" /></div>
+<div style="text-align:center"><img src ="tutorial-images/led-connect.jpg" width="25%" height="25%" /></div>
 
 # Preparing The Raspberry Pi for VeinCam (The Quick Way)
 Download a program called [Etcher](https://etcher.io/) which is available on all desktop platforms. Etcher is a simple tool to flash ISO files to USBs and SD Cards. Also download the ISO file found [here - FIX THE LINK](/Software/System-Image) and save it to you computer.
