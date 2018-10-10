@@ -16,18 +16,18 @@ Our final protoype is complete, and looks absolutely stunning along side our fav
 
 <div class="row">
   <div class="column">
-    <img src ="images/prototype/prototype-2.2-down.JPG" width="75%" height="75%" >
+    <img src ="images/prototype/prototype-2.2-down.JPG" >
   </div>
   <div class="column">
-    <img src ="images/prototype/prototype-2.2-up.JPG" width="75%" height="75%" >
+    <img src ="images/prototype/prototype-2.2-up.JPG" >
   </div>
 </div>
 <div class="row">
   <div class="column">
-    <img src ="Software/tutorial-images/iPhone Mockup1.png" width="75%" height="75%">
+    <img src ="Software/tutorial-images/iPhone Mockup1.png" >
   </div>
   <div class="column">
-    <img src ="Software/tutorial-images/iPhone Mockup2.png" width="75%" height="75%">
+    <img src ="Software/tutorial-images/iPhone Mockup2.png" >
   </div>
 </div>
 
