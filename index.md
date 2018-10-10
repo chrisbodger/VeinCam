@@ -1,17 +1,3 @@
-<style>
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-</style>
-
 <div style="text-align:center"><img src ="images/progress-images/test-stream-result-3-crop.png" /></div>
 
 ## What We're Doing
