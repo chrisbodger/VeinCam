@@ -14,7 +14,7 @@ We are now at the end of our turn with the project, and we have completed all we
 
 Our final protoype is complete, and looks absolutely stunning along side our favourite houseplant, Hugh!
 
-<div style="float: left; width: 30%; max-height: auto; margin-bottom: 0.5em;"><img src ="images/prototype/prototype-2.2-down.JPG"></div><div style="float: right; width: 30%; max-height: auto; margin-bottom: 0.5em;"><img src ="images/prototype/prototype-2.2-up.JPG"></div> <div style="float: left; width: 30%; max-height: auto;; margin-bottom: 0.5em;"><img src ="images/tutorial-imagaes/iPhone Mockup1.png"></div>
+<div style="text-align:center"><img src ="images/prototype/prototype-2.2-down.JPG" width="40%"></div><div style="float: right; width: 30%; max-height: auto; margin-bottom: 0.5em;"><img src ="images/prototype/prototype-2.2-up.JPG"></div> <div style="float: left; width: 30%; max-height: auto;; margin-bottom: 0.5em;"><img src ="images/tutorial-imagaes/iPhone Mockup1.png"></div>
 <div style="float: right; width: 30%; max-height: auto; margin-bottom: 0.5em;"><img src ="images/tutorial-imagaes/iPhone Mockup2.png"></div>
 
 ### For more details check out our [GitHub site](https://github.com/chrisbodger/VeinCam)
