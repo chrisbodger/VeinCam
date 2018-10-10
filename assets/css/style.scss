@@ -17,3 +17,15 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
   font-family: 'Baloo', 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
 }
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
