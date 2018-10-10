@@ -17,6 +17,7 @@
     - [Wireless Hotspot Configuration](#wireless-hotspot-configuration)
 6. [Preparing for VeinCam Autostart](#preparing-for-veincam-autostart)
 7. [Running the VeinCam Software](#running-the-veincam-software)
+8. [Encasing the VeinCam](#encasing-the-veincam)
 
 # Required Hardware
 - [Raspberry Pi 3 (Model B+)](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/)
@@ -59,9 +60,9 @@ Connect the Positive wire to the 5V header on the PiJuice, and the negative wire
 <div style="text-align:center"><img src ="images/tutorial-images/led-connect.jpg" width="25%" height="25%" /></div>
 
 # Preparing The Raspberry Pi for VeinCam (The Quick Way)
-Download a program called [Etcher](https://etcher.io/) which is available on all desktop platforms. Etcher is a simple tool to flash ISO files to USBs and SD Cards. Also download the ISO file found [here](/Software/System-Image) and save it to you computer.
+Download a program called [Etcher](https://etcher.io/) which is available on all desktop platforms. Etcher is a simple tool to flash ISO files to USBs and SD Cards. Also download the ISO file found [here - FIX THE LINK](/Software/System-Image) and save it to you computer.
 
-Run Etcher once it is installed, and insert the microSD card into your computer - most microSD cards come with an SD Card adapter to make this easier, and Etcher will auto-detect the card within a few seconds. Click the 'Select Image' button and navigate to where you downloaded and saved the ISO file. 
+Run Etcher once it is installed, and insert the microSD card into your computer - most microSD cards come with an SD Card adapter to make this easier, and Etcher will auto-detect the card within a few seconds. Click the 'Select Image' button and navigate to where you downloaded and saved the ISO file.
 
 The 'Flash!' button should now be available. Click it and wait for the flashing process to complete. Do not touch the SD card while this completes as you can corrupt the card and have to start again. Make sure your computer does not go to sleep or turn off during this process as well.
 
@@ -71,13 +72,13 @@ When the flash is complete, Etcher will prompt you with 'Flash Complete'. Remove
 Install the Raspbian operating system. At time of writing, Stretch is the latest version, and can be downloaded from the Raspeberry Pi Website. You can install either the full desktop version, or the lite version for those who are familiar with navigating through a Command Line Interface. You will need a Desktop/Laptop for the remainder of the guide (Windows, Mac or Linux), one with an microSD/SD Card slot, ortherwise you will also require a USB adapter.
 
 ## Preparing the SD Card
-This guide uses the Full Desktop version. Download the Raspbian ISO file [Here](https://www.raspberrypi.org/downloads/) and save it to your computer. Download a program called [Etcher](https://etcher.io/) which is available on all desktop platforms. Etcher is a simple tool to flash ISO files to USBs and SD Cards. 
+This guide uses the Full Desktop version. Download the Raspbian ISO file [Here](https://www.raspberrypi.org/downloads/) and save it to your computer. Download a program called [Etcher](https://etcher.io/) which is available on all desktop platforms. Etcher is a simple tool to flash ISO files to USBs and SD Cards.
 
-Run Etcher once it is installed, and insert the microSD card into your computer - most microSD cards come with an SD Card adapter to make this easier, and Etcher will auto-detect the card within a few seconds. Click the 'Select Image' button and navigate to where you downloaded and saved the ISO file. 
+Run Etcher once it is installed, and insert the microSD card into your computer - most microSD cards come with an SD Card adapter to make this easier, and Etcher will auto-detect the card within a few seconds. Click the 'Select Image' button and navigate to where you downloaded and saved the ISO file.
 
 The 'Flash!' button should now be available. Click it and wait for the flashing process to complete. Do not touch the SD card while this completes as you can corrupt the card and have to start again. Make sure your computer does not go to sleep or turn off during this process as well.
 
-When the flash is complete, Etcher will prompt you with 'Flash Complete'. Remove the card from your computer and put it into the microSD slot on the underside of the RPi. Connect the necessary cables to the RPi - you will need a keyboard, mouse, ethernet cable (connected to your router) and a monitor connected via HDMI. 
+When the flash is complete, Etcher will prompt you with 'Flash Complete'. Remove the card from your computer and put it into the microSD slot on the underside of the RPi. Connect the necessary cables to the RPi - you will need a keyboard, mouse, ethernet cable (connected to your router) and a monitor connected via HDMI.
 
 Once this is done, connect power to the Micro USB port on the PiJuice (this will start charging the battery) and press the small button closest to the USB port. A red LED on the RPi board will illuminate, indicating it has turned on. You will see it booting up on your screen, and within 15 seconds it will display the RPi desktop with the 'Welcome to Rasperry Pi' dialog box. this is a first run program to configure your RPi. Step through and fill in the required information. DO NOT configure a WiFi network to the device, as it will be overridden by the WiFi hotspot software and can cause issues.
 
@@ -290,7 +291,7 @@ You can log into the web interface, and change parameters by using the login det
 * Channel: 6
 
 ## Preparing for VeinCam Autostart
-During our development, we encountered an error where the bash profile would not autorun on user log in. We determined that this was likely due to the OS was preconfigured to log into the desktop environment automatically, and the profile script does not automatically load. 
+During our development, we encountered an error where the bash profile would not autorun on user log in. We determined that this was likely due to the OS was preconfigured to log into the desktop environment automatically, and the profile script does not automatically load.
 
 To fix this, we need to switch to the CLI environment for boot, and back again. to do this, open a terminal and execute the command
 ```
@@ -312,7 +313,7 @@ pip3 install picamera
 These are the last of the softwares required to run the VeinCam software - Flask is a python framework that extends what python can do, and is useful in our case to convert HTML into python commands (loading the webstream and controlling its parameters). The picamera module is for the camera itself, as the full library is not present within the python environment.
 
 
-Download our [final code archive](Software/Final.zip) and save them to the home directory (/home/pi). 
+Download our [final code archive](Software/Final.zip) and save them to the home directory (/home/pi).
 
 In a terminal, run the below command
 ```
@@ -324,3 +325,14 @@ workon cv
 bash launcher.sh
 ```
 Reboot your device, and you should be able to connect to it with your personal device using the settings you configured during [the Hotspot configuration](#wireless-hotspot-configuration).
+
+## Encasing The VeinCam
+With everything else complete, the only thing left is to put it into a case. [Our custom case](/CAD-Drawings/v2.3) is designed to house all the components comfortably. You can download the design and 3D print it yourself, have someone help you, or get in contact with a 3D printing service.
+
+Or you can create your own! Internal compartment dimensions are as follows:
+
+* 100mm long
+* 65mm deep
+* 40mm high
+
+we used small neodymium disk magnets to secure the lid to the main compartment, and provides a nice snap shut fit. Check out the final drawings in our repository!
