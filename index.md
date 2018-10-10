@@ -1,3 +1,14 @@
+<style>
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+</style>
+
 <div style="text-align:center"><img src ="images/progress-images/test-stream-result-3-crop.png" /></div>
 
 ## What We're Doing
@@ -13,6 +24,22 @@ This page will provide all the necessary downloads, links and resources that you
 We are now at the end of our turn with the project, and we have completed all we have set out to do. We have the automatic image adjustment to create a high contrast image of veins, and have some manual adjustment controls all embedded within the same preview web page.
 
 Our final protoype is complete, and looks absolutely stunning along side our favourite houseplant, Hugh!
+
+<div class="row">
+  <div class="column">
+    <img src ="images/prototype/prototype-2.2-down.JPG" width="40%">
+  </div>
+  <div class="column">
+    <img src ="images/prototype/prototype-2.2-up.JPG" width="40%">
+  </div>
+<div class="row">
+  <div class="column">
+    <img src ="images/tutorial-imagaes/iPhone Mockup1.png" width="40%">
+  </div>
+  <div class="column">
+    <img src ="images/tutorial-imagaes/iPhone Mockup2.png" width="40%">
+  </div>
+</div>
 
 <div style="text-align:center"><img src ="images/prototype/prototype-2.2-down.JPG" width="40%"></div><div style="float: right; width: 30%; max-height: auto; margin-bottom: 0.5em;"><img src ="images/prototype/prototype-2.2-up.JPG"></div> <div style="float: left; width: 30%; max-height: auto;; margin-bottom: 0.5em;"><img src ="images/tutorial-imagaes/iPhone Mockup1.png"></div>
 <div style="float: right; width: 30%; max-height: auto; margin-bottom: 0.5em;"><img src ="images/tutorial-imagaes/iPhone Mockup2.png"></div>
