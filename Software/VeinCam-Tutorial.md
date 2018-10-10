@@ -36,10 +36,10 @@ Attach the NoIR Camera module to the Raspberry Pi (RPi). To do this, disengage t
 
 <div class="row">
   <div class="column">
-    <img src ="tutorial-images/camera-port.jpg" width="25%" height="25%" />
+    <img src ="tutorial-images/camera-port.jpg" width="25%" height="25%" >
   </div>
   <div class="column">
-    <img src ="tutorial-images/cam-ribbon.jpg" width="25%" height="25%" />
+    <img src ="tutorial-images/cam-ribbon.jpg" width="25%" height="25%" >
   </div>
 </div>
 
@@ -47,10 +47,10 @@ Once the cable is firmly seated, press down on the edge tabs once again until yo
 
 <div class="row">
   <div class="column">
-    <img src ="tutorial-images/cam-layout.jpg" width="25%" height="25%" />
+    <img src ="tutorial-images/cam-layout.jpg" width="25%" height="25%" >
   </div>
   <div class="column">
-    <img src ="tutorial-images/ribbon-fold.jpg" width="25%" height="25%" />
+    <img src ="tutorial-images/ribbon-fold.jpg" width="25%" height="25%" >
   </div>
 </div>
 
@@ -58,10 +58,10 @@ Install the PiJuice HAT onto the RPi. ensure that the pins on the RPi are aligne
 
 <div class="row">
   <div class="column">
-    <img src ="tutorial-images/pijuice-align" width="25%" height="25%" />
+    <img src ="tutorial-images/pijuice-align.jpg" width="25%" height="25%" >
   </div>
   <div class="column">
-    <img src ="tutorial-images/cable-out.jpg" width="25%" height="25%" />
+    <img src ="tutorial-images/cable-out.jpg" width="25%" height="25%" >
   </div>
 </div>
 
@@ -72,10 +72,10 @@ Study the image below carefully. the prototyping board should have grid referenc
 
 <div class="row">
   <div class="column">
-    <img src ="tutorial-images/led-front.jpg" width="25%" height="25%" />
+    <img src ="tutorial-images/led-front.jpg" width="25%" height="25%" >
   </div>
   <div class="column">
-    <img src ="tutorial-images/led-back.jpg" width="25%" height="25%" />
+    <img src ="tutorial-images/led-back.jpg" width="25%" height="25%" >
   </div>
 </div>
 
