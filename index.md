@@ -21,6 +21,7 @@ Our final protoype is complete, and looks absolutely stunning along side our fav
   <div class="column">
     <img src ="images/prototype/prototype-2.2-up.JPG" width="90%">
   </div>
+</div>
 <div class="row">
   <div class="column">
     <img src ="images/tutorial-imagaes/iPhone Mockup1.png" width="90%">
