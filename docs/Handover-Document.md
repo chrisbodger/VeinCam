@@ -33,8 +33,15 @@ Project updates have also been included in the repository every couple of weeks 
 
 
 ### 2.2. Hardware development, key milestones and decisions
-**Chris to do**
-
+**Points to expand on**
+**Case**
+* Final case iteration to be printed and tested, ensure buttons and lights align with cutouts
+* provide a method to seal the case properly in cutout areas transparent plugs or light channels to help see the LED statuses easier
+* better internal mounting solution could be devised
+* Custom PCB for the LED array, simplify wiring and provide a better fit
+* Look into safe methods to remove the roughness of the surfaces, reduces likelihood of dirt and germs and such becoming trapped in between material layers (some sort of sealant additive - resin or paint)
+* investigate and implement a pi Zero platform, test for viability. based on hardware usage with a single device connected (most likely scenario) this may be possible as it is not overly hardware intensive.
+* Alternative manufacturing methods for those without access to a 3D printer
 
 ### 2.3. Governance and project aims/scope, key milestones and decisions
 

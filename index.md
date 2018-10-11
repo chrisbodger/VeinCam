@@ -12,7 +12,7 @@ This page will provide all the necessary downloads, links and resources that you
 ## Where We're At Now
 We are now at the end of our turn with the project, and we have completed all we have set out to do. We have the automatic image adjustment to create a high contrast image of veins, and have some manual adjustment controls all embedded within the same preview web page.
 
-Our final protoype is complete, and looks absolutely stunning along side our favourite houseplant, Hugh!
+Our final prototype is complete, and looks absolutely stunning along side our favourite houseplant, Hugh!
 
 <div class="row">
   <div class="column">
