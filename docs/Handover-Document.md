@@ -14,7 +14,7 @@ This project was started by the client who wished to develop an accessible and l
 The client developed a preliminary prototype of the VeinCam based on the 2017 HackADAy Venenfinder project, and passed this prototype onto the project team to complete for their university course for further development of the device.
 A full list of the project goals and stretch goals are in the [Concept of Operations document (ConOps)](/docs/CONOPS.md).
 
-The project team is a group of four undergraduate ANU Engineeringg Students who completed a course which involved development of something as per the requirements and directions of the client. The course began in July 2018 and completed in November 2018.
+The project team is a group of four undergraduate ANU Engineering Students who completed a course which involved development of something as per the requirements and directions of the client. The course began in July 2018 and completed in November 2018.
 A full list of the relevant stakeholders and their responsibilities at this stage of the project are
 in the[ConOps](/docs/CONOPS.md).
 
@@ -33,15 +33,25 @@ Project updates have also been included in the repository every couple of weeks 
 
 
 ### 2.2. Hardware development, key milestones and decisions
-**Points to expand on**
 **Case**
-* Final case iteration to be printed and tested, ensure buttons and lights align with cutouts
-* provide a method to seal the case properly in cutout areas transparent plugs or light channels to help see the LED statuses easier
-* better internal mounting solution could be devised
-* Custom PCB for the LED array, simplify wiring and provide a better fit
-* Look into safe methods to remove the roughness of the surfaces, reduces likelihood of dirt and germs and such becoming trapped in between material layers (some sort of sealant additive - resin or paint)
-* investigate and implement a pi Zero platform, test for viability. based on hardware usage with a single device connected (most likely scenario) this may be possible as it is not overly hardware intensive.
-* Alternative manufacturing methods for those without access to a 3D printer
+The final case that we printed before the end of the project had some slight errors - namely misaligned buttons and LED passthroughs. We were able to overcome this defects for testing and demonstration purposes however. The repository contains v2.3 that includes these changes, and needs to be printed and tested going forward.
+
+A proper mounting and securing solution needs to be designed for the Raspberry Pi, to prevent it from falling out of the case was it is being used. Currently, we are using foam cut-outs that were lodged in between the Pi and the case and that secured it quite well, though its not very permanent.
+
+Because of the cut-outs, the device case is not very resistant to any sort of fluid. Some method needs to be implemented to plug these holes temporarily (a charging port cover for example), or permanently (LED indicator passthroughs). Transparent filament could be used and printed in situ to create a light channel for the LED lights and make them easier to see from the external of that case (a traditional method for indicator lights in devices), or use some other material like clear acrylic sheet and stuff it into the holes. Both options worth exploring.
+
+**Surface Finish**
+We were not able to perform any post-printing methods to clean up the prints. We were left with bumps and misplaced filament and an excess of support material to be removed still. This could be potentially detrimental as it leaves the case to be able to pick up dirt and grime and dirty up the case and potentially encourage bacterial growth given the number to small crevices within the surface. An idea that was had was to sand down the external surfaces with a fine grit to smooth it down, and adjust the print settings for the support material. other options could be utilised, depending on how the case is made.
+
+In addition, not many people may have access to 3D printers. It would be worth looking into alternative case ideas, such as cardboard (like the Google Cardboard or Nintendo Labo), or acrylic sheet.
+
+**IR LED Array**
+The LED array was always intended to have its own custom PCB, to make it easier to manufacture as it would remove some variances of soldering the LEDS incorrectly and still fitting within our case design.
+
+**Pi Zero Platform**
+Given the resources used while the camera stream was operating, it may be possible to downsize the Pi 3 to a Pi Zero. This could potentially decrease the battery usage, and make appropriate use of the available resources, instead of having so much not utilised. This would still need to be tested of course, something we wished to at least attempt. But we did not have any interfacing methods to at least connect the Pi to a network, let alone connect the camera module to the Pi Zero.
+
+The bottleneck with both Raspberry Pis would be the number of devices connected via the hotspot software. We experienced a lockup of the device when more than eight devices tried to connect during our presentation. However, given that only one device should be connected the the Pi at any given time, this should not be an issue going forward.
 
 ### 2.3. Governance and project aims/scope, key milestones and decisions
 
