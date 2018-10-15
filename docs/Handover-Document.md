@@ -29,7 +29,15 @@ Project updates have also been included in the repository every couple of weeks 
 
 
 ### 2.1. Software development, key milestones and decisions
-**Alex to do**
+**Image Processing**
+Currently, the VeinCam performs a histogram equilisaiton to "flatten" the contrast range of a taken image. This allows veins to not be washed out by higher contrast pixels of the image and as a result, veins appear are more prominently. There are several other image processing techniques that would be worth exploring to improve the VeinCam. These would include grayscaling, brightness/contrast threshold techniques, colour profiling and further histogram equilisation adjustment. Such examples can be found here:
+https://hackaday.io/project/26158-assistance-system-for-vein-detection/details
+https://hackaday.io/project/13329-yet-another-ir-vein-detector/details
+
+**Manual Adjustment and Web Interface**
+Following our final Audit, feedback was given on the ergonomics of the user web interface. It was mentioned that the buttons which manually adjust the brightness, contrast and saturation are not really suited beneath the image and having to continually scroll down is something that could be improved upon. A recommended solution for this would be a hidden sliding/three bar menu (as seen on many mobile websites) which would reveal the buttons to make adjustments to the stream.
+
+The manual adjustment requires more manual testing to see what ranges and what parameters are best to adjust. The level of equalisation was also a parameter that was to be modified but the active decision was made to only adjust brightness, contrast and saturation as a proof of concept. There are many more possible parameters to adjust, including the levels of colour/brightness thresholds and strength of other imaging techniques, as well as being able to switch the image techniques being shown on the stream. 
 
 
 ### 2.2. Hardware development, key milestones and decisions
@@ -39,6 +47,8 @@ The final case that we printed before the end of the project had some slight err
 A proper mounting and securing solution needs to be designed for the Raspberry Pi, to prevent it from falling out of the case was it is being used. Currently, we are using foam cut-outs that were lodged in between the Pi and the case and that secured it quite well, though its not very permanent.
 
 Because of the cut-outs, the device case is not very resistant to any sort of fluid. Some method needs to be implemented to plug these holes temporarily (a charging port cover for example), or permanently (LED indicator passthroughs). Transparent filament could be used and printed in situ to create a light channel for the LED lights and make them easier to see from the external of that case (a traditional method for indicator lights in devices), or use some other material like clear acrylic sheet and stuff it into the holes. Both options worth exploring.
+
+The buttons are complete and should fit snuggly into the button holes.
 
 **Surface Finish**
 We were not able to perform any post-printing methods to clean up the prints. We were left with bumps and misplaced filament and an excess of support material to be removed still. This could be potentially detrimental as it leaves the case to be able to pick up dirt and grime and dirty up the case and potentially encourage bacterial growth given the number to small crevices within the surface. An idea that was had was to sand down the external surfaces with a fine grit to smooth it down, and adjust the print settings for the support material. other options could be utilised, depending on how the case is made.
