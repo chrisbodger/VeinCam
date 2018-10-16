@@ -2,4 +2,4 @@ theme: jekyll-theme-slate
 markdown: kramdown
 title: VeinCam
 description: Helping curious minds learn about the body through vein visualisation.
-show_downloads: true
+show_downloads: false
