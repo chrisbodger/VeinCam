@@ -1,5 +1,3 @@
-**Fix links**
-
 # Table of Contents
 1. [Required Hardware](#required-hardware)
 2. [Assembling the Raspberry Pi](#assembling-the-raspberry-pi)
@@ -43,7 +41,7 @@ Attach the NoIR Camera module to the Raspberry Pi (RPi). To do this, disengage t
   </div>
 </div>
 
-Once the cable is firmly seated, press down on the edge tabs once again until you feel that click. Place the camera module down like in the next image, where the ribbon cable sits over the rear ports of the RPi. Put a slight kink in the ribbon cable suppost (Blue plastic) to help keep the cable flat.
+Once the cable is firmly seated, press down on the edge tabs once again until you feel that click. Place the camera module down like in the next image, where the ribbon cable sits over the rear ports of the RPi. Put a slight kink in the ribbon cable support (Blue plastic) to help keep the cable flat.
 
 <div class="row">
   <div class="column">
@@ -68,7 +66,7 @@ Install the PiJuice HAT onto the RPi. ensure that the pins on the RPi are aligne
 # Assembling the LED Array (WARNING: BURN HAZARD)
 WARNING: There is great potential to burn yourself if you are not skilled in electronic soldering. Seek assistance as required!
 
-Study the image below carefully. the prototyping board should have grid references for you to use. eash LED must have a 220 ohm resistor attached to the positive (longer) leg, which is attached to a 5v voltage rail, while the negative LED is connected to a ground rail.
+Study the image below carefully. the prototyping board should have grid references for you to use. each LED must have a 220-ohm resistor attached to the positive (longer) leg, which is attached to a 5v voltage rail, while the negative LED is connected to a ground rail.
 
 <div class="row">
   <div class="column">
@@ -84,7 +82,7 @@ Connect the Positive wire to the 5V header on the PiJuice, and the negative wire
 <div style="text-align:center"><img src ="tutorial-images/led-connect.jpg" width="99%" height="99%" /></div>
 
 # Preparing The Raspberry Pi for VeinCam (The Quick Way)
-Download a program called [Etcher](https://etcher.io/) which is available on all desktop platforms. Etcher is a simple tool to flash ISO files to USBs and SD Cards. Also download the ISO file found [here - FIX THE LINK](/Software/System-Image) and save it to you computer.
+Download a program called [Etcher](https://etcher.io/) which is available on all desktop platforms. Etcher is a simple tool to flash ISO files to USBs and SD Cards. Also download the ISO file found [here](https://drive.google.com/file/d/1dWCqL9uJaJdlJALsTNYojDlLWLJRyn4l/view?usp=sharing) and save it to you computer.
 
 Run Etcher once it is installed, and insert the microSD card into your computer - most microSD cards come with an SD Card adapter to make this easier, and Etcher will auto-detect the card within a few seconds. Click the 'Select Image' button and navigate to where you downloaded and saved the ISO file.
 
@@ -93,7 +91,7 @@ The 'Flash!' button should now be available. Click it and wait for the flashing 
 When the flash is complete, Etcher will prompt you with 'Flash Complete'. Remove the card from your computer and put it into the microSD slot on the underside of the RPi. Connect the power cable to the PiJuice and press the button closest to the charger. See [The User Guide](/User-Manual.md) on how to connect to the device with your personal device.
 
 # Preparing The Raspberry Pi for VeinCam (The Advanced Way)
-Install the Raspbian operating system. At time of writing, Stretch is the latest version, and can be downloaded from the Raspeberry Pi Website. You can install either the full desktop version, or the lite version for those who are familiar with navigating through a Command Line Interface. You will need a Desktop/Laptop for the remainder of the guide (Windows, Mac or Linux), one with an microSD/SD Card slot, ortherwise you will also require a USB adapter.
+Install the Raspbian operating system. At time of writing, Stretch is the latest version, and can be downloaded from the Raspberry Pi Website. You can install either the full desktop version, or the lite version for those who are familiar with navigating through a Command Line Interface. You will need a Desktop/Laptop for the remainder of the guide (Windows, Mac or Linux), one with an microSD/SD Card slot, otherwise you will also require a USB adapter.
 
 ## Preparing the SD Card
 This guide uses the Full Desktop version. Download the Raspbian ISO file [Here](https://www.raspberrypi.org/downloads/) and save it to your computer. Download a program called [Etcher](https://etcher.io/) which is available on all desktop platforms. Etcher is a simple tool to flash ISO files to USBs and SD Cards.
@@ -104,7 +102,7 @@ The 'Flash!' button should now be available. Click it and wait for the flashing 
 
 When the flash is complete, Etcher will prompt you with 'Flash Complete'. Remove the card from your computer and put it into the microSD slot on the underside of the RPi. Connect the necessary cables to the RPi - you will need a keyboard, mouse, ethernet cable (connected to your router) and a monitor connected via HDMI.
 
-Once this is done, connect power to the Micro USB port on the PiJuice (this will start charging the battery) and press the small button closest to the USB port. A red LED on the RPi board will illuminate, indicating it has turned on. You will see it booting up on your screen, and within 15 seconds it will display the RPi desktop with the 'Welcome to Rasperry Pi' dialog box. this is a first run program to configure your RPi. Step through and fill in the required information. DO NOT configure a WiFi network to the device, as it will be overridden by the WiFi hotspot software and can cause issues.
+Once this is done, connect power to the Micro USB port on the PiJuice (this will start charging the battery) and press the small button closest to the USB port. A red LED on the RPi board will illuminate, indicating it has turned on. You will see it booting up on your screen, and within 15 seconds it will display the RPi desktop with the 'Welcome to Raspberry Pi' dialog box. this is a first run program to configure your RPi. Step through and fill in the required information. DO NOT configure a Wi-Fi network to the device, as it will be overridden by the Wi-Fi hotspot software and can cause issues.
 
 ## Configuring the PiJuice
 Open up a terminal window, and run the following command
@@ -182,7 +180,7 @@ wget https://bootstrap.pypa.io/get-pip.py
 sudo python get-pip.py
 sudo python3 get-pip.py
 ```
-The package manager is used to help maintain Python-specific packages, in the same way that the Raspbian Repository maintains software packages for the OS. One particular package we need is the Virtual Environment package and dependencies. The Virtual Envirnment enables the ability to create sandboxed environments where Python can can execute without interference from other python packages. (like having individual users on one system, where documents and such do not collide with one another).
+The package manager is used to help maintain Python-specific packages, in the same way that the Raspbian Repository maintains software packages for the OS. One particular package we need is the Virtual Environment package and dependencies. The Virtual Environment enables the ability to create sandboxed environments where Python can execute without interference from other python packages. (like having individual users on one system, where documents and such do not collide with one another).
 
 We can install these packages like so:
 ```
@@ -247,7 +245,7 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
     -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib-3.4.2/modules \
     -D BUILD_EXAMPLES=ON ..
 ```
-Examine the output to ensure that Interpreter, Libraries, numpy and packages path fields of the output are pointing to the correct directories. It should look similar to the images below, depending on the Python version you are using. In this case, we are using Python 3. We can also see the Python 2 links above the red box.
+Examine the output to ensure that Interpreter, Libraries, NumPy and packages path fields of the output are pointing to the correct directories. It should look similar to the images below, depending on the Python version you are using. In this case, we are using Python 3. We can also see the Python 2 links above the red box.
 
 ![Python 3 links](https://www.pyimagesearch.com/wp-content/uploads/2017/08/python3_opencv.png)
 
@@ -256,11 +254,11 @@ Now we need to change the file swap size. the default used by Raspbian is small,
 sudo nano /etc/dphys-swapfile
 ```
 
-Look fo rthe CONF_SWAPSIZE parameter from 100 to 1024. this will increase the swap file to 1GB. Note that we will need to change it back after compilation, as it could fill up ths SD card over time, very quickly. the parameter should now look like this:
+Look for the CONF_SWAPSIZE parameter from 100 to 1024. this will increase the swap file to 1GB. Note that we will need to change it back after compilation, as it could fill up the SD card over time, very quickly. the parameter should now look like this:
 ```
 CONF_SWAPSIZE=1024
 ```
-Once this is done, we need to ensure that the chage takes effect. Run the commands below to restart the swapfile service.
+Once this is done, we need to ensure that the change takes effect. Run the commands below to restart the swapfile service.
 ```
 sudo /etc/init.d/dphys-swapfile stop
 sudo /etc/init.d/dphys-swapfile start
@@ -314,7 +312,7 @@ You can log into the web interface, and change parameters by using the login det
 * Password: ANUVeinCam
 * Channel: 6
 
-## Preparing for VeinCam Autostart
+## Preparing for VeinCam AutoStart
 During our development, we encountered an error where the bash profile would not autorun on user log in. We determined that this was likely due to the OS was preconfigured to log into the desktop environment automatically, and the profile script does not automatically load.
 
 To fix this, we need to switch to the CLI environment for boot, and back again. to do this, open a terminal and execute the command
@@ -334,7 +332,7 @@ and run the next 2 commands:
 pip3 install flask
 pip3 install picamera
 ```
-These are the last of the softwares required to run the VeinCam software - Flask is a python framework that extends what python can do, and is useful in our case to convert HTML into python commands (loading the webstream and controlling its parameters). The picamera module is for the camera itself, as the full library is not present within the python environment.
+These are the last of the software required to run the VeinCam software - Flask is a python framework that extends what python can do, and is useful in our case to convert HTML into python commands (loading the web stream and controlling its parameters). The picamera module is for the camera itself, as the full library is not present within the python environment.
 
 
 Download our [final code archive](Software/Final.zip) and save them to the home directory (/home/pi).
