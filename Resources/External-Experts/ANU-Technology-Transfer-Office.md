@@ -1,5 +1,7 @@
 # ANU Technology Transfer Office Meeting Summary
 
+Meeting on 18/09/2018 at the Technology Transfer Offices - 121 Marcus Clarke Street, Level 6.
+
 Attended by:
 * Stephanie Pratt
 * Christopher Bodger
