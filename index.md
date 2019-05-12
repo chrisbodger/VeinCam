@@ -1,3 +1,7 @@
+<meta http-equiv="refresh" content="0; URL='http://chrisbodger.github.io/veincam2019'" />
+
+<!--
+
 <div style="text-align:center"><img src ="images/progress-images/test-stream-result-3-crop.png" /></div>
 
 ## What is the VeinCam
@@ -26,3 +30,4 @@ The VeinCam has been through a couple of prototypes to get to its current stage;
 </div>
 
 ### To contribute or find out more check out the [GitHub site](https://github.com/chrisbodger/VeinCam) or email at <message2ben@gmail.com>
+--!>
